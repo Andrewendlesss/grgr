@@ -1,12 +1,14 @@
 # What the Water Keeps — implementation architecture
 
-Version 1.2 · 22 September 2026 · Engineering proposal, not an implemented game
+Version 1.3 · 22 September 2026 · Engineering proposal, not an implemented game
 
 This document turns the authored design into a buildable first project for the user's confirmed **solo development and low-cash-cost approach**. Start with the chapter-one prototype and P02; expand a proven workflow across the remaining scenes. Specialist work is optional and purchased only for a bounded need. It does not require a custom game engine, a general-purpose quest editor, or a backend. The timing allocations in the design remain unverified.
 
 ## 1. Technical decisions and ownership
 
-The [v1.2 gameplay revision](12-gameplay-and-playtest-plan.md) changes authored evidence, feedback and bounded interaction choices. Retain this architecture. P02's existing transition manifest still owns its completion path and its separate ReleaseCatch/CollectClamp transactions. Read-only inspections and wrong-hypothesis responses must not grant effects. P01 diagnostic selections and P07 mix settings belong to each puzzle's existing local state; any new resumable values must be explicitly specified before implementation. Reuse solved P11 data at P12 rather than requiring a second alignment puzzle. These are prospective content changes, not implemented reducers or verified save migrations.
+The [current gameplay revision](12-gameplay-and-playtest-plan.md) changes authored evidence, feedback and bounded interaction choices. Retain this architecture. P02's existing transition manifest still owns its completion path and its separate ReleaseCatch/CollectClamp transactions. Read-only inspections and wrong-hypothesis responses must not grant effects. P01 diagnostic selections and P07 mix settings belong to each puzzle's existing local state. Reuse solved P11 data at P12 rather than requiring a second alignment puzzle. These are prospective content changes, not implemented reducers or verified save migrations.
+
+The v1.3 additions use the same local-state contract: P03 captured-source set, ordered three-clip list and kept-version phase; P08 washer position, completed probes and experiment phase alongside the four existing rule flags; P09 selected viable route; P10 first approach and packing phase alongside the existing reply flags. Restore the selected arrangement or route, not a default that contradicts the following dialogue. Save a probe before acknowledging its result and erasure before presenting absence. Store P10's first approach separately from its later reply; neither creates a relationship score or ending gate. Validate these bounded values when converting the prose to runtime data; no implemented migration is claimed.
 
 Use **Unity 6.3 LTS, C#, Universal Render Pipeline, and ink** for the first export spike. Choose a provisional exact editor patch and compatible package versions after Android and Windows builds run; commit that version record and dependency lockfile. Confirm or revise that selection during the Mac/iPhone feasibility milestone **IMP-018**, before committing to iOS production. Mac access does not block the first Android prototype. Unity lists 6.3 support through December 2027. Unity also recommends its Update releases for new/mid-cycle production: our LTS choice is a provisional reproducibility decision, not a claim that LTS is always preferable. Revisit at the production-slice gate and fund the upgrade already reserved in the production plan. [Unity release support](https://unity.com/releases/unity-6/support)
 
@@ -106,6 +108,24 @@ Migrations are explicit transformations `v1 → v2 → v3`, each tested on retai
 Chapter and ending replay create a separate replay session copied from an immutable chapter/pre-choice checkpoint. They cannot replace the main playthrough. Ending credits/completion can be derived from a committed ending checkpoint, so a crash between completion and a profile update cannot lose credit.
 
 ## 6. P02: one complete implementation path
+
+### Opening demonstration before P02
+
+C1S1 now lets the player stop the original bell recording and then end the lake observation as two different actions. This uses the existing scene/command path; it is not a thirteenth puzzle. Keep these authored phases explicit when implementing the opening:
+
+| Phase | Available meaningful action | Result / interruption rule |
+| --- | --- | --- |
+| Ready | Start test | Start the repeating local bell track and receiver observation; show separate source and receiver states |
+| Source running | After the first bell/caption beat: Stop playback. Return early remains available throughout | Stop interrupts an active source and leaves the receiver active; Return ends the test and restores Ready, even before the first bell beat completes |
+| Source stopped | Advance the observed bell beat, or Return early | Source remains stopped. The captioned stored bell is an authored observation, not a timer. Returning before that beat restores Ready; source/water inspections become available after it |
+| Trace observed | Inspect either source or water, or Return | Neither inspection is required. Return ends the trace and records the completed demonstration |
+| Demonstration complete | Repeat test or continue to the phone exchange | A repeat is optional; returning early within it never clears previous completion |
+
+Store the current phase, the displayed narrative packet and completed-demonstration fact together through the existing coordinator. Do not make a moving audio cursor authoritative. Restore with pause and the correct source/receiver labels; no sound plays while the application is suspended. A fully muted run receives the same difference through source state and the observed-event caption. On continuing, the three-pulse apparatus cue may sound because Return ended observation without switching off the receiver. It is not a further bell trace or new supernatural rule.
+
+These are implementation requirements only. They have not been exercised in a build.
+
+### P02 state and effect ownership
 
 P02 is the first full reflection puzzle in `C1S4`: observe Ruth's cabinet routine from the actual shore, return, open the present cabinet, collect the damping clamp, and set aside the unrelated envelope. This is the slice's architecture test.
 

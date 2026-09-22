@@ -1,5 +1,5 @@
 # What the Water Keeps — story bible
-Version 1.2 · 22 September 2026 · Full narrative spoilers
+Version 1.3 · 22 September 2026 · Full narrative spoilers
 
 This is the authored story baseline for the first playable draft, revised for character behavior, contemporary obligations, and the final encounter. It supersedes the exploratory alternatives in the original recommendations. The title is provisional; the characters, rules, chronology, and ending distinctions below are fixed for this draft. Production estimates remain estimates. The [narrative and performance guide](05-narrative-and-performance.md) translates this bible into playable beats and revision tests.
 
@@ -10,6 +10,8 @@ Daniel Vale returns to the lakeside where he met Alice Mercer at thirteen. Now t
 ## The emotional argument
 
 The v1.2 screenplay pass preserves the facts below while widening how the story feels. C3S3 gives the group a sustained, earned success; C4S3 makes the practical disagreement hurt before reconciliation repairs anything; C5S1 makes Jonah's boundary specific; C6S3 makes preparation culminate in visible success; C6S4 gives Alice initiative and time to absorb the news. C7S1 asks about the future they had agreed to try, rather than pretending their reconciliation never happened. See the [scene revision record](11-story-and-scene-revisions.md).
+
+The v1.3 pass lets the player cause the opening discrepancy and gives the middle interactions more expression and investigation. It changes no supernatural rule or ending. Alice accepts the job nine days before first call; the argument is four days after acceptance; either itinerary arrives the evening before work begins. The private timetable correction occurs before choosing a route, so the reunion memory remains available on both paths and unknown to Daniel.
 
 Protect pleasure as part of the relationship's truth. A repaired radio can delight them. A good recording can sound good. A joke can remain funny without immediately becoming a clue. Technical success can be magnificent even when it cannot solve the human problem that follows. The melancholy comes partly from losing a life the player enjoyed participating in.
 

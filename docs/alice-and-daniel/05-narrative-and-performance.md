@@ -1,5 +1,5 @@
 # What the Water Keeps — narrative and performance guide
-Version 1.2 · 22 September 2026 · Development direction, not recorded or playtested material
+Version 1.3 · 22 September 2026 · Development direction, not recorded or playtested material
 
 This guide turns the [story bible](01-story-bible.md) and two screenplay files into rehearsal, editing, and implementation decisions. It assumes a solo developer testing with readable dialogue, held illustrations, reused views, and temporary sound. Full voice acting, facial animation, and elaborate cinematics are later scope decisions. The story must work before those expenses.
 
@@ -20,7 +20,7 @@ The reunion restores their ability to address each other. It does not restore th
 | 1 | A stranger becomes someone Alice can follow uphill; adult Daniel obtains a part | Help with a repair, notice a procedure, return to act | Someone can name a kindness without quoting a theme |
 | 2 | Friendship becomes a small group; present friends need Daniel's attention | Make a recording, measure together, hand over what belongs to Mara | Mara and Jonah sound busy with their own lives |
 | 3 | Affection becomes physical and domestic; Daniel corrects an honest record | Mix sound, correct attribution, accept an ordinary shared future | Alice is remembered for something besides wit or impending death |
-| 4 | Two people interrupt their own bad habits | Distinguish past and present, plan travel, leave a disputed object undecided | The argument has two specific causes and neither person's freedom disappears |
+| 4 | Two people interrupt their own bad habits | Test past against present, choose travel, help pack while facing an unagreed commitment | The argument has two specific causes and neither person's freedom disappears |
 | 5 | A chosen afternoon ends; obligations persist in the present | Observe the event without rescue controls, answer a customer, align landmarks | The player does not infer that working differently could save Alice |
 | 6 | Technical success meets a person who has just learned what she lost | Verify safe return, listen, select a conversational subject | Alice's shock has room before the first relieved laugh |
 | 7 | Conversation reaches its limit; Daniel commits to a consequence | Turn toward ordinary absence, choose explicitly, perform the resulting action | A player describes the cost of their choice without using an achievement rank |
@@ -46,6 +46,14 @@ Permit positive scenes to finish positively. The fundraiser's success does not r
 **Mara:** precision is different from Alice's display. She asks for the recorder because it belongs to her and she wants to use it. Recording their mother's account of a move gives her a current project. She is allowed to enjoy a funny file without ending her disagreement with Daniel. Do not turn every object she picks up into evidence for the prosecution.
 
 Reuse poses and prop states when testing these behaviors. Stage directions describe meaning; they are not all requirements for custom animation. A held view, a line break, and the removal of unnecessary dialogue can establish hesitation more cheaply than a close-up performance.
+
+## Playing the revised middle
+
+In C2S1, Mara stops writing to hear Alice's version; perform curiosity rather than a teacher approving an exercise. All sound orders are valid. In C3S2, Daniel's admission should arrive without a polished defense: the written date was a mistake, but he kept choosing another repair before returning the recorder. Mara can enjoy the old clip and still require her property back.
+
+Let Alice's new job be exciting before it becomes a source of hurt. Her route choice expresses a practical preference; Mara's offer to take a late call supplies support without pretending the first day must go badly. In C4S3, holding the bag is useful, but it cannot settle the hall bookings or the four days of silence. Neither first approach is an apology selected by the interface. Preserve a little cooperation while the argument remains unresolved.
+
+These scenes widen emotional contrast with existing people and objects. Do not foreshadow death over every happy beat. The [prepared table-read pack](13-paper-playtest-pack.md) supplies questions for testing what readers actually understand and feel.
 
 ## How the final encounter should breathe
 

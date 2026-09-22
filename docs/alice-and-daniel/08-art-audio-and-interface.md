@@ -1,7 +1,13 @@
 # Art, sound and interface direction — solo edition
-Version 1.2 · 22 September 2026
+Version 1.3 · 22 September 2026
 
 This is the production-facing visual and audio specification. It describes assets to make, not finished art. The active resource constraint is one developer with low cash costs. The aim is a coherent, expressive illustrated game with a few memorable temporal images.
+
+## v1.3 changes within the existing asset plan
+
+C1S1 needs separate readable source and receiver indicators: the source track is running, the player stops it, the lake's bell continues, and Return ends that observation. Captions carry the full distinction when muted. Use the existing receiver detail and the shop-bell recording; the later three pulses are an apparatus cue, not another observed bell. Stop playback and Return must remain visually distinct at the largest text size.
+
+P03 sequences the three existing effects without rendering six separate mixes. P08 keeps the washer's current position readable beside its recorded location, then shows the empty selected trace after erasure. P09 uses two clear route summaries. P10 uses existing bag/bookings poses and the legible entry in Daniel's handwriting, with an equivalent text description. These replace earlier task screens; they add no environment, principal character, voiced visitor or fourth sound source. Include their actual layout and state-restoration effort when re-estimating.
 
 ## 1. Visual premise
 

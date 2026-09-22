@@ -1,6 +1,6 @@
 # What the Water Keeps
 ## Alice & Daniel — complete first-draft story and game plan
-Version 1.2 · 22 September 2026
+Version 1.3 · 22 September 2026
 
 **Recommended game:** a premium, mobile-first cinematic narrative puzzle adventure for Android and iOS, with Steam as a separately budgeted option.
 
@@ -24,6 +24,16 @@ Version 1.2 · 22 September 2026
 | [Gameplay research](10-gameplay-research.md) | Primary-source findings, limits of the evidence, and applications to this game |
 | [Story revision notes](11-story-and-scene-revisions.md) | Emotional contrast, reveal fairness, and changes integrated into the canonical screenplays |
 | [Gameplay and playtest plan](12-gameplay-and-playtest-plan.md) | Detailed puzzle revisions, player feedback, prototype comparisons and decision gates |
+| [Paper playtest and table-read pack](13-paper-playtest-pack.md) | Staged P02 cards, facilitator instructions, blank observation sheets and focused scene questions |
+
+## What changed in v1.3
+
+- The opening starts with an experiment the player causes: stop the original bell track, see the lake's recording continue, then end observation separately. The next practical need is a clamp for the unstable picture.
+- Four more interactions now offer creation, investigation or a practical preference: arrange a childhood sound journey; test the difference between an object and its record; choose between two workable journeys; choose how to begin helping during an argument. Compulsory label matching, arithmetic and moral sorting are removed.
+- Alice and Mara get more room for excitement and ordinary support. Mara's recorder confrontation now distinguishes an innocent copying error from Daniel's decision to keep it. The job-start/departure timing is consistent on both routes.
+- Document 13 is a usable first P02 paper test, with participant cards kept separate from the answer key, a blank record and explicit decision gates. Its current-condition trial comes before any comparison of clue order. No participant trial has occurred.
+
+These changes replace existing passages and tasks. The cast, locations, scene and puzzle counts, ending meanings and final sentence are retained. The next useful evidence comes from people reading and playing the prepared material; more specification alone cannot establish that it works.
 
 ## What changed in v1.2
 
@@ -34,7 +44,7 @@ The active goal is a story with a wider emotional range and play that rewards un
 - Research distinguishes empirical findings, developers' reported experience and our own design hypotheses. No source proves this unbuilt game is fun, addictive, or emotionally effective.
 - The next planning evidence is a paper puzzle trial and a table read, followed by the same small opening prototype when implementation begins. No additional chapter, cast member, environment kit or major runtime system is authorized by this revision.
 
-**Document precedence:** the bible owns story facts and ending meanings; the screenplay files own performed text; the game design owns puzzle outcomes; the detailed gameplay plan owns v1.2 interaction detail; the architecture owns runtime state and persistence. The research and revision notes explain decisions. Earlier exploratory alternatives do not override these documents.
+**Document precedence:** the bible owns story facts and ending meanings; the screenplay files own performed text; the game design owns puzzle outcomes; the detailed gameplay plan owns current interaction detail; the architecture owns runtime state and persistence. The paper pack tests the existing P02 contract without changing it. The research and revision notes explain decisions. Earlier exploratory alternatives do not override these documents.
 
 **To read the story as a screenplay:** read chapter 1 in the opening/endings file, then chapters 2–5 in the middle file, then return to chapters 6–7 and select an ending. Every scene is authored; no unwritten scene outline stands in for the middle.
 
@@ -54,7 +64,7 @@ She cannot come home.
 
 The cinematic construction uses interwoven times, repeated compositions whose meanings change, tangible procedures, and a large speculative consequence grounded in an intimate choice. The writing remains original. Characters speak about food, work, travel, embarrassment, and practical disagreements; the audience discovers the theme through those conversations.
 
-The game is built around **observe, understand, release, act**. In a reflection, the player can see how a cabinet opened years ago. They must release the image and return to the present to open it now. Ordinary tasks share that rhythm: repairing a radio, sorting a sound recording, correcting a service slip, and packing around decisions two people have not yet made together.
+The game is built around **observe, understand, release, act**. In a reflection, the player can see how a cabinet opened years ago. They must release the image and return to the present to open it now. Ordinary tasks share that rhythm: repairing a radio, arranging a sound journey, correcting a service slip, and packing around decisions two people have not yet made together.
 
 The ledger remains useful. Letting go does not require deleting photographs or proving that remembering is unhealthy.
 
@@ -102,7 +112,7 @@ The initial three-to-four-hour recommendation was an early envelope. The written
 
 Build a fifteen-to-twenty-minute prototype first: the adult receiver, the dock meeting, one ordinary interaction, a return to the changed place, and a complete reflection puzzle. Test whether people understand the rules and want to spend more time with these characters.
 
-The retained v1.1 solo prototype backlog estimates 77–125 focused hours before a 20% reserve, roughly 92–150 hours total. These are not a fresh estimate of v1.2’s revised interactions; recheck affected tickets after the paper trial. Calendar time depends on actual weekly capacity. Start with temporary art, text-led dialogue and local builds. Proposed optional cash caps are $150 for the initial proof and $150–$600 total for the audience slice, excluding new hardware, store enrollment and personal labor; no spending has been approved or performed. The old $324,000 paid-team model is retained only as a comparison, not the current recommendation.
+The retained v1.1 solo prototype backlog estimates 77–125 focused hours before a 20% reserve, roughly 92–150 hours total. These are not a fresh estimate of the v1.2/v1.3 revisions; recheck affected tickets after the paper trial. Calendar time depends on actual weekly capacity. Start with temporary art, text-led dialogue and local builds. Proposed optional cash caps are $150 for the initial proof and $150–$600 total for the audience slice, excluding new hardware, store enrollment and personal labor; no spending has been approved or performed. The old $324,000 paid-team model is retained only as a comparison, not the current recommendation.
 
 Engine, store, and SDK facts are sourced and dated in the production plan. Final device minimums, vendor quotes, localization languages, title clearance, and verified runtime remain production decisions; the central story and ending rules are specified.
 

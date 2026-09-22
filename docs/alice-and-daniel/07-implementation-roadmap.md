@@ -1,11 +1,11 @@
 # Implementation roadmap — solo, low cash
-Version 1.2 · 22 September 2026 · Planning, not a built game
+Version 1.3 · 22 September 2026 · Planning, not a built game
 
 The user has chosen a solo developer with low cash costs. This is the active delivery path. The larger paid-team scenarios in the production plan are comparisons, not the recommended commitment.
 
 ## 1. What to build first
 
-**Current continuation is planning.** Before opening implementation work, run the low-cost paper comparison and dialogue table read in the [gameplay and playtest plan](12-gameplay-and-playtest-plan.md) and [story revision notes](11-story-and-scene-revisions.md). Prepare those tests now; recruit or contact participants only when arranged by the developer. Their results are still unknown. Keep the opening build as the first software milestone.
+**Current continuation is planning.** Before opening implementation work, use the prepared current-condition P02 trial and dialogue questions in the [paper playtest pack](13-paper-playtest-pack.md), alongside the [gameplay plan](12-gameplay-and-playtest-plan.md) and [story revision notes](11-story-and-scene-revisions.md). Resolve comprehension of the current rule before comparing clue order; recruit or contact participants only when arranged by the developer. Their results are still unknown. Keep the opening build as the first software milestone.
 
 Build a small offline Windows/Android prototype of C1S1–C1S4: the receiver, the dock meeting, the radio repair, and the reflection revealing Ruth's hidden cabinet catch. It must contain actual interaction and reliable saving, not only a movie or clickable screenplay.
 
@@ -37,7 +37,7 @@ Use a current supported patch within the selected LTS line after checking packag
 
 The ticket estimates below assume basic C# competence and unfamiliarity with at least some engine APIs. They are engineering/design/art working hours, not uninterrupted calendar hours and not contractor quotes.
 
-The first sixteen tickets retain their v1.1 estimate of **77–125 focused hours**, before a **20% reserve**, approximately **92–150 hours**. This is not a revised estimate for the v1.2 feedback and puzzle changes. After the paper trial, re-estimate IMP-008, IMP-009, IMP-011 and IMP-016; include trial preparation and observation time rather than treating it as free. At the old estimate, fifteen hours a week implied roughly seven to ten weeks and ten hours a week roughly ten to fifteen weeks. A beginner may need an additional learning block before these estimates become useful.
+The first sixteen tickets retain their v1.1 estimate of **77–125 focused hours**, before a **20% reserve**, approximately **92–150 hours**. This is not a revised estimate for the v1.2/v1.3 opening, feedback and puzzle changes. After the paper trial, re-estimate IMP-008, IMP-009, IMP-011 and IMP-016; include trial preparation and observation time rather than treating it as free. At the old estimate, fifteen hours a week implied roughly seven to ten weeks and ten hours a week roughly ten to fifteen weeks. A beginner may need an additional learning block before these estimates become useful.
 
 An eight-week board is an organizational starting point, not a promise that the upper estimate fits into eight weeks. Review it after the first ten tracked hours.
 
@@ -88,7 +88,7 @@ A ticket is **ready** when its source scene/puzzle is identified, needed data is
 | IMP-015 | Save, interruption and repeat-command hardening; depends007,011,012 | 4–7 | Background/kill/restart at each key transition without duplicated clamp or repeated completion |
 | IMP-016 | Observed playtests and one prioritized revision; depends014,015 | 6–10 | Record comprehension, attention, actual duration and next decision; no invented demand forecast |
 
-The v1.2 acceptance additions are part of these tickets: IMP-008 must distinguish noticing the catch from blindly following a solved instruction; IMP-009 must let the player test a fault hypothesis and receive relevant feedback; IMP-011 must retain a question worth continuing to answer; IMP-016 must observe those actions and record where players disengage. Use the detailed protocol in document 12. The JSON backlog carries these additions, with the earlier effort range explicitly identified as unrevised.
+The v1.2 acceptance additions are part of these tickets: IMP-008 must distinguish noticing the catch from blindly following a solved instruction; IMP-009 must let the player test a fault hypothesis and receive relevant feedback; IMP-011 must retain a question worth continuing to answer; IMP-016 must observe those actions and record where players disengage. The v1.3 IMP-011 addition requires a player-stopped source, continuing observed bell, distinct Return, optional replay and consistent muted/resumed states. Use document 13 for the first paper trial and document 12 for later interactive checks. The JSON backlog carries these additions, with the earlier effort range explicitly identified as unrevised.
 
 The parallel entries indicate work that can be rearranged, not simultaneous labor by a solo developer. Graybox art is useful while a technical problem is blocked, but context switching still consumes time.
 

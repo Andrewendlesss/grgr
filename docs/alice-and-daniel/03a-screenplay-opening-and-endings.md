@@ -1,40 +1,54 @@
 # What the Water Keeps — screenplay, chapters 1, 6 and 7
-Version 1.2 · Authored development draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
+Version 1.3 · Authored development draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
 
 All principal dialogue for these scenes is written below. Direction describes playable action rather than extra narration. The separate game design specifies puzzle solutions and assistance. Scene IDs are stable; local choices reconverge. Bracketed stage directions are not spoken. This is a script for production development, not a claim that performances, timing, or animation have been tested.
 
 ## Chapter 1 — The First Stone
 
 ### C1S1 — A sound after its source
-Present night. Daniel, thirty-four. Dock and boathouse. The camera looks toward the shore.
+Present night. Daniel, thirty-four. Dock and boathouse. Use the existing shore-facing view and receiver detail.
 
-A work light illuminates a small part of the lake. Beyond it: houses, one late bus, an ordinary night. Daniel lowers a receiver to the water. His notebook is open on a dry crate.
+A work light illuminates a small part of the lake. Beyond it: houses, one late bus, an ordinary night. Daniel has a receiver against two visible guide marks. His notebook lies open on a dry crate: failed measurements, a shopping list, a place left for the next result.
 
-On the page: numbered tests, several crossed-out measurements, and a shopping list in a different corner. His thumb holds the place while he adjusts the receiver. The page can be readable without every measurement becoming a collectible.
+The first objective is **Test the receiver**. Begin with an available action, not a paragraph about the lake. The player selects **Start test**. A small playback unit starts a repeating shop-bell track at the shore. Its first bell and caption form one authored beat; **Stop playback** becomes available immediately afterward, while the source track is still running. Its source indicator remains legible beside the receiver's separate indicator. **Return** remains available throughout, including during this first beat.
 
-The player positions the receiver against two visible guide marks. A shop bell rings once from a small test recording. Its original playback stops. From the water, the same bell rings again.
+The player selects **Stop playback**. The source indicator reads **Stopped**. The receiver remains active.
 
-Daniel waits.
+From the water, the bell rings again.
 
-DANIEL: Again.
+Daniel looks at the stopped unit, then at the water. He has heard this before; the player has just caused the conditions that make it strange.
 
-The player can inspect the stable waveform or let it go. Either reveals that the receiver's source recording is no longer running. A second echo sounds at precisely the same interval.
+DANIEL: There.
 
-Daniel writes a small tick. He looks at it, then crosses out the tick and writes the actual interval.
+An ordinary first explanation is that the playback unit has not stopped. The player may inspect either it or the water, in either order:
+
+**Inspect playback unit:** its playback position is stationary; source status remains **Stopped**. Caption: **The original recording is stopped.**
+
+**Inspect water:** the receiver's response repeats the same bell event. Caption: **The receiver repeats the bell from the shore test.** No reflection answers or generates new speech.
+
+Neither inspection is a required checklist item. Both observations remain in the local recap. The player selects the already-visible **Return** control; the receiver's event stops and ordinary waves remain. The two controls had different effects: stopping the original playback did not stop the observed trace, while ending observation did.
+
+After Return, offer **Repeat test** or **Continue**. One complete demonstration is enough to continue; a replay is not another progress requirement. Returning before the full demonstration simply restores the ready setup, without a reprimand; an optional replay never clears an already-completed demonstration. Bell events and their captioned equivalents advance as authored beats, not a reflex or rhythm challenge. Pause suspends every presentation beat.
+
+Daniel makes a small tick, thinks better of it, and writes the actual interval. There is pleasure in getting a repeatable result. Do not smother it with a warning sound.
 
 His phone vibrates.
 
 JONAH, message: You still need that clamp?
 
-DANIEL, reply: Yes.
+DANIEL, reply: Sound holds. Picture won't hold.
+
+JONAH: So yes.
+
+DANIEL: Yes.
 
 JONAH: Then stop moving the bench. I measured it.
 
-The player closes the phone. Daniel rests his hand on the receiver's return control. The echo ends. Ordinary water moves against the dock.
+Daniel looks at the bench he has shifted, then closes the phone. The clamp is a concrete next need, not a collectible announced by an unexplained machine diagram.
 
-On the facing notebook page is a diagram of three unequal pulses. The receiver briefly produces them: two near each other, the third farther away.
+On the facing notebook page is a diagram of three unequal pulses. The receiver produces their familiar signature: two near each other, the third farther away. This is an apparatus cue, distinct from the now-ended observed bell; the receiver can remain powered after Return.
 
-Cut on the third pulse to daylight.
+Cut on the third pulse to daylight. Do not reveal Alice's death here, add a countdown, or introduce a second mystery requiring another object before C1S2.
 
 ### C1S2 — The wet plank
 First summer. Daniel and Alice, thirteen. Same camera position, lower to their height.

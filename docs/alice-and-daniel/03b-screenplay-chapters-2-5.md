@@ -1,5 +1,5 @@
 # What the Water Keeps
-## Complete screenplay development draft · Chapters 2–5 · Version 1.2
+## Complete screenplay development draft · Chapters 2–5 · Version 1.3
 
 **Draft status:** Complete authored draft for table reading and prototyping. Scene IDs and required events are fixed; performance and interaction durations need playtesting.
 
@@ -33,7 +33,7 @@ Mara puts down her pen. She bends the tray gently. It makes a low, elastic boom.
 
 MARA: Our old oven did that. Every time I wanted something cooked evenly.
 
-**P03: Record three sound takes and arrange their slates.** Alice records the tray, a wet glass rim, and paper shaken beside the microphone. Each has a named visual source and a waveform; hearing pitch is unnecessary. The slate must precede its matching effect. The player can audition freely. No quality score.
+**P03: Make a journey out of the kitchen.** Record the tray, a wet glass rim, and paper shaken beside the microphone once each, in any order. The source name and Alice's slate stay attached to each take automatically. Place the three different effects in any order and listen to the resulting little film without pictures. All six orders work; the player can change the order or keep the first version. Captions describe the sound and sequence. No matching test, required audition count, or artistically correct cut. The slate recordings below play when their source is recorded, not between effects in the finished film.
 
 ALICE [tray slate]: Engine. Take two. Better engine.
 
@@ -45,21 +45,33 @@ ALICE: It's making that noise.
 
 ALICE [paper slate]: Rain. Indoors. Don't tell anyone.
 
-If an effect precedes its slate, Alice listens to the whole pair, then says:
+On **Keep this version**, Mara stops addressing the parcel. Play the chosen order through once, with a skip-to-end option. The two earlier sounds establish a journey; its last sound gets one short response:
 
-ALICE: Name first. Otherwise future me has to guess.
+If the tray/engine is last:
 
-On completion, the three sounds make a modest, convincing little journey. Mara stops addressing the parcel to listen.
+MARA: They've left already?
 
-MARA: Oh. That's good.
+ALICE: They didn't like it.
 
-ALICE: You sound surprised.
+Mara looks at the wet glass, then the uncooperative tray. She accepts the crew's judgment.
 
-MARA: I didn't know what you were making.
+If the glass/planet is last:
 
-ALICE: There's meant to be a landing. At the end.
+MARA: Now what?
 
-Mara leans closer to the speaker. Alice leaves it playing, pleased without having to ask again.
+ALICE: Don't know. They've only just got there.
+
+Alice leaves the speaker alone for a moment, as if something might happen next.
+
+If the paper/rain is last:
+
+MARA: All that way. Still raining.
+
+ALICE: Yes.
+
+They listen to the paper becoming weather. Alice smiles first.
+
+**Reconverge:** Mara reaches past the recording to finish the address. Then she pulls her hand back until the sound has ended. She has started treating it as something to listen to.
 
 Mara reaches for a box marked SCHOOL. Alice turns it away with her foot.
 
@@ -83,11 +95,11 @@ She lets Mara open the box.
 
 If replay:
 
-ALICE: Listen to the landing this time.
+ALICE: From the beginning.
 
-MARA: I heard the landing.
+MARA: All right.
 
-ALICE: You were doing an address.
+Mara puts the pen down. Replay the player's cut, not a fixed canonical version.
 
 If save:
 
@@ -427,7 +439,19 @@ MARA: The day you called.
 
 DANIEL: I copied the old owner across.
 
-MARA: It still works like that at the depot. Change one number, suddenly the bus belongs to someone in another county.
+MARA: I know.
+
+DANIEL: It was a mistake.
+
+MARA: The writing was.
+
+He sets down the service slip. The recorder stays in his hand.
+
+DANIEL: I kept finding something else to check.
+
+MARA: It's checked.
+
+She holds out her hand. Let the player finish the factual correction without requiring a further apology or a judgment of Daniel's motives.
 
 If the player selects Alice as owner again:
 
@@ -647,25 +671,33 @@ He passes her the clean tea towel. She wipes a little butter from his sleeve bef
 
 Daniel places a marked washer against a source mark just beneath the water. Jonah keeps the disconnect within reach. The full contact assembly remains isolated.
 
-JONAH: Say the test again.
+JONAH: Just this one?
 
-DANIEL: Tap, observe, return. Repeat the tap. Erase that one trace.
+DANIEL: Just the tap. The contact assembly's disconnected.
 
 JONAH: And you stay here.
 
 DANIEL: I stay here.
 
-**P08: Observe, repeat, return, erase.** Daniel taps the washer once. Its local impression is visible in the lake reflection. The player observes it, returns to the present, and runs its bounded repeat. A visible repeat indicator shows the same finite tap restarting. The actual washer remains still.
+**P08: Try to break the explanation.** Daniel taps the washer once. The player observes that recorded tap and returns. Two probes are then available in either order: **Move washer to bench**, and **Repeat the recorded tap**. Use the same marked start/end interval for both; never silently switch to a new trace. Each probe shows the recorded tap at its original position while the physical washer remains still wherever they have put it. The finished experiment includes both probes, without a separate diagram-labeling exercise or a second alignment. Text and the split view make the object and stored event equally readable without sound.
 
-JONAH: I've stopped touching it.
+Play the following two exchanges as their probes complete, in the player's chosen order. After moving the washer, Jonah keeps one finger on it on the dry bench. Its marked edge still appears in the old lake impression. Let the player see the discrepancy before the explanation.
 
-DANIEL: It's reading what happened.
+JONAH: I've got it here.
 
-JONAH: And that setting keeps it happening?
+DANIEL: I can see.
 
-DANIEL: Keeps playing that piece. It doesn't change this one.
+Daniel looks between the two positions. He laughs once, in relief. His account has survived a test that might have broken it.
 
-Daniel touches the physical washer. Its position has not changed.
+DANIEL: It's kept the movement. It doesn't need the washer there.
+
+On the bounded repeat, the same finite tap restarts under the visible repeat indicator. The real washer remains still, either at the source or on the bench depending on probe order.
+
+JONAH: Same tap?
+
+DANIEL: Same piece, starting again.
+
+The preview ends safely. No human state is activated or bound. The washer is on the bench before the sensation test begins.
 
 A short sensation test follows automatically under supervision. Jonah taps Daniel's wrist. The UI shows present contact and Daniel's delayed response side by side. No pain or restraint.
 
@@ -685,19 +717,21 @@ JONAH: Put it on the board. Big letters.
 
 Daniel writes: **BODY SIGNALS CAN ARRIVE LATE. RETURN BEFORE LOSS OF CONTROL.**
 
-For the final test, the player aligns only the washer's small source trace and confirms erasure. The tap disappears permanently from the receiver's index. An explicit notice states **THIS TRACE CANNOT BE RECOVERED** before confirmation.
+For the final test, the already selected washer-tap interval is shown beside the physical washer and the restored live observer. **Erase this tap** targets only its stored event. An explicit notice states **THIS TRACE CANNOT BE RECOVERED. THE WASHER AND ORDINARY RECORDINGS REMAIN.** before confirmation. No new matching quiz interrupts the experiment. Fold the matching carrier back through that event's source; the tap disappears permanently from the receiver's index.
 
 JONAH: Do it again.
 
-Daniel selects the old trace. Nothing appears.
+The player selects **Try the same trace**. The named attempt returns **No stored event**; there is no second align-and-confirm sequence. The washer remains visible on the dry bench. The familiar tap does not play.
 
 DANIEL: That tap's gone. I'd have to make a new one.
 
-JONAH: But the washer's still a washer.
+Jonah rolls the actual washer a short distance on the bench. Ordinary metal makes an ordinary sound.
+
+JONAH: Still got this.
 
 DANIEL: Yes.
 
-Jonah retrieves it and puts it on the bench. Daniel marks the erased test in the ledger; there is no undo control. Ordinary recordings and objects remain intact.
+Jonah stops it with his palm. Daniel marks the erased test in the ledger; there is no undo control. Neither tries to turn this small success into a joke. Ordinary recordings and objects remain intact.
 
 ### C4S2 — The offer
 
@@ -705,17 +739,17 @@ Jonah retrieves it and puts it on the bench. Daniel marks the erased test in the
 
 **Location:** Bus shelter / street. Late summer; Mara is between shifts.
 
-Alice has an application open on her phone. Mara eats from a lunch box balanced on a timetable folder.
+Alice holds her phone out before she has reached the shelter. Mara shifts her lunch box to make room on the bench.
 
-ALICE: “Describe your relevant professional experience.”
+ALICE: They want me.
 
-MARA: Recording things.
+Mara reads the offer: a seven-week sound-assistant position away from Greyford, conditional only on accepting the stated dates. She puts the lunch box down.
 
-ALICE: I was hoping for longer.
+MARA: Seven weeks.
 
-MARA: Recording things for several years.
+ALICE: Paid.
 
-Alice shows her the screen: a seven-week sound-assistant position away from Greyford. The offer is conditional only on accepting the stated dates.
+Mara turns the phone back toward her. Alice reads that part again herself.
 
 ALICE: They liked the room recordings. The repair shop ones.
 
@@ -723,9 +757,13 @@ MARA: Those are good.
 
 ALICE: The fan's in most of them.
 
-MARA: They liked them with the fan.
+MARA: Leave the fan alone. When do they need you?
 
-**P09: Review and accept the job.** Alice compares the start date, pay, travel cost, and first accommodation payment. Work begins in nine days. She chooses the cheaper bus the evening before and allocates the stated advance to lodging; the displayed budget works. No mental arithmetic is required. Completion always accepts the opportunity. This is planning her chosen life, not deciding whether she deserves one.
+ALICE: Nine days.
+
+Mara opens the timetable folder. Alice moves closer.
+
+**P09: Choose how to get there.** First call is in nine days. Alice has two workable bus options, both arriving the evening before: a cheaper connecting route with less check-in margin, or a dearer direct route with more time to settle in. Each clearly displays arrival, lodging check-in margin, and money remaining after travel and the first lodging payment. Both are covered by the stated advance. Choose a practical preference and review it without arithmetic, repeated budget allocation, or a countdown. The offer is accepted on every route. The following private timetable correction plays once before the route selection, on every path; Daniel is absent and never receives an account of it.
 
 ALICE [examining travel]: Earlier bus. Changes twice.
 
@@ -737,6 +775,20 @@ ALICE: I can do the sound. Apparently getting there is harder.
 
 Mara turns the timetable folder so both can see. She marks the connection with the back of her pen, without taking the phone away from Alice.
 
+If the cheaper connecting route is selected:
+
+ALICE: That leaves more for a decent meal when I get there.
+
+MARA: It does. Check in first, though.
+
+If the direct route is selected:
+
+ALICE: I want time to find the place and put all this down.
+
+MARA: Then that's worth paying for.
+
+**Reconverge:** The plan is ready. Neither route carries a superior response or a later career outcome.
+
 Alice reaches the acceptance screen but lowers the phone.
 
 MARA: What's the snag?
@@ -747,7 +799,7 @@ MARA: Did you say you were?
 
 ALICE: I said I'd see.
 
-MARA: Have you told him what you've seen?
+MARA: And now you know.
 
 ALICE: I wanted it to be real first.
 
@@ -761,13 +813,17 @@ If work:
 
 ALICE: I want to find out what it's like when this is the whole day.
 
-MARA: Then go and do the whole day.
+MARA: Good. Say yes.
 
 If nerves:
 
 ALICE: Here, everyone knows me. There, I could just be bad.
 
-MARA: Then you'll know what to get better at.
+MARA: Ring me after the first day.
+
+ALICE: You'll be working.
+
+MARA: On late shift. If I don't answer, ring again.
 
 **Reconverge:** Alice accepts. Confirmation stays onscreen long enough to read.
 
@@ -811,7 +867,7 @@ ALICE: Four.
 
 He sets the shelves down. He takes too much care over the corners.
 
-DANIEL: You leave in five days.
+DANIEL: You start in five days.
 
 ALICE: Yes.
 
@@ -827,17 +883,27 @@ DANIEL: You just did.
 
 She stops packing.
 
-**P10: Pack what is actually agreed.** Alice's recording equipment is hers, Daniel's tools are his, and their jointly bought kettle can wait in the shared/deferred area. The three hall bookings require agreement. The player inspects ownership and commitment evidence, places items or their list equivalents, and marks the unagreed bookings **needs agreement**. No input determines whether Alice accepts her job or whether they have this argument. Keep the existing response flags and assisted alternative. A decision to defer is valid; disagreement is not a puzzle failure.
+**P10: Find a way into the conversation.** Choose one first action: **Hold the equipment bag** or **Look at the hall bookings**. It changes the immediate exchange and where their attention goes; the other action is not then required as a second checkbox. Alice's equipment belongs to her, Daniel's tools to him, and the kettle stays for a later joint decision. There is no deliberately wrong ownership bin or graded concession. Both approaches reach the already-present disagreement, preserve the existing response flags, and finish with one **Pack the agreed equipment** action. List controls and an assisted **Continue packing** route give the same scene; no input chooses Alice's career or bypasses the argument.
 
-ALICE [if her equipment is placed with shared property]: That's mine, Dan. We both use it, but it's mine.
+If the player holds the equipment bag:
 
-DANIEL: Right.
+Daniel holds it open while Alice lowers the wrapped stand inside. For a moment they are doing this quite well.
 
-DANIEL [if the kettle is deferred]: Kettle later?
+DANIEL: You've thought about all of this.
 
-ALICE: Please.
+ALICE: The packing, yes.
 
-When the player inspects the hall bookings:
+He keeps holding the bag. The booking sheet is on the table within reach.
+
+If the player looks at the hall bookings:
+
+Daniel turns the sheet toward her. Alice leaves the bag open to read it.
+
+DANIEL: These are still confirmed.
+
+ALICE: I saw.
+
+**Reconverge:** Daniel looks at the three hall dates. Alice's name is entered beside his, in his handwriting. Show that evidence before he explains the booking.
 
 DANIEL: Three weekends. We said we needed the money.
 
@@ -851,7 +917,7 @@ DANIEL: I thought we wanted the same thing.
 
 ALICE: I want the work here too. I can't do it while I'm away.
 
-He looks at her name on the booking, in his handwriting. Let the player make or request help with the **needs agreement** correction before continuing; do not resolve it in the dialogue for them.
+He leaves the sheet between them. Neither this conversation nor her silence created an agreement. Record **needs agreement** as the established fact, automatically; do not stop the scene to ask the player for its approved moral answer.
 
 **Local choice C4S3_REPLY:** “I thought it helped” sets `c4s3_help`; “I should have asked” sets `c4s3_ask`.
 
@@ -871,7 +937,13 @@ ALICE: Yes.
 
 DANIEL: I'll call them.
 
-**Reconverge:** Daniel finishes packing the things they have agreed. Alice needs the tape beside his hand. For a moment she would rather reach awkwardly around him than ask.
+**Reconverge:** With **Pack the agreed equipment**, Daniel helps settle her things in the bag. His tools stay by the desk. He reaches for the kettle, then stops.
+
+DANIEL: Kettle later?
+
+ALICE: Please.
+
+Alice needs the tape beside his hand. For a moment she would rather reach awkwardly around him than ask.
 
 ALICE: Can I have that?
 

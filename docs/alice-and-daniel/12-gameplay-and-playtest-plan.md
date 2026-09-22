@@ -1,8 +1,8 @@
 # What the Water Keeps — gameplay and playtest plan
 
-Version 1.2 · 22 September 2026 · Current interaction specification; unbuilt and untested
+Version 1.3 · 22 September 2026 · Current interaction specification; unbuilt and untested
 
-The game should make the player want to try an idea, see it work, and discover what that success makes possible. Six existing interactions are revised here and in [the game design](02-game-design.md). This is their detailed specification, not a second set of optional solutions. The story facts, 28 shared scene slots, 12 puzzle IDs and three ending meanings remain fixed. The [architecture](06-implementation-architecture.md) still owns state, commands and durable saves.
+The game should make the player want to try an idea, see it work, and discover what that success makes possible. This current specification retains v1.2's six interaction revisions and adds bounded revisions to P03, P08, P09 and P10, integrated in [the game design](02-game-design.md) and screenplay. These are not optional patches to apply again. P04 and P06 remain brief; every quiet scene need not become a harder puzzle. The story facts, 28 shared scene slots, 12 puzzle IDs and three ending meanings remain fixed. The [architecture](06-implementation-architecture.md) still owns state, commands and durable saves.
 
 “Compelling” means voluntary curiosity, satisfying action, attachment and earned surprise. A player should also feel comfortable stopping at a checkpoint. No grind, attendance streak, random reward schedule, withheld ending, completion pressure or real-time threat is added. Nothing in this document establishes that the game is already fun.
 
@@ -10,12 +10,16 @@ The game should make the player want to try an idea, see it work, and discover w
 
 The strongest current mechanic is knowledge moving between two views of the same place. Its main risk is that the interface or a character explains the solution before the player has a reason to discover it. More buttons would not fix that. The revision gives each substantial action a question, an observable consequence and a reason to reconsider an initially plausible idea.
 
-| Interaction | Risk in v1.1 | Current revision | Visible reward |
+| Interaction | Risk in earlier draft | Current revision | Visible reward |
 | --- | --- | --- | --- |
 | P01 radio | Match a part to a symptom that already names the broken part | Test competing explanations for an interruption; change one part and test again | The same movement that broke reception now leaves a complete weather sentence audible |
 | P02 catch | Watch an answer, then follow a hotspot instruction | Establish the present obstruction first; infer where an old action fits beneath a changed surface | An inaccessible object becomes reachable through something the player understood |
+| P03 sound journey | Match slates and discover the author's one permitted order | Audition transitions and keep any of six three-clip arrangements | Alice's finished piece plays in the player's order; Mara notices its ending |
 | P05 winch | Jonah supplies the notch answer; a five-step list follows | Compare contradictory evidence, ask about the replacement, then test the present guide | A misleading old arrow makes sense; working with Jonah seats the receiver |
 | P07 playback | Move three controls into prescribed bands | Meet a clear practical constraint while choosing among audibly different, valid mixes | The selected mix, including the mug crash, works for the fundraiser |
+| P08 test trace | Follow a laboratory recipe, then pass a terminology quiz | Move the object, replay the event and verify erasure against the surviving object | The player sees exactly what remains and what cannot be recovered |
+| P09 itinerary | Allocate a pre-solved budget and follow the only valid route | Pick a real preference between two affordable, workable journeys | Alice prepares her own departure; the selected tradeoff gets a response |
+| P10 packing | Sort possessions into ethically obvious answers | Choose how Daniel begins helping, then face the same unagreed commitment | A small cooperative action can coexist with unresolved anger |
 | P11 anchors | Repeat the same alignment three times | Use the same invariant rule against three different changes in the scenery | Familiar places become one usable source map |
 | P12 contact | Put named things into identically named slots | Diagnose source, identity and return requirements in a chosen order; reuse earlier solutions | Separate environmental layers become a coherent space; an answer occurs that was never recorded |
 
@@ -104,6 +108,20 @@ The two worlds must be legible without a text quiz. The recording is labelled, R
 
 **Implementation bound:** Keep the existing P02 stage graph and all consequential commands. Early descriptions are read-only inspection feedback. `ReleaseCatch` sets cabinet-open state; `CollectClamp` separately grants one clamp and sets aside the envelope. Evidence and grants remain idempotent and durably committed. No ledger-open flag, forced reread, extra puzzle checkpoint or alternate inventory grant is introduced. The [current manifest](specs/P02.scene.example.json) remains the technical example; these changes chiefly affect presentation and clue wording.
 
+### P03 — Make a place out of three sounds
+
+**Slot and allocation:** C2S1, Alice's first independent viewpoint; retain the four-minute interaction allocation inside seven minutes. Target two–three minutes of active creation, allowing the conversation its own room. Do not extend a satisfied player's session to fill the allowance.
+
+**Goal and information gap:** Make Alice's small science-fiction sound journey. The tray, wet glass and paper suggest engine, planet and rain; their order changes what seems to happen. There is no correct story to deduce. The small initial spoon sound and Mara's tray demonstration introduce experiment through ordinary play.
+
+**Actions and feedback:** Record each of the three existing sources once. Its source name, waveform, caption and spoken slate attach automatically; a slate is metadata, not another tile. Arrange one instance of each clip, audition either join or the whole piece, and swap any two with large discrete controls. All six permutations are accepted. Engine → planet → rain suggests arrival; rain → planet → engine suggests departure. These are examples, never labelled targets. Playback omits slates and audibly follows the submitted order; a matching ordered transcript supplies the same changes when muted.
+
+**Payoff and agency:** **Keep this version** commits the current arrangement, plays it once and gives Mara one of three short responses keyed only to its final source. No approval meter, quality rank or preferred permutation appears. Preserve the title **SPACE FILM — NO FILM YET** and the existing replay/save reply afterward. Optional auditions are the player's curiosity, not a required quota.
+
+**Help and cuts:** Hint 1: “Try listening across a join.” Hint 2 demonstrates the swap control without prescribing an order. **Arrange a version** supplies engine → planet → rain, still editable before keeping. Remove slate matching, invalid-order rejection, mandatory rerecording and a separate check that the slates precede effects. If three captures feel repetitive in a paper read, shorten the capture presentation rather than add a fourth source.
+
+**Implementation bound:** Three existing clips, six orderings, three brief textual reactions; no new cast, effects, mixing engine or future-scene callback. Keep the order and completion in P03 local state and use the existing reply flags unchanged. A single clip-order playback helper and ordered transcript suffice; no six separately rendered audio assets.
+
 ### P05 — The old arrow is a hypothesis
 
 **Slot and allocation:** C2S4; approximately five minutes inside its seven-minute scene.
@@ -162,6 +180,49 @@ For a bounded first content implementation, the 27 possible settings can use an 
 **Reward and agency:** The submitted mix is what the player hears during the successful announcement. The crash draws attention; people hear what the fundraiser needs and the ordinary work continues. Alice keeps the take. One bounded response can acknowledge which accompaniment is more prominent; both rejoin before the shared dialogue. Do not make donations depend on the mix or add a crowd simulation, money meter, timing challenge or hidden popularity score.
 
 **Implementation bound:** Reuse the three planned volume controls and clips. Store the selected steps in P07 local state; captions and acceptance read those same steps. A small lookup table is sufficient. No waveform editor, custom audio-analysis system, procedural music, extra voice cast or seven separately recorded announcements. Muted play exposes every criterion and accepted variant through text; it cannot reproduce the pleasure of listening, which remains an accessibility limitation to assess with players.
+
+### P08 — Test what the machine can change
+
+**Slot and allocation:** C4S1; approximately five minutes inside eight. The scene must establish the final operations through visible differences, while leaving room for the troubling sensation test.
+
+**Goal and information gap:** Does a control affect the present washer, its recorded tap, or Daniel's awareness? Begin with one washer tap, an observation and Return. The only selected event is that tap's marked interval at the shallow source. It is not a person and cannot contain a bound human consciousness.
+
+**Actions and feedback:** Offer two probes in either order: **Move washer to bench** and **Run bounded repeat**. Moving the real washer leaves the recorded tap at its old location; the next observation retains that location. Bounded repeat shows the finite tap restarting twice while the physical washer stays still. If repeat comes first, moving the washer afterward makes the same contrast more obvious; if moving comes first, both repeat cycles occur at a visibly vacant source. Keep the present object visible in a small comparison view with an equivalent text description. Present the discrepancy before Daniel explains it. These two probes replace interval-card placement and the label quiz, rather than extend that sequence.
+
+The supervised sensation test then occurs once: Jonah taps Daniel's wrist; Daniel cannot initially feel it; Jonah operates Return and sensation resumes. No player reaction time, refusal or failure governs this demonstration. The existing safety note follows. This distinction concerns the observer and must not suggest the washer tests activated a person.
+
+**Erasure and payoff:** Preview **Erase this recorded tap permanently. The washer and other records remain.** The existing carrier-fold operation addresses the already selected tap without another alignment exercise. After confirmation, the player chooses **Try the same trace**. The view/index stays empty and its caption states that no archived tap remains; the washer is plainly on the bench. This quiet absence is the successful result, not a broken button. Do not produce a new tap as a victory flourish or offer an undo. Canon still completes this expendable erasure.
+
+**Help and cuts:** Hint 1: “Compare where the washer is now with where the tap plays.” Hint 2: “The recording keeps the earlier event. Moving the washer does not move that event.” Show next step completes the next probe through the ordinary path. Remove terminology matching, hand-placing already marked endpoints, repeated alignment and a recap quiz. Existing labels, captions and the later safety note remain available for review.
+
+**Implementation bound:** Washer in two existing positions, one selected trace, one bounded replay and the current erase/return presentation; no additional source or physics simulation. Probe order and completion belong to P08 local state. Preserve the existing `observedReturn`, `previewedReplay`, `erasedTestTrace` and `restoredSensation` flags. Save erasure before its empty result, and reconstruct that result after interruption. No new ending gate.
+
+### P09 — Choose a workable first evening
+
+**Slot and allocation:** C4S2, Alice's second and last independent viewpoint. Keep the four-minute combined interaction/dialogue allowance inside six minutes; route planning itself should take approximately sixty–ninety seconds.
+
+**Goal and information gap:** Alice wants the seven-week job beginning nine days after acceptance. She is choosing how to get there, not whether she is allowed to leave. Two displayed routes depart on the evening before the first call and satisfy the same lodging check-in requirement:
+
+| Route | Useful advantage | Genuine cost | Required fixture condition |
+| --- | --- | --- | --- |
+| Cheaper connecting bus | More money remains after travel and initial lodging | One transfer and a smaller arrival margin | Positive check-in buffer and positive remaining budget |
+| Dearer direct bus | No transfer and a larger arrival margin | Less money remains | Positive check-in buffer and positive remaining budget |
+
+**Action and feedback:** Show travel, lodging, remaining money and check-in margin in the same large-print summary. Selecting either card updates that summary and a short exchange with Mara immediately; change it freely before continuing. The timetable-column misunderstanding occurs before selection, so its private exchange remains on both routes. Neither selection creates a missed bus, late arrival or later penalty. The exact numeric fixture must demonstrate the inequalities above when runtime content is authored; this plan does not invent economic precision to make the choice look harder.
+
+**Payoff, help and cuts:** Keep the existing excitement/nerves reply, then automatic acceptance and its readable confirmation. Help names the tradeoff; **Arrange itinerary** selects the cheaper viable card. Remove mental arithmetic, money-allocation tiles, the wrong-route failure state, mandatory card order and a separate acceptance challenge. No timer. Store only the route in P09 local state; preserve all current disclosure flags and Alice's later delay in telling Daniel.
+
+### P10 — Help without deciding for her
+
+**Slot and allocation:** C4S3; retain four minutes including the concurrent argument, inside six. This is a short scene with actions, not a four-minute ownership exam.
+
+**Goal and information gap:** Help Alice pack while Daniel has not yet faced what he put her name on. The player knows she is leaving; the unexamined detail is the three hall bookings he made for both of them. Her name in his handwriting makes that assumption concrete.
+
+**Action and immediate agency:** Choose one first approach. **Hold the equipment bag** produces a small accepted practical gesture while Alice continues packing; **Look at the hall bookings** makes her put the equipment down and face him. Each has two brief opening lines before the required booking conversation. These are alternative entrances, not two mandatory checklist items. There is no “good partner” score. The first approach is local; the existing `c4s3_help` / `c4s3_ask` reply remains the separate saved response.
+
+**Feedback and payoff:** Reading the booking exposes the handwriting before Daniel's explanation. Once their lack of agreement is stated, the page gains **needs agreement** automatically. It does not approve, cancel or renegotiate the bookings; Daniel must call. Ownership is already correct, and the shared kettle waits without a classification challenge. After the existing reply, one **Pack agreed equipment** action finishes the physical task. They have managed a little cooperation; the argument and her delayed disclosure have not disappeared.
+
+**Help, cuts and bounds:** Hint 1 points to the available bag and booking. Hint 2 says either can start the scene. **Continue packing** takes one normal route and leaves the existing reply available. Remove the three-bin sorting board, deliberately false ownership options, repeated inspection requirements and any requirement to choose an apology before proceeding. Use existing equipment, page, tape, kettle and held poses. No additional inventory, commitment simulator, shared lease or ending condition. Store only first approach/completion in P10 local state and retain existing response names.
 
 ### P11 — Recognize the places under their changes
 
@@ -235,8 +296,12 @@ An authored outcome does not make every input meaningless. The input must affect
 | --- | --- | --- | --- |
 | P01 test/part order | Different informative test results; route to the same repair | Local selection and current result | Successful movement test |
 | P02 inspect/observe/return/review order | Player controls how they find and apply the recorded action | Existing evidence and stage | Clamp collection |
+| P03 clip order | The completed piece follows that order; its final sound gets a specific response | Three-clip local permutation | Keeping the titled recording |
 | P05 ask Jonah, compare, or test first | Different route to explaining the reversed plate | Bounded inspection/attempt state | Correct guide and seated receiver |
 | P07 selected valid mix | Its sound, captions and one concise response | Three local control values | Shared announcement/fundraiser success |
+| P08 probe order | The object/trace discrepancy appears through the chosen first test | Two local probe states; existing four canon flags | Verified erasure and restored awareness |
+| P09 viable route | Arrival margin, remaining money and Mara's immediate exchange | One local route selection | Automatic acceptance after the existing reply |
+| P10 first approach | Cooperation or the unagreed booking starts the exchange; the characters' posture follows | One local approach; existing reply flags kept separately | Shared argument and agreed packing |
 | P11 station order | Discovery and completed sectors remain in the chosen order | Three independent sector states | Connected source map |
 | P12 diagnostic order | The player resolves missing requirements in their chosen order | Three channel statuses | Final release into shared encounter |
 
@@ -250,7 +315,7 @@ The current C1S1–C1S4 allocation is still **3 + 5 + 7 + 6 = 21 minutes**, with
 
 | Scene | Question that sustains attention | What the player does | What should carry into the next scene |
 | --- | --- | --- | --- |
-| C1S1 | Why did the sound occur after its source? | Sets the receiver and tests a harmless impossibility | A concrete anomaly, not a page of invented science |
+| C1S1 | Why is the receiver still repeating a sound I stopped? | Starts the bell test, stops its ordinary playback, and sees/hears the trace continue; optional unit/water inspections, then Return | A demonstrated anomaly and Daniel's “Sound holds. Picture won't hold” reply to Jonah give a concrete reason to find the clamp |
 | C1S2 | Why is Alice crying, and how do these two actually get along? | Chooses an awkward opening and disturbs the reflection | Curiosity plus the possibility of an ordinary friendship |
 | C1S3 | What makes the radio stop, and can I fix it? | Tests and repairs it while people work | Competence, warmth, a familiar shop and Ruth's casual catch movement |
 | C1S4 | Can the old routine help with something real now? | Observes, returns and opens the present cabinet | A learned rule and the desire to see what else that rule can reveal |
@@ -301,6 +366,19 @@ Use a local developer note or consented recording, not a backend. One row per me
 
 Record completion time alongside how it was spent: reading, reasoning, voluntary replay, unclear controls and system wait. A long thoughtful solve and a long unresponsive animation require different changes. Raw tap counts and minutes played are not success metrics.
 
+### Targeted v1.3 checks when these scenes reach their milestone
+
+These checks are prepared, not performed. They do not enlarge the opening proof or establish full-game enjoyment.
+
+| Interaction | Concrete observation to collect | Change if the observation fails |
+| --- | --- | --- |
+| P03 | Have a participant keep any order, then ask what changed when they swapped two sounds; check all six orders mechanically when authored | If order barely changes the perceived piece, improve the joins/captions; if capture feels repetitive, shorten it before adding sounds |
+| P08 | Run each probe order; after erasure ask what still exists and what could be recovered, without offering a multiple-choice vocabulary test | If “moving/erasing the real washer” persists, strengthen the simultaneous present/source comparison; do not add more labels to memorize |
+| P09 | Ask which route they chose and what they gave up; verify both numeric itinerary fixtures actually cover lodging and check-in | If one is seen as the only sensible choice, adjust the margin/money tradeoff or retain a single short narrative action rather than pretend there is agency |
+| P10 | Read both first approaches; ask what Daniel changed and what remains unresolved | If this is read as a quiz that earns forgiveness, remove the judgmental feedback; if two entrances add no felt difference, keep one and shorten |
+
+P04 needs no extra difficulty, and P06's handwriting correction must not become a toll before Mara can recover her own property. If either clear distinction takes only one meaningful action, accept the shorter beat. Keep the current 151–153-minute whole-game allocation visibly unmeasured; removing clicks is not permission to replace them with held shots.
+
 ## 7. Decision gates and when to stop
 
 These are **provisional editorial gates**, not population estimates. With five plays, report “four of five in this round,” not “80% of players will understand.” Assistance use is never itself a failure; look at whether the player wanted more control than the design allowed.
@@ -327,9 +405,11 @@ The full-game emotional progression, P05/P07/P11/P12 play quality, 151–153-min
 ## 8. Scope and handoff delta
 
 - **Unchanged:** seven chapters, 28 shared slots, 12 puzzle IDs, exactly two Alice-perspective scenes, all three endings and the final sentence. Death has no preventable puzzle solution. The recorded source stays read-only; dormant records are not continuously conscious. Contact begins only after P12 readiness and final activation.
-- **Changed content:** raw observations and test feedback in P01; clue order and non-solving observation text in P02; when P05's solution is spoken; multiple accepted P07 mixes; distinct P11 reference comparisons; P12 diagnostics and reuse of the completed map instead of repeated alignment work.
-- **No new general system:** all additions use existing stepped controls, local puzzle state, hotspots, conditional text, selected recorded views and the normal command/commit path. The P07 acceptance table and extra feedback lines are content work and still take time to author, caption and verify.
+- **Retained v1.2 content:** raw observations and test feedback in P01; clue order and non-solving observation text in P02; when P05's solution is spoken; multiple accepted P07 mixes; distinct P11 reference comparisons; P12 diagnostics and reuse of the completed map instead of repeated alignment work.
+- **Changed in v1.3:** C1S1 gives the player the Stop playback action that reveals the anomaly and Jonah's concrete clamp goal; P03 accepts all six clip orders; P08 contrasts the moved object with its fixed past event; P09 offers two viable practical preferences; P10 begins with one of two physical approaches to the same argument. P04/P06 stay concise. All four revisions are integrated into their corresponding screenplay passages.
+- **Deleted friction:** P03 slate-matching and wrong art orders; P08 terminology matching, endpoint placement and repeated alignment; P09 money tiles and single-route recipe; P10 moral sorting and forced inspection of both first approaches. Do not quietly preserve these obsolete steps in implementation.
+- **No new general system:** all additions use existing stepped controls, local puzzle state, hotspots, conditional text, selected recorded views and the normal command/commit path. P03's three clips play in the saved order rather than requiring six new audio assets. The P07 acceptance table, the two itinerary fixtures and extra feedback lines are content work and still take time to author, caption and verify.
 - **P02 contract:** no stage, command, evidence ID or grant change is required for this revision. Preserve the current manifest's evidence gate and separate `ReleaseCatch`/`CollectClamp` transactions. If a later test justifies removing that tutorial gate, update the game design, architecture, manifest, fixtures and save/content revision together; do not silently weaken a guard in a presenter.
-- **Estimate status:** existing opening estimates are not revalidated by this document. Measure the revised P01 content and P02 staging during IMP-009/011. P05/P07/P11/P12 belong to their existing later integration tickets and receive estimates after the opening proof. No free implementation time is assumed.
+- **Estimate status:** existing opening estimates are not revalidated by this document. Measure the revised P01 content and P02 staging during IMP-009/011. The later interactions, including v1.3's four revisions, belong to their existing chapter integration tickets and receive estimates after the opening proof. Removed UI tasks may save effort, but that saving is not measured. No free implementation time is assumed.
 
 Before implementation, a short paper trial of P02 and a table read of the revised opening can reveal cheap-to-fix problems. Then build only the already planned opening proof. Every revision should earn its place through a clearer action, a more satisfying consequence or a stronger scene.

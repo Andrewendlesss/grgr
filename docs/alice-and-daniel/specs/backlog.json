@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "planVersion": "1.2",
+  "planVersion": "1.3",
   "status": "planning_only",
   "currency": "USD",
   "timeUnit": "focused_hours",
@@ -201,7 +201,8 @@
       "owner": "solo_developer",
       "acceptance": [
         "The functional opening plays from start to completion.",
-        "Retain an opening question and a satisfying radio success; remove duplicated instructions before cutting character beats."
+        "Retain an opening question and a satisfying radio success; remove duplicated instructions before cutting character beats.",
+        "C1S1 lets the player stop a running source before the receiver repeats its bell; Return ends observation separately. Optional replay, early Return, mute and resume preserve the demonstrated facts."
       ]
     },
     {
@@ -294,7 +295,8 @@
       "owner": "solo_developer",
       "acceptance": [
         "Comprehension, attention and duration observations support a recorded next decision.",
-        "Apply document 12 protocol: record inferred solutions, exploratory actions, hint use, disengagement and voluntary interest; treat small samples as formative evidence, not retention forecasts."
+        "Apply document 12 protocol: record inferred solutions, exploratory actions, hint use, disengagement and voluntary interest; treat small samples as formative evidence, not retention forecasts.",
+        "Use document 13 current-condition cards before any clue-order comparison; record first-try inferences and friction from the existing observation gate, keeping the answer key private and release/collection separate."
       ]
     },
     {
@@ -414,5 +416,5 @@
       ]
     }
   ],
-  "estimateBasis": "Effort ranges retained from planning 1.1; re-estimate affected opening tickets after the 1.2 paper puzzle trial. No playtest or build has occurred."
+  "estimateBasis": "Effort ranges retained from planning 1.1; re-estimate affected opening tickets after the prepared 1.3 paper puzzle trial. The 1.2/1.3 content changes are not re-estimated. No playtest or build has occurred."
 }
