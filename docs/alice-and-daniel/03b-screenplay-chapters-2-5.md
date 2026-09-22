@@ -1,5 +1,5 @@
 # What the Water Keeps
-## Complete screenplay development draft · Chapters 2–5 · Version 1.3
+## Complete screenplay development draft · Chapters 2–5 · Version 1.4
 
 **Draft status:** Complete authored draft for table reading and prototyping. Scene IDs and required events are fixed; performance and interaction durations need playtesting.
 
@@ -337,9 +337,9 @@ They both recognise Ruth's line. Jonah picks up the old brake shoe before either
 
 ---
 
-## Chapter 3 — Room for Two
+## Chapter 3 — Ordinary Invitations
 
-### C3S1 — Missing the bus
+### C3S1 — Just us
 
 **Time / viewpoint:** Daniel, eighteen.
 
@@ -351,7 +351,7 @@ ALICE: You're being rained on indoors.
 
 DANIEL: I know.
 
-She shifts along. He sits beside her.
+She moves her bag from the dry part of the bench. He sits there.
 
 ALICE: Mine's too hot. Swap.
 
@@ -371,45 +371,71 @@ DANIEL: Mara'll be pleased.
 
 ALICE: She's off today. This is someone else's failure.
 
-A comfortable pause. Daniel hands back the recorder. Their fingers meet. Alice keeps her hand there a moment.
+He checks the recorder's repaired socket once more, although it worked before dinner. Alice watches him.
 
-ALICE: Was this a date?
+ALICE: It works, Dan.
 
-DANIEL: I was hoping you hadn't already decided.
+DANIEL: I know.
 
-ALICE: That's a terrible answer.
+ALICE: You can give it back.
 
-DANIEL: Yes. I'd like it to be.
+He does. She puts it in her bag, removing the object he has been using to avoid looking at her.
 
-**Local choice C3S1_REPLY:** “Ask to kiss her” sets `c3s1_kiss`; “Take her hand” sets `c3s1_hand`. Both begin the same relationship.
+DANIEL: I had a good time.
 
-If kiss:
+ALICE: So did I.
 
-DANIEL: Can I kiss you?
+DANIEL: I wasn't sure if—
 
-ALICE: Put the curry down first.
+He stops himself. Nothing interrupts him. Alice leaves room for the rest of the sentence.
 
-He does. She leans in. The kiss is brief, a little awkward, then less awkward.
+DANIEL: If you'd want to come. Without everyone.
 
-If hand:
+ALICE: You could have asked that.
 
-Daniel offers his open hand between them. Alice puts hers in it.
+DANIEL: I did ask.
 
-ALICE: You've got sauce on your thumb.
+ALICE: You said you had to test the recorder outside.
 
-DANIEL: It's a very complete evening.
+He looks at the bag. Caught, but not humiliated.
 
-She wipes his thumb with her napkin, then kisses him.
+DANIEL: It's a very thorough repair.
 
-**Reconverge:** A bus passes. They both look up too late.
+She smiles, then makes the answer plain.
 
-ALICE: Was that ours?
+ALICE: I wanted to come.
 
-DANIEL: I think so.
+Let the pleasure of that answer last. Neither decides aloud what it means. They are still friends; this is not the start of an unlabelled dating arrangement. The change is that Daniel can ask for her company without inventing a useful task.
 
-She settles against him.
+**Local choice C3S1_REPLY:** “Stay a little longer” sets `c3s1_stay`; “Offer to walk” sets `c3s1_walk`. Both preserve the same friendship. Neither earns affection or starts a romantic route.
 
-ALICE: Tragic.
+If stay:
+
+DANIEL: Are you in a hurry?
+
+ALICE: No.
+
+DANIEL: We could finish these here.
+
+ALICE: You might want to move your foot.
+
+A drip has begun landing on his shoe. He moves it and stays. She sets her carton on the empty space between them, turning toward him.
+
+If walk:
+
+DANIEL: Want to walk? It's stopped.
+
+Alice puts a hand beyond the shelter roof to check.
+
+ALICE: That's how you got wet last time.
+
+DANIEL: I could check again.
+
+ALICE: Come on.
+
+She picks up both empty cartons. He takes one from her. They leave together at an ordinary pace.
+
+**Reconverge:** They choose how to spend the remaining evening. No arrival cuts off an imminent confession. No kiss, hand-holding, mutual love declaration, or later narration converts this night into a date. The warmth is complete even though the question beneath it remains open.
 
 ### C3S2 — The owner's name
 
@@ -587,17 +613,17 @@ Mara folds the timetable.
 
 MARA: Last bus in twenty. Anyone who needs it, start saying goodbye now.
 
-Alice puts the recording on once more, then leans against Daniel while they eat. For this short passage, the work has worked. Allow the sound mix the player made to stay audible. No ominous lake insert or melancholy musical turn closes the scene.
+Alice puts the recording on once more. Another visitor stops in the doorway to listen. She watches the small group with open delight. Daniel moves the cake plate where she can reach it and listens too. For this short passage, the work has worked. Allow the sound mix the player made to stay audible. No unfinished confession, ominous lake insert, or melancholy musical turn closes the scene.
 
-### C3S4 — Breakfast furniture
+### C3S4 — A table of her own
 
 **Time / viewpoint:** Daniel, twenty-two. The last day, morning.
 
-**Location:** Kitchen above the shop.
+**Location:** Kitchen above the shop. Alice has come for breakfast before recording at the shore; she does not live here.
 
 Alice draws a rectangle on the back of an envelope. Daniel puts two plates down, avoiding the pencil.
 
-ALICE: Bed here.
+ALICE: Table here.
 
 DANIEL: Door opens into it.
 
@@ -605,33 +631,53 @@ She redraws the door opening outward.
 
 DANIEL: That's not how doors work.
 
-ALICE: We haven't signed anything. They could improve.
+ALICE: They haven't shown me the room yet. They could improve.
 
-He turns the envelope. A letting agent's measurements show a small flat near her work.
+He turns the envelope. A letting agent's measurements show a small room near her work. The viewing is still ahead of her. No lease has been signed.
 
-DANIEL: Bed there. Table folds down.
+DANIEL: What about a folding table?
 
-ALICE: Where do your tools go?
+ALICE: For the recorder?
 
-DANIEL: Under the bed.
+DANIEL: Recorder. Headphones. That thing you tell me isn't another recorder.
 
-ALICE: Mine too?
+ALICE: Because it isn't.
 
-DANIEL: We may have to buy a taller bed.
+He draws a support that folds flat beneath the top. She moves the top away from the proposed bed.
 
-She takes his toast instead of her own. He notices, looks at the plates, and accepts the exchange.
+ALICE: If I can reach it from there, I'll never stop working.
 
-ALICE: Sorry. Did you want that one?
+DANIEL: Here, then.
 
-DANIEL: You can have it.
+She draws herself a chair. He has left enough space to pull it out.
 
-She puts the larger half back on his plate anyway. Leave the small action unremarked.
+ALICE: You could make that?
 
-ALICE: Trial month. We can admit it if it's awful.
+DANIEL: If the wall's sound.
 
-DANIEL: The flat or us?
+ALICE: I'll check at the viewing.
 
-ALICE: Ideally the flat.
+She breaks her toast over the drawing. He brushes the crumbs onto his empty plate before they become measurements.
+
+ALICE: It might be awful.
+
+DANIEL: The wall?
+
+ALICE: Having a room there. Having to decide when to come here, instead of just coming.
+
+He looks at her bag beside the chair. He would like to offer an answer that keeps everything where it is.
+
+DANIEL: You came for breakfast today.
+
+ALICE: You know what I mean.
+
+DANIEL: Yes.
+
+He leaves her room on the envelope. He does not redraw her future around the shop.
+
+DANIEL: Tell me when you've seen it. Then we can work out the table.
+
+ALICE: All right.
 
 He reaches for his work ledger, left open beside the telephone.
 
@@ -645,19 +691,27 @@ He reads the entry, considers it, and closes the book.
 
 DANIEL: Tomorrow. I'll call him after breakfast.
 
-ALICE: Thank you.
+ALICE: Lunch, then?
 
-He puts the book beside the phone, where he will remember the call.
+DANIEL: Yes. Here.
 
-She kisses the corner of his mouth.
+He puts the book beside the phone, where he will remember the call. This is a chosen lunch between friends, not a test of whether he values her enough to prevent what happens later.
 
-ALICE: I'm going down for a recording before the wind gets up. Back for lunch.
+ALICE: I'm going down for a recording before the wind gets up.
 
 DANIEL: I'll get bread.
 
 ALICE: The good one. If they've got it.
 
-He passes her the clean tea towel. She wipes a little butter from his sleeve before giving it back.
+She takes her bag. At the door she turns back for the envelope, then changes her mind.
+
+ALICE: Leave it there. I haven't worked out the chair yet.
+
+DANIEL: You've drawn one.
+
+ALICE: I have to own one as well.
+
+He smiles. The drawing stays between the plates, ready for an ordinary conversation to continue at lunch.
 
 ---
 
@@ -883,7 +937,7 @@ DANIEL: You just did.
 
 She stops packing.
 
-**P10: Find a way into the conversation.** Choose one first action: **Hold the equipment bag** or **Look at the hall bookings**. It changes the immediate exchange and where their attention goes; the other action is not then required as a second checkbox. Alice's equipment belongs to her, Daniel's tools to him, and the kettle stays for a later joint decision. There is no deliberately wrong ownership bin or graded concession. Both approaches reach the already-present disagreement, preserve the existing response flags, and finish with one **Pack the agreed equipment** action. List controls and an assisted **Continue packing** route give the same scene; no input chooses Alice's career or bypasses the argument.
+**P10: Find a way into the conversation.** Choose one first action: **Hold the equipment bag** or **Look at the hall bookings**. It changes the immediate exchange and where their attention goes; the other action is not then required as a second checkbox. Alice's equipment belongs to her, Daniel's tools to him, and the shop kettle stays until they agree whether she can borrow it. There is no deliberately wrong ownership bin or graded concession. Both approaches reach the already-present disagreement, preserve the existing response flags, and finish with one **Pack the agreed equipment** action. List controls and an assisted **Continue packing** route give the same scene; no input chooses Alice's career or bypasses the argument.
 
 If the player holds the equipment bag:
 
@@ -905,17 +959,17 @@ ALICE: I saw.
 
 **Reconverge:** Daniel looks at the three hall dates. Alice's name is entered beside his, in his handwriting. Show that evidence before he explains the booking.
 
-DANIEL: Three weekends. We said we needed the money.
+DANIEL: Three weekends. You said you needed work.
 
-ALICE: We do.
+ALICE: I do.
 
 DANIEL: If I hadn't answered, they'd have asked someone else.
 
 ALICE: Then they would have asked someone else.
 
-DANIEL: I thought we wanted the same thing.
+DANIEL: I thought I was keeping work here for you.
 
-ALICE: I want the work here too. I can't do it while I'm away.
+ALICE: I want it too. But you put my name down before I could choose.
 
 He leaves the sheet between them. Neither this conversation nor her silence created an agreement. Record **needs agreement** as the established fact, automatically; do not stop the scene to ask the player for its approved moral answer.
 
@@ -939,9 +993,11 @@ DANIEL: I'll call them.
 
 **Reconverge:** With **Pack the agreed equipment**, Daniel helps settle her things in the bag. His tools stay by the desk. He reaches for the kettle, then stops.
 
-DANIEL: Kettle later?
+DANIEL: Were you going to borrow this?
 
-ALICE: Please.
+ALICE: Can we work that out later?
+
+DANIEL: Yes.
 
 Alice needs the tape beside his hand. For a moment she would rather reach awkwardly around him than ask.
 
@@ -951,9 +1007,9 @@ He passes it. She tears a strip badly and starts again.
 
 ALICE: I thought if I had the travel sorted, you wouldn't have anything to worry about.
 
-DANIEL: I'm not worried about the bus.
+DANIEL: I wanted you to tell me.
 
-ALICE: I know that now.
+ALICE: I know.
 
 DANIEL: Did you want me there?
 
@@ -979,7 +1035,7 @@ She sits opposite him. The bag remains between their feet. He frees the tape's f
 
 ### C4S4 — Two timetables
 
-**Time / viewpoint:** Daniel, twenty-two, weeks before the last day.
+**Time / viewpoint:** Daniel, twenty-two, weeks before the last day. Their friendship has continued through visits and further work. This conversation develops the repair begun at twenty-one; it does not imply a year of estrangement.
 
 **Location:** Bus shelter / street.
 
@@ -989,7 +1045,7 @@ ALICE: Still hot?
 
 DANIEL: Dangerously.
 
-They hug. She keeps hold for a moment longer than he expects.
+They hug briefly. She sets her bag on the bench herself; he has already made space for it.
 
 At the shelter she opens a carton. Daniel puts a folded bus timetable beside it.
 
@@ -1029,39 +1085,63 @@ DANIEL: Good.
 
 She nods. She can have a bad day and still want the job. If skipped, return directly to the timetable without summarizing this exchange.
 
-DANIEL: I don't want you to come home because I can't work out how to leave.
+DANIEL: The hall asked about next month. I said I'd ask you.
 
-ALICE: I don't want to keep important news until it's a fact you have to deal with.
+ALICE: Thank you.
 
-DANIEL: I missed you. I was also angry.
+DANIEL: I haven't answered for you this time.
 
-ALICE: Both allowed.
+ALICE: I know. You sent me the message.
 
-DANIEL: What do you want now?
+He smiles at being caught demonstrating the improvement twice.
 
-ALICE: Another contract. A place with a door on the bedroom. You, if we can stop making your choices and my choices into a contest.
+ALICE: I asked about another contract. I haven't heard yet.
 
-She finds the flat listing on her phone. He unfolds the timetable fully: workdays, travel, a proposed arrangement for his local customers.
+DANIEL: Do you think you'll get it?
 
-ALICE: You've made a timetable.
+ALICE: I hope so.
 
-DANIEL: A proposal. You can draw on it.
+DANIEL: Good.
 
-She takes his pencil.
+He waits. She has told him before it became a settled fact.
 
-ALICE: Two nights here, not three. Otherwise we'll live together by post.
+ALICE: I'm looking at rooms as well. Just looking.
 
-DANIEL: Two. I'll ask Jonah about covering collections.
+She shows him a listing. A small room near the work, with space measured optimistically around a bed.
 
-ALICE: Ask.
+ALICE: I'd like to stop packing everything away before I can eat.
 
-DANIEL: Yes. Actual asking.
+DANIEL: Is that a desk?
 
-She writes **ONE MONTH FIRST** beside the listing.
+ALICE: I think it's a shelf with ambition.
 
-ALICE: And we review it when we've actually tried it.
+He enlarges the photograph, then gives back her phone. He does not dismiss the room because it takes her farther from his daily life.
 
-He nods. They eat. Her knee rests against his. The next bus arrives; this time neither needs it.
+DANIEL: Let me know if you're going to see it.
+
+ALICE: I will.
+
+He unfolds the timetable. There are possible journeys on it, no bookings and no plan to move in.
+
+DANIEL: I'd like to come and see you. When would be good?
+
+ALICE: I haven't got the next shifts yet.
+
+DANIEL: Send them when you do. I'll find a day I can close early.
+
+ALICE: You can come when there's nothing to carry, you know.
+
+DANIEL: I know.
+
+He looks down at the timetable. She leaves the invitation there without turning it into a joke for him.
+
+DANIEL: I'd like that too.
+
+ALICE: All right.
+
+She folds the timetable so the possible return journeys stay visible. They will choose a visit after her shifts arrive; neither claims the other's time. Their next small risk is making room for a visit that does not require a broken object or an errand.
+
+They finish the food. Alice tells him which stop she needs on the way back. Daniel checks it once and puts the timetable away. For the rest of the scene he listens to her without planning anything.
 
 ---
 
@@ -1167,7 +1247,7 @@ The player may inspect the dry diagram before continuing. The live switch remain
 
 **Location:** Kitchen above the shop.
 
-The bread is on the table. Alice has returned from the shore. Her recorder sits near her jacket. The flat diagram has acquired a stain from a mug.
+The bread is on the table. Alice has returned from the shore. Her recorder sits near her jacket. The sketch of her prospective room has acquired a stain from a mug.
 
 ALICE: Now there's a lake in the bedroom.
 
@@ -1179,19 +1259,19 @@ DANIEL: I called about the gauge. Tomorrow's fine.
 
 ALICE: Good.
 
-She tears bread for both plates. Daniel slides the butter within her reach. Their bodies know where to make room for each other.
+She tears bread for both plates. Daniel slides the butter within her reach. Without looking, he moves his elbow so she can lay the envelope flat. They have shared this table for years.
 
-She reaches under his shirt collar and removes a short piece of thread.
-
-She drops the thread beside her plate and continues eating. Do not find a joke for the gesture.
+She draws the chair clear of the folding table. Daniel makes the support narrower, leaving the shape of the table alone. She tests the gap with the blunt end of the pencil, then puts it down and starts eating. It is still a possible room, still hers, still waiting to be seen.
 
 They start lunch. Ordinary cutlery and distant traffic. No anticipatory heartbeat, distorted lake reflection, or musical warning.
 
-ALICE: Did Jonah say he'd help move?
+ALICE: Would Jonah help carry the table? If the room's any good.
 
-DANIEL: If we feed him.
+DANIEL: Ask him. He'll probably want feeding.
 
-ALICE: I'll make enough.
+ALICE: That's fair.
+
+She leaves the drawing by her plate. The next conversation would have been about the viewing, lunch, or any of the small things they have not finished. No romantic disclosure has been deferred to this meal.
 
 Daniel reaches for the butter. Alice points toward the other side of the table.
 
@@ -1311,7 +1391,8 @@ He selects the indexed visit. Cut to C6S1 before its content begins.
 - Alice's childhood recorder later becomes Mara's gift when Alice upgrades at twenty-one. Its old files include the fundraiser at eighteen. Daniel receives it for repair at twenty-two; the incorrect service entry combines completion date with an outdated owner. He returns it in C3S2, with no later physical reappearance in his possession. C6 uses a lake impression, not a secretly retained recorder.
 - The fundraiser's flawed take belongs to ordinary evidence of Alice's editorial choice. Mara's correction does not invalidate Daniel's love or make her an infallible authority on all memories.
 - P08 destroys only the washer-tap trace. The washer, other traces, and ordinary recordings survive. This teaches the later erasure operation without executing it prematurely.
-- Alice accepts the out-of-town job in every version. The couple's conflict and reconciliation occur regardless of local wording. Daniel is present at the last lunch in every version.
+- Alice accepts the out-of-town job in every version. The friends' conflict and repair occur regardless of local wording. Daniel is present at the last lunch in every version. They remain friends throughout the lived past: attraction is legible, but there is no kiss, dating arrangement, mutual love declaration, or shared lease. The first mutual acknowledgment belongs to the common finale in C7S2.
+- C3S1 uses `c3s1_stay` / `c3s1_walk` for immediate local variants only; neither is a romance score or ending gate. C3S4 and C5S2 concern Alice's own prospective room and a folding recording table. Its viewing remains pending on the final morning; breakfast is a visit to the shop, not cohabitation. C4S4 agrees to arrange a visit after her shifts arrive, with no shared domestic trial.
 - The collapse is biological and sudden, not caused by the lake, an argument, or a missed player action. Later medical uncertainty must not introduce a hidden murder, preventable puzzle solution, or supernatural cause.
 - Jonah's eight-o'clock call is a real commitment. The ending scripts must honour its consequences or establish Daniel's reply; it must not disappear merely because the final encounter ends. Pause and save never advance the danger.
 - The three landmarks receive literal establishing shots here. The final empty-place sequence must be newly held present-day shots with no inserted figures, voices, memory overlays, or explanatory dialogue.

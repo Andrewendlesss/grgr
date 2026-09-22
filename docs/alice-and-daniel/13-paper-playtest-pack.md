@@ -1,6 +1,6 @@
 # P02 paper playtest and scene table-read pack
 
-Version 1.3 · Prepared materials; no participant sessions performed
+Version 1.4 · Prepared materials; no participant sessions performed
 
 This pack tests one question: **does carrying an observed method back to a changed place feel like the player's discovery?** It implements the current [P02 specification](12-gameplay-and-playtest-plan.md#p02--bring-back-the-method) and [manifest](specs/P02.scene.example.json). It changes no guards, commands or grants. Card wording is prototype presentation copy, not an additional canonical screenplay.
 
@@ -216,7 +216,7 @@ These routes were manually checked against the unchanged manifest. **These are a
 
 ## 7. Separate scene table read
 
-For a short v1.3 pass, read these current canonical scenes as separate packets. State only the preceding facts needed to follow the exchange; do not announce the intended feeling. Each variant receives its own read, not a montage of unchosen replies.
+For a short interaction pass, read these current canonical scenes as separate packets. State only the preceding facts needed to follow the exchange; do not announce the intended feeling. Each variant receives its own read, not a montage of unchosen replies.
 
 | Passage / variant | What to present | Ask afterward |
 | --- | --- | --- |
@@ -234,3 +234,21 @@ Use fresh readers where practical; ending knowledge would contaminate an opening
 Assign character voices and a stage-direction reader; read at a natural pace. Mark attention breaks without stopping to repair every line. After each passage ask: “What did each person want?”, “Where did that change?”, and “Which line or action felt unnecessary?” For the final sequence, ask what Alice knows now, what each ending costs, and which earlier detail changed meaning. Record answers before explaining intent.
 
 On a second pass, revise only the repeated beat, unclear motivation or missing causal link identified. Keep a line only if it serves the immediate exchange; do not improve every character into the same eloquent speaker. A table read can expose confusion and repetitive dialogue. It cannot certify awe, nostalgia, grief or the fun of an unbuilt interaction.
+
+
+## 8. Friendship and tension read — v1.4
+
+This is a separate, prepared read of the current screenplay, not a change to the P02 cards or an account of performed sessions. Read the relevant packets with their preceding context. Do not tell the reader to look for attraction or announce that a late confession is coming. Include both Alice-viewpoint scenes when assessing whether she has an independent life.
+
+| Packet | Read | Ask before explaining intent | Revision trigger |
+| --- | --- | --- | --- |
+| Early friendship | C1S2–C1S3, C2S1–C2S2, then one C3S1 stay/walk variant | “What do these two like doing together? What, if anything, remains unsaid? How would you describe their relationship now?” | If friendship seems like empty waiting for dating, strengthen an existing shared pleasure; if they seem to have begun dating, clarify the specific gesture or wording. |
+| Trust and repair | C3S3–C3S4, C4S2–C4S4 | “What did each person decide? What damaged trust? What changes after the apology? Who is the room for?” | Revise if the conflict reads as a romantic entitlement, her job as disloyalty, the visit plan as cohabitation, or practical help as payment for affection. |
+| Late truth | C6S4–C7S3, including all mandatory disclosures, before reading an ending | “What did they learn about each other? What could Alice choose here? Which earlier moment makes this exchange convincing? What are you wondering now?” | If the acknowledgment seems unprepared, adjust an earlier concrete behavior; if it seems delayed only by interruption, cut an earlier repeated near-confession. |
+| Equal ending context | One complete ending per read after the same shared packet | “What had already been said before the choice? What does this ending change? What does it fail to promise?” | Revise if fatality appears to unlock love or touch is mistaken for a promise of life together. Check a different ending in a separate read. |
+
+At a scene break, ask: “What changed here?” and “Was there a point where you were waiting for the scene to finish?” Record the exact passage. Distinguish a wanted pause from repetition or unmotivated silence. Let the fundraiser, repair success and ordinary jokes land before moving on; do not repair a weak passage by placing a threat underneath every happy moment.
+
+Keep a blank record with columns: **packet/variant; relationship as reader describes it; concrete earlier evidence named; desired next answer; attention break; exact words; proposed bounded edit**. No response has been collected. Two independent readers naming the same repeated near-confession or confusing the same living arrangement are a reason to revise that passage, not a population estimate. One clear implication that death earns reciprocation merits a wording/staging review immediately.
+
+These reads can identify confusion, repetition and unearned inference. They cannot establish full-game suspense, emotional intensity, timing, replay value or commercial appeal. Do not claim a pass without actual observations.

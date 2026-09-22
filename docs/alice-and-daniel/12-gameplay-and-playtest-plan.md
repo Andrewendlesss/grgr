@@ -1,8 +1,8 @@
 # What the Water Keeps — gameplay and playtest plan
 
-Version 1.3 · 22 September 2026 · Current interaction specification; unbuilt and untested
+Version 1.4 · 22 September 2026 · Current interaction specification; unbuilt and untested
 
-The game should make the player want to try an idea, see it work, and discover what that success makes possible. This current specification retains v1.2's six interaction revisions and adds bounded revisions to P03, P08, P09 and P10, integrated in [the game design](02-game-design.md) and screenplay. These are not optional patches to apply again. P04 and P06 remain brief; every quiet scene need not become a harder puzzle. The story facts, 28 shared scene slots, 12 puzzle IDs and three ending meanings remain fixed. The [architecture](06-implementation-architecture.md) still owns state, commands and durable saves.
+The game should make the player want to try an idea, see it work, and discover what that success makes possible. This current specification retains v1.2's six interaction revisions and adds bounded revisions to P03, P08, P09 and P10, integrated in [the game design](02-game-design.md) and screenplay. These are not optional patches to apply again. P04 and P06 remain brief; every quiet scene need not become a harder puzzle. Version 1.4 changes the relationship chronology: Alice and Daniel remain friends in their lived past, with the first mutual acknowledgment late in the shared encounter. The 28 shared scene slots, 12 puzzle IDs, established supernatural rules and three ending meanings remain fixed. The [architecture](06-implementation-architecture.md) still owns state, commands and durable saves.
 
 “Compelling” means voluntary curiosity, satisfying action, attachment and earned surprise. A player should also feel comfortable stopping at a checkpoint. No grind, attendance streak, random reward schedule, withheld ending, completion pressure or real-time threat is added. Nothing in this document establishes that the game is already fun.
 
@@ -40,6 +40,14 @@ Keep the verbs small: **inspect, compare, try, test, return, commit**. Help must
 This table describes skills, not chapter order: P08 still occurs before P09 and P10. No new interaction is inserted. P03 remains playful creation rather than a disguised test of musical knowledge. P04 lets the children care about the result without requiring Daniel to win. P06 and P10 should remain short when their factual distinction is understood; do not make them longer to imitate a harder puzzle.
 
 Emotional contrast comes from the consequence of play as well as the writing. Repair can feel satisfying; making an announcement can be funny and triumphant; remembering the same places can feel lonely; reaching contact can feel enormous. Quiet is not automatically a design defect. The problem is a scene that gives the player neither an interesting feeling nor a question worth pursuing. Adapting the build/peak/release pattern described in [Valve's pacing presentation](https://steamcdn-a.akamaihd.net/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf) to this authored story is a design inference, not evidence that a combat pacing model transfers unchanged.
+
+### Tension in v1.4
+
+Every scene has a live question, but pressure changes form. The player may want a test to work, a joke to land, a friend to accept help, a difficult fact to be said, or a goodbye to become bearable. A scene can resolve its immediate question completely while its changed relationship or practical result gives the next scene purpose. Do not preserve tension by refusing every payoff.
+
+Alice and Daniel's earlier replies express how they spend time as friends; they never build a hidden romance total. C3S1's stay/walk choice rejoins within that scene. P10 still concerns Daniel's unagreed booking and Alice's delayed disclosure; success does not earn forgiveness or romance. C4S4 repairs how the friends make plans, without starting cohabitation. C7S2's late acknowledgment comes before Turn around and the silent empty views; it is shared and independent of all puzzle performance and ending choices. No interaction or assist changes for this relationship revision.
+
+Use [the 28-scene tension map](14-friendship-and-tension-plan.md) to locate the actual turn, and [the prepared table-read prompts](13-paper-playtest-pack.md) to test whether the implied feelings read clearly. These are editorial hypotheses. No timers, romance meters, forced arguments or extra minigames are added to manufacture pressure.
 
 ## 3. Detailed interaction specifications
 
@@ -220,7 +228,7 @@ The supervised sensation test then occurs once: Jonah taps Daniel's wrist; Danie
 
 **Action and immediate agency:** Choose one first approach. **Hold the equipment bag** produces a small accepted practical gesture while Alice continues packing; **Look at the hall bookings** makes her put the equipment down and face him. Each has two brief opening lines before the required booking conversation. These are alternative entrances, not two mandatory checklist items. There is no “good partner” score. The first approach is local; the existing `c4s3_help` / `c4s3_ask` reply remains the separate saved response.
 
-**Feedback and payoff:** Reading the booking exposes the handwriting before Daniel's explanation. Once their lack of agreement is stated, the page gains **needs agreement** automatically. It does not approve, cancel or renegotiate the bookings; Daniel must call. Ownership is already correct, and the shared kettle waits without a classification challenge. After the existing reply, one **Pack agreed equipment** action finishes the physical task. They have managed a little cooperation; the argument and her delayed disclosure have not disappeared.
+**Feedback and payoff:** Reading the booking exposes the handwriting before Daniel's explanation. Once their lack of agreement is stated, the page gains **needs agreement** automatically. It does not approve, cancel or renegotiate the bookings; Daniel must call. Ownership is already correct, and the kettle proposed as a shop loan waits without a classification challenge. After the existing reply, one **Pack agreed equipment** action finishes the physical task. They have managed a little cooperation; the argument and her delayed disclosure have not disappeared.
 
 **Help, cuts and bounds:** Hint 1 points to the available bag and booking. Hint 2 says either can start the scene. **Continue packing** takes one normal route and leaves the existing reply available. Remove the three-bin sorting board, deliberately false ownership options, repeated inspection requirements and any requirement to choose an apology before proceeding. Use existing equipment, page, tape, kettle and held poses. No additional inventory, commitment simulator, shared lease or ending condition. Store only first approach/completion in P10 local state and retain existing response names.
 
@@ -390,7 +398,7 @@ These are **provisional editorial gates**, not population estimates. With five p
 | Two or more who want to solve by inference resort to repeated undirected selections and cannot explain the result | Improve evidence and specific feedback before adding difficulty or more decoys |
 | Players can explain a solve but say the result has no satisfying consequence | Change its immediate payoff or shorten the interaction; more explanation is unlikely to help |
 | P01/P02 produce clear understanding and at least one self-identified satisfying action for most participants | Continue the existing representative-slice decision; do not keep testing solely to improve a number |
-| Alice is described only as a mystery, a prize or the future dead girlfriend | Strengthen her ordinary objective and behavior in existing scenes; do not add a lore monologue |
+| Alice is described only as a mystery, a prize or the future dead love interest | Strengthen her ordinary objective and behavior in existing scenes; do not add a lore monologue |
 | Muted or enlarged-text play hides a required observation or action | Repair that presentation before treating the interaction as ready |
 | Save resumption duplicates the clamp, loses a solved step or puts an action in the wrong mode | Fix correctness first; an apparently exciting puzzle cannot pass with broken progression |
 
@@ -405,6 +413,7 @@ The full-game emotional progression, P05/P07/P11/P12 play quality, 151–153-min
 ## 8. Scope and handoff delta
 
 - **Unchanged:** seven chapters, 28 shared slots, 12 puzzle IDs, exactly two Alice-perspective scenes, all three endings and the final sentence. Death has no preventable puzzle solution. The recorded source stays read-only; dormant records are not continuously conscious. Contact begins only after P12 readiness and final activation.
+- **Changed in v1.4:** the lived-past relationship remains a friendship; C3S1 offers stay/walk approaches, C3S4 supports Alice's own room plan, and C4S4 repairs communication about visits and work. C7S2 acknowledges mutual feelings on the shared route before any ending. The scene map tracks practical, social, discovery and emotional questions without adding mechanics. All v1.3 puzzle rules and assists remain in force.
 - **Retained v1.2 content:** raw observations and test feedback in P01; clue order and non-solving observation text in P02; when P05's solution is spoken; multiple accepted P07 mixes; distinct P11 reference comparisons; P12 diagnostics and reuse of the completed map instead of repeated alignment work.
 - **Changed in v1.3:** C1S1 gives the player the Stop playback action that reveals the anomaly and Jonah's concrete clamp goal; P03 accepts all six clip orders; P08 contrasts the moved object with its fixed past event; P09 offers two viable practical preferences; P10 begins with one of two physical approaches to the same argument. P04/P06 stay concise. All four revisions are integrated into their corresponding screenplay passages.
 - **Deleted friction:** P03 slate-matching and wrong art orders; P08 terminology matching, endpoint placement and repeated alignment; P09 money tiles and single-route recipe; P10 moral sorting and forced inspection of both first approaches. Do not quietly preserve these obsolete steps in implementation.

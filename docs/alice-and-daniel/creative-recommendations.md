@@ -1,6 +1,6 @@
 # Alice & Daniel — creative recommendations
 Date: 22 September 2026  
-Status: First-pass direction proposal. This is the requested recommendations stage, not a finished story bible or production specification.
+Status: Historical first-pass proposal, superseded by the current story bible and screenplays. In particular, v1.4 replaces the early-romance/shared-home premise with friendship throughout their lived past and the first mutual acknowledgment in common C7S2. Earlier relationship and duration proposals below are retained as history, not implementation instructions. See the [current index](README.md) and [friendship/tension plan](14-friendship-and-tension-plan.md).
 
 ## Recommendation
 
@@ -26,7 +26,7 @@ Keep the first direction's visual scale modest and its emotional scale large. A 
 
 Two useful references are supported by their publishers' descriptions: [Florence](https://annapurnainteractive.com/games/florence) uses relationship vignettes as gameplay, while [Gorogoa](https://annapurnainteractive.com/games/gorogoa) uses arranging and combining illustrated panels as its puzzle language. Their official pages link mobile and desktop releases. These are useful format references, not evidence of likely sales for this project. Our reflection system, cast, plot, artwork, and puzzle grammar should have their own identity.
 
-## The requested cinematic influence
+## Dramatic construction
 
 Use interwoven time spans, a concrete physical procedure, information that changes the meaning of an earlier scene, subjective experience under pressure, and an intimate relationship carrying large speculative stakes.
 

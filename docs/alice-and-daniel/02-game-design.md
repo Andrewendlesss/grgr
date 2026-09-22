@@ -1,6 +1,6 @@
 # What the Water Keeps — complete v1 game design
 
-**Version 1.3. Status:** design specification for the proposed game; no game build is implied. The active implementation path is solo development with low cash costs. Read alongside the story bible, revised screenplay, technical architecture and solo roadmap. The [detailed gameplay and playtest plan](12-gameplay-and-playtest-plan.md) details the revised interactions; the [research notes](10-gameplay-research.md) explain the evidence and limits. Where earlier recommendations differ, this package is current.
+**Version 1.4. Status:** design specification for the proposed game; no game build is implied. The active implementation path is solo development with low cash costs. Read alongside the story bible, revised screenplay, technical architecture and solo roadmap. The [detailed gameplay and playtest plan](12-gameplay-and-playtest-plan.md) details the revised interactions; the [research notes](10-gameplay-research.md) explain the evidence and limits. Where earlier recommendations differ, this package is current.
 
 ## 1. The experience
 
@@ -8,9 +8,11 @@ A premium, authored 2.5D narrative adventure for phones, with identical content 
 
 Daniel's care first helps others: he repairs, listens, measures, records, and turns up. Those actions gradually postpone an unfinished life. Alice is playable in exactly two scenes without him; her work and decisions exist independently of his account.
 
+Alice and Daniel remain friends throughout their lived past, from thirteen to twenty-two. Attraction develops through attention, play and choices, without dating, kissing, a shared lease or an earlier mutual confession. Their first mutual acknowledgment belongs to C7S2, after Alice knows the encounter's limits and has stated her own preference about reactivation. It occurs on every route before the ending choice; assistance, reply choices and Daniel's fate cannot purchase it. Friendship is already a substantial relationship with work, fun, disagreement and repair. [The friendship and tension plan](14-friendship-and-tension-plan.md) tracks the changing question in every scene.
+
 The recurring action is **observe → understand → release → act**. Releasing a reflection is necessary to work in the present. Ordinary interactions share this rhythm without being supernatural. There is no combat, traversal challenge, inventory combination lottery, relationship score, consumable hint currency, or collect-everything requirement.
 
-Temporal structure belongs to the author. The player does not select a year and rewrite it. Present-night scenes advance linearly; childhood and relationship scenes are explicitly dated authored scenes. Entering a recorded lake impression is a separate, visually identified operation.
+Temporal structure belongs to the author. The player does not select a year and rewrite it. Present-night scenes advance linearly; childhood and friendship scenes are explicitly dated authored scenes. Entering a recorded lake impression is a separate, visually identified operation.
 
 ## 2. Interaction grammar and world rules
 
@@ -40,28 +42,28 @@ Durations include dialogue, walking, cinematics, **and puzzle time**. “Authore
 | C2S2 | D, 13, authored | 7 | **P04:** measure throws with Alice and Jonah | Establish tree, dock plank, and Ruth's wave from rise |
 | C2S3 | D, 34, present | 4 | Hear Mara's request; inspect recorder ownership | State Alice died twelve years ago; Mara has a claim |
 | C2S4 | D, 34, present | 7 | **P05:** help Jonah secure old winch | Friendship includes work and present commitments |
-| C3S1 | D, 18, authored | 3 | Wait at bus shelter; ask before first kiss | Romance grows from familiar, imperfect friendship |
+| C3S1 | D, 18, authored | 3 | Share food at the shelter; choose to stay or walk | Choosing more time together reveals attraction without defining the friendship |
 | C3S2 | D, 34, present | 6 | **P06:** correct ledger with Mara; return recorder | Daniel's record is partial; restitution is possible |
 | C3S3 | D, 18, authored | 7 | **P07:** assemble fundraiser playback | Ensemble has practical tasks; Alice's craft develops |
-| C3S4 | D, 22, last day | 4 | Breakfast; choose to finish one moving task together | Trial flat is a shared, mundane future |
+| C3S4 | D, 22, last day | 4 | Breakfast; help plan a folding recording table for Alice's prospective room | His help supports her independent future; the room viewing is still pending |
 | C4S1 | D, 34, present | 8 | **P08:** test observation, replay, erasure, and safe return | Seed all final operations and bodily-awareness cost |
 | C4S2 | A, 21, authored | 6 | **P09:** compare job arrangements; accept; talk to Mara | Alice wants the work and delays telling Daniel |
 | C4S3 | D, 21, authored | 6 | **P10:** choose how to help pack during argument | His plans assumed she would stay; neither is blameless |
-| C4S4 | D, 22, authored | 5 | Reconcile at shelter; make a workable two-person plan | Specific apologies and changed arrangements |
+| C4S4 | D, 22, authored | 5 | Repair the friendship at the shelter; discuss visits after work shifts are known | Specific apologies change how they make plans; separate homes and work remain |
 | C5S1 | D, 34, present | 4 | Agree Jonah's departure and next-morning check-in | A friend can care while maintaining a boundary |
 | C5S2 | D, 22, last day | 4 | Be present at lunch; witness collapse, immediate help, aftermath | No puzzle or missed input causes her death |
 | C5S3 | D, 34, present | 4 | Make tea; examine retirement papers and one ledger date | Ruth died when Daniel was twenty-nine; living ties remain |
 | C5S4 | D, 34, present + impressions | 8 | **P11:** connect dock, tree, and rise source anchors | Familiar geography becomes final apparatus knowledge |
-| C6S1 | D observing A, 22, impression | 4 | Hear last shore recording; inspect ordinary moving note | Latest stored Alice has a future, no secret foreknowledge |
+| C6S1 | D observing A, 22, impression | 4 | Hear last shore recording; inspect her ordinary room-viewing note | Latest stored Alice has her own future, no secret foreknowledge |
 | C6S2 | D, 34, present | 5 | Prepare apparatus; dress bracket scrape; review modes | Physical danger has a plain cause; choices are seeded |
 | C6S3 | D, 34, present | 8 | **P12:** stabilize source, identity, return carrier | First fully stabilized contact becomes possible |
 | C6S4 | D with responsive A | 6 | Greet Alice; answer her new question; explain elapsed years | She is responsive, limited, and separate from him |
-| C7S1 | D with responsive A | 5 | Discuss their unresolved ordinary question | Intimacy continues without solving grief |
-| C7S2 | D, shared encounter | 3 | Turn; view empty dock/tree/rise; common farewell | Childhood glimpse resolves before any branch |
+| C7S1 | D with responsive A | 5 | Ask whether he made leaving difficult; explain reset limits and hear her preference | An ordinary uncertainty gives way to an informed limit on repeated meetings |
+| C7S2 | D, shared encounter | 3 | Acknowledge mutual feelings; turn; view empty dock/tree/rise; common farewell | The friendship gains a late truth without becoming an ending reward |
 | C7S3 | D, shared encounter | 3 | Inspect three consequence previews; confirm an intention | Informed choice without timer or hidden conditions |
 | C7S4 | D, selected ending | 6 / 6 / 8 | E1 fixed summer / E2 remain / E3 close and return | Each consequence is fully shown |
 
-Chapter totals: **21, 25, 20, 25, 20, 23, and 17/17/19 minutes**. Alice's death is explicitly established at about minute 39, near the first quarter. Its circumstances arrive later. Short scenes stay short; a few lines and a kiss do not become a six-minute sequence through mandatory walking or held shots.
+Chapter totals: **21, 25, 20, 25, 20, 23, and 17/17/19 minutes**. Alice's death is explicitly established at about minute 39, near the first quarter. Its circumstances arrive later. Short scenes stay short; a short shelter exchange does not become a six-minute sequence through mandatory walking or held shots.
 
 ## 4. Twelve substantial interactions
 
@@ -89,7 +91,7 @@ Observe the earlier empty boathouse plate through the shore-connected reflection
 
 ### P06 — An honest correction / C3S2 / ordinary / approximately 4 minutes
 
-Compare Daniel's ledger “14 June / Alice / recorder,” the service slip “12 June / mic socket,” and the underside inscription “Mara. Red button. A.” Alice gave Mara the recorder when she upgraded at twenty-one; Mara lent it for repair at twenty-two. Daniel copied the old owner and logged completion instead of receipt. Pair **receipt date**, **owner**, and **repair** with their evidence; correct to “12 June / Mara / socket repair.” Mara's testimony is supplied directly. Wrong placement prompts clarification. Hints distinguish the two dates, then show a pairing. Transcriptions and linear comparison replace visual cards. The original entry remains with its correction; Daniel returns the recorder. Tone changes his apology, not restitution. Small factual errors do not disprove his love.
+Compare Daniel's ledger “14 June / Alice / recorder,” the service slip “12 June / mic socket,” and the underside inscription “Mara. Red button. A.” Alice gave Mara the recorder when she upgraded at twenty-one; Mara lent it for repair at twenty-two. Daniel copied the old owner and logged completion instead of receipt. Pair **receipt date**, **owner**, and **repair** with their evidence; correct to “12 June / Mara / socket repair.” Mara's testimony is supplied directly. Wrong placement prompts clarification. Hints distinguish the two dates, then show a pairing. Transcriptions and linear comparison replace visual cards. The original entry remains with its correction; Daniel returns the recorder. Tone changes his apology, not restitution. Small factual errors do not erase the value of their friendship or excuse withholding Mara's property.
 
 ### P07 — Let people hear it / C3S3 / ordinary / approximately 4 minutes
 
@@ -107,7 +109,7 @@ As Alice, choose between two workable ways to reach the seven-week job starting 
 
 ### P10 — Whose plan / C4S3 / ordinary / approximately 4 minutes
 
-Help finish packing while the argument makes his assumption visible. Choose a first approach: **Hold the equipment bag** starts with a brief cooperative gesture; **Look at the hall bookings** starts with the commitment he made. Each gives two short opening lines and a different posture, then rejoins the required conversation. Selecting both is unnecessary. When the booking is examined, show Alice's name in Daniel's writing before his admission; its status becomes **needs agreement** automatically once that fact is established. Ownership is already correct: her equipment is hers, his tools are his, and the kettle can wait. Keep the existing response choice and one **Pack agreed equipment** completion action. Remove moral sorting, false ownership answers and a mandatory apology-as-solution. Hints point to either available approach; the assisted path performs one and reaches the same argument. The local approach changes this scene only; retain the existing reply flags without adding a later branch or ending gate. No shared lease exists at twenty-one. [Detailed scene actions and limits](12-gameplay-and-playtest-plan.md#p10--help-without-deciding-for-her).
+Help finish packing while the argument makes his assumption visible. Choose a first approach: **Hold the equipment bag** starts with a brief cooperative gesture; **Look at the hall bookings** starts with the commitment he made. Each gives two short opening lines and a different posture, then rejoins the required conversation. Selecting both is unnecessary. When the booking is examined, show Alice's name in Daniel's writing before his admission; its status becomes **needs agreement** automatically once that fact is established. Ownership is already correct: her equipment is hers, his tools are his, and the kettle is a proposed loan from the shop that can wait. Keep the existing response choice and one **Pack agreed equipment** completion action. Remove moral sorting, false ownership answers and a mandatory apology-as-solution. Hints point to either available approach; the assisted path performs one and reaches the same argument. The local approach changes this scene only; retain the existing reply flags without adding a later branch or ending gate. They are friends, with no shared lease at any age. His unagreed hall booking is the concrete overreach; her delayed news is a separate breach of trust. [Detailed scene actions and limits](12-gameplay-and-playtest-plan.md#p10--help-without-deciding-for-her).
 
 ### P11 — Three places in one shore / C5S4 / actual reflections / approximately 6 minutes
 
@@ -119,7 +121,7 @@ Diagnose three established requirements in the player's chosen order: connected 
 
 ## 5. Final choice and branch behavior
 
-The empty-place sequence is shared and unhurried. Use the established dock plank, measuring tree, and rise camera compositions. **No ghost silhouettes, superimposed memories, remembered voices, or explanatory score.** Environmental sound may remain. The childhood revelation belongs before the branch: thirteen-year-old Alice glimpsed this common encounter, not a selected ending. Do not ask players to solve that image.
+The empty-place sequence is shared and unhurried. The late mutual acknowledgment precedes Turn around, the three silent views, the common goodbye and every ending preview. Do not place it inside an ending, require a romantic reply flag, or frame years of withdrawal as the price Daniel paid to earn Alice's feelings. Use the established dock plank, measuring tree, and rise camera compositions. **No ghost silhouettes, superimposed memories, remembered voices, or explanatory score.** Environmental sound may remain. The childhood revelation belongs before the branch: thirteen-year-old Alice glimpsed this common encounter, not a selected ending. Do not ask players to solve that image.
 
 The offer uses Daniel's previously heard “Just one more,” assembled by the lake rather than spoken by a personified villain. Three equally legible intents open a consequence preview. Previewing does not commit; Back restores the same choice screen.
 
@@ -168,7 +170,7 @@ C1S1 → … → C6S3 → C6S4 → C7S1 → C7S2 → C7S3
                                 E1 OR E2 OR E3 → credits
 ```
 
-All intermediate dialogue branches rejoin within their scene, except named callbacks. Required facts, Alice's knowledge of reset limits, and her consent occur on the shared route. Ending confirmation commits atomically with the next beat; a crash cannot save an ending while replaying its confirmation as an uncommitted choice.
+All intermediate dialogue branches rejoin within their scene, except named callbacks. Required facts, Alice's knowledge of reset limits, her preference about reactivation, and the late mutual acknowledgment occur on the shared route. The acknowledgment is an authored beat, not a relationship score or new ending prerequisite. Ending confirmation commits atomically with the next beat; a crash cannot save an ending while replaying its confirmation as an uncommitted choice.
 
 Save after solved puzzle steps, completed conversations, scene transitions, and ending commit. Treat effects as transactions with unique IDs: returning the recorder must not duplicate inventory removal, dialogue, or ledger corrections. Keep a last-good checkpoint if a write is interrupted. On resume, reconstruct from saved state rather than replaying acquisition triggers. Audio can restart at the current spoken line; completed actions do not replay. C5S2 resumes at the nearest respectful shot boundary, with an option to continue after its noninteractive emergency sequence.
 
@@ -190,10 +192,10 @@ Before starting, offer a concise content note for bereavement, sudden medical em
 |---|---|---|
 | Dock / shore | Low horizon, recognizably damaged plank, water taking a third of frame; evening machine equipment added as a distinct layer | Rope knocks and small wave slap; childhood people fill space, present leaves gaps. Reflections displace an established sound, never use a generic horror sting. |
 | Ruth's repair shop | Warm task lamps, practical clutter with readable work zones; changes in invoices, tools, and empty shelves show time | Radio, bench vibration, shutter, Ruth working while talking. Present does not replay her voice outside an explicitly observed impression. |
-| Kitchen / flat above shop | Table supports breakfast, planning, packing, and lunch without becoming identical framing; moving boxes make the twenty-two plan tangible | Kettle, cutlery, traffic through window. Ordinary room tone survives emotional scenes; no heartbeat clue foreshadows Alice's death. |
+| Kitchen / flat above shop | Table supports breakfast, planning, packing, and lunch without becoming identical framing; Alice's room measurements and folding-table sketch make her independent plan tangible | Kettle, cutlery, traffic through window. Ordinary room tone survives emotional scenes; no heartbeat clue foreshadows Alice's death. |
 | Boathouse / machine bay | Reused repair materials, reachable components, shallow immersed station; mechanism feels accumulated through work | Separate audible signatures for observe, replay, erase; captions name their functions. Maximum apparatus scale comes from lighting/composition, not an unbudgeted new building. |
 | Tree / footpath / rise | One connected exterior with three compositions; permanent notches and rails anchor change; final empty frames match childhood coverage | Leaves, distant shore activity, walking pace. Ruth's wave is visual and ordinary; final rise has no remembered call. |
-| Bus shelter / street | Recurring bench, timetable board, changing posters; staging makes waiting and separation physical | Traffic arrivals, shelter resonance, rain in one authored scene. First kiss and reconciliation leave room for awkward quiet. |
+| Bus shelter / street | Recurring bench, timetable board, changing posters; staging makes waiting and separation physical | Traffic arrivals, shelter resonance, rain in one authored scene. Shared food, chosen time and friendship repair leave room for awkward quiet. |
 
 Era cards, wardrobe, set dressing, and prop condition identify time; color only reinforces it. Reserve temporal match cuts for clear shared objects. Keep performances conversational and overlapping subtitles legible; leave room for response.
 
@@ -210,4 +212,5 @@ Music develops a small original motif through instrumentation and missing resolu
 7. **Final choice:** pause each preview and E2 confirmation indefinitely. No narrative timer advances. Back never commits. E1 does not imply physical resurrection; E2 does not promise reunion after death; E3 preserves ordinary water and recordings.
 8. **Emotional framing:** review the emergency and fatal ending with appropriate specialist/sensitivity input. Confirm there is no rescue-performance score, surprise medical clue, romantic reward for bodily death, or implication grief is a personal failure.
 9. **Empty places:** frame-by-frame and audio-stem review confirms no figures, flashback overlays, voice fragments, or score in the three final empty shots.
-10. **Content lock:** verify exactly two Alice-perspective scenes, twelve puzzle IDs, twenty-eight shared slots, six location kits, the dressed scrape's continuity, and the unchanged final written line. Log intentional changes across all package documents before implementation.
+10. **Friendship and tension:** read C3S1, C4S3–C4S4 and C7S1–C7S3 in context. Players should distinguish attraction from an established romance and name concrete reasons the friendship matters. Check that the late acknowledgment is understood before any ending, that Alice's independent plans remain legible, and that relief scenes still change a want, understanding or commitment. Use [the prepared prompts](13-paper-playtest-pack.md); do not treat this design intent as a tested result.
+11. **Content lock:** verify exactly two Alice-perspective scenes, twelve puzzle IDs, twenty-eight shared slots, six location kits, the dressed scrape's continuity, and the unchanged final written line. Log intentional changes across all package documents before implementation.

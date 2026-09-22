@@ -1,5 +1,5 @@
 # What the Water Keeps — story bible
-Version 1.3 · 22 September 2026 · Full narrative spoilers
+Version 1.4 · 22 September 2026 · Full narrative spoilers
 
 This is the authored story baseline for the first playable draft, revised for character behavior, contemporary obligations, and the final encounter. It supersedes the exploratory alternatives in the original recommendations. The title is provisional; the characters, rules, chronology, and ending distinctions below are fixed for this draft. Production estimates remain estimates. The [narrative and performance guide](05-narrative-and-performance.md) translates this bible into playable beats and revision tests.
 
@@ -9,9 +9,11 @@ Daniel Vale returns to the lakeside where he met Alice Mercer at thirteen. Now t
 
 ## The emotional argument
 
-The v1.2 screenplay pass preserves the facts below while widening how the story feels. C3S3 gives the group a sustained, earned success; C4S3 makes the practical disagreement hurt before reconciliation repairs anything; C5S1 makes Jonah's boundary specific; C6S3 makes preparation culminate in visible success; C6S4 gives Alice initiative and time to absorb the news. C7S1 asks about the future they had agreed to try, rather than pretending their reconciliation never happened. See the [scene revision record](11-story-and-scene-revisions.md).
+The v1.2 screenplay pass preserves the facts below while widening how the story feels. C3S3 gives the group a sustained, earned success; C4S3 makes the practical disagreement hurt before reconciliation repairs anything; C5S1 makes Jonah's boundary specific; C6S3 makes preparation culminate in visible success; C6S4 gives Alice initiative and time to absorb the news. That historical pass also used an agreed romantic future; the v1.4 friendship canon below replaces that premise. See the [scene revision record](11-story-and-scene-revisions.md).
 
 The v1.3 pass lets the player cause the opening discrepancy and gives the middle interactions more expression and investigation. It changes no supernatural rule or ending. Alice accepts the job nine days before first call; the argument is four days after acceptance; either itinerary arrives the evening before work begins. The private timetable correction occurs before choosing a route, so the reunion memory remains available on both paths and unknown to Daniel.
+
+The v1.4 pass keeps Alice and Daniel friends throughout their lived past and through most of the final encounter. Attraction accumulates in attention, competing wants and the risk of changing an existing friendship. The first explicit mutual acknowledgment occurs in the common C7S2 finale, after Alice understands the encounter and refuses repeated awakening, before any ending is selected. No early kiss, dating period, shared-home agreement or earlier mutual confession remains canon. See the friendship contract below.
 
 Protect pleasure as part of the relationship's truth. A repaired radio can delight them. A good recording can sound good. A joke can remain funny without immediately becoming a clue. Technical success can be magnificent even when it cannot solve the human problem that follows. The melancholy comes partly from losing a life the player enjoyed participating in.
 
@@ -24,6 +26,18 @@ Alice's corresponding difficulty is avoiding vulnerable conversations until othe
 The ending asks for participation in an unfinished life. It does not promise closure as a permanent emotional condition. Daniel may miss her intensely the next day, and he still has to buy food.
 
 Secondary themes are the fallibility of testimony, the work inside ordinary affection, unequal ownership of a shared past, and the difference between a pattern that repeats and a person who can change.
+
+## Friendship, attraction, and the late admission
+
+Friendship is their real relationship, not a nine-year pretext for earning a romance. They enjoy projects, jokes, meals and each other's competence. Either can want privacy, have an independent ambition or disagree without the scene treating it as rejection. Their unresolved attraction adds risk because speaking might change something they already value.
+
+During life, each has reasons to hesitate and occasional opportunities to be more direct. Vary what hesitation costs: a bus they do not take together; a practical offer mistaken for an assumption; a question postponed while there is work to do. Do not manufacture a conveniently timed interruption at every possible confession. Sometimes a character chooses the safer thing to say and the audience can see the choice. Let other scenes be entirely about work, family or having fun.
+
+At eighteen, C3S1 lets Daniel stay briefly or begin the walk with Alice. Both are ways to accompany a friend. The local response IDs are `c3s1_stay` and `c3s1_walk`; the retired kiss/hand choices are not alternate canon. At twenty-one, the job dispute concerns four days of silence and three hall weekends booked without asking. Neither owes a friend permission to accept work. At twenty-two, reconciliation restores the friendship by asking before making commitments. Alice is considering her own room near work; Daniel helps with her folding recording table. A viewing is still pending on the final morning. They have no shared lease, trial cohabitation or agreed romantic future.
+
+At reunion, friendship still gives them somewhere to begin. Their first explicit mutual acknowledgment belongs late in the common finale, after the technical limits and Alice's preference against reactivation are understood. Alice says that after they repaired their friendship she wanted to ask him out; Daniel acknowledges the same wish. This is a late change they failed to discuss, not a claim that their entire childhood concealed one fixed intention. They can speak honestly about attraction without claiming they would certainly have made a successful couple. Alice's answer is a present choice by the conscious Alice, not a message extracted from a recording. No puzzle reveals what she "really meant," and Daniel's twelve years of work create no entitlement to her answer.
+
+That admission occurs before all three endings and changes no ending's availability. It is not a consent to repetition or death. Stable contact still cannot support a kiss or a held hand. The fixed summer contains their earlier friendship, not the late mutual admission: Daniel remembers what was said, while the recorded Alice cannot learn it or respond differently. Morning keeps the truth of the exchange without offering a replacement romance. The fatal branch receives no exclusive declaration that makes death the route to reciprocation.
 
 ## Setting and visual truth
 
@@ -67,13 +81,13 @@ Alice is dry, observant, competitive about trivial things, and less organized th
 
 Her defensiveness sometimes makes her unkind. She hides good news when discussing it might expose how much she wants it. A direct apology should cost her a little but remain possible. She does not answer every serious question with a perfect metaphor.
 
-Give her physical affection, appetite, fatigue, ambition, and boredom. She sometimes wants to be alone without this foreshadowing death. Her two viewpoint scenes let the player know something Daniel does not.
+Give her the easy physical familiarity of friendship, appetite, fatigue, ambition, and boredom. Touch during life must not stage an established couple or substitute for an early confession. She sometimes wants to be alone without this foreshadowing death. Her two viewpoint scenes let the player know something Daniel does not.
 
 The lake's vision happens to Alice. It does not determine her profession, secretly explain every joke, or make her a supernatural creation. She never spends nine years knowingly waiting to die.
 
 **Performance:** ease before mystique. A brief honest answer may escape between jokes; do not turn this into a fixed dialogue formula.
 
-**Physical habit:** Alice winds a loose cable around her fingers while considering an answer, then stops when it begins to twist. When absorbed in sound she raises one finger to ask for a moment, rather than explaining what she is listening to. With people she trusts she gives things to them without ceremony: half a carton, the end of a tape, her cold hand. At the reunion she initially reaches for equipment she no longer has. Her profession remains part of the life she has just lost.
+**Physical habit:** Alice winds a loose cable around her fingers while considering an answer, then stops when it begins to twist. When absorbed in sound she raises one finger to ask for a moment, rather than explaining what she is listening to. With people she trusts she gives things to them without ceremony: half a carton, the end of a tape, a bag whose weight she has underestimated. At the reunion she initially reaches for equipment she no longer has. Her profession remains part of the life she has just lost.
 
 ### Ruth Vale
 
@@ -112,15 +126,15 @@ The old recorder originally belonged to Alice, who gave it to Mara when upgradin
 | Before thirteen | Daniel grows up around the repair shop. Alice and Mara move to Greyford because their household circumstances and work change; no secret lake connection | Both arrive with habits and family histories, rather than beginning at their meeting |
 | Thirteen, early summer | Alice sits at the dock. An unstable reflection reveals the later reunion, including an older Daniel and their farewell. She does not understand it. Daniel's stone breaks the image | The sequence fails to become a durable memory; its emotion and a few sensory details linger |
 | Thirteen, summer | They repair a radio, record sounds, make a bad drama, and spend time with Jonah. Ruth calls them from the rise | The final empty places acquire ordinary associations |
-| Eighteen | Friendship becomes a romance after years of changing closeness. They share a kiss by the bus shelter. A local fundraiser gives Alice useful experience | Affection has a physical, social, and practical life |
-| Twenty-one, last complete summer | Alice accepts temporary work away. She tells Daniel late; he has made plans assuming she will stay. They argue and live apart geographically | Love cannot substitute for asking another person what they want |
-| Twenty-two, spring | They reconcile through specific apologies and decide to try a flat near Alice's work, with room for Daniel's work commitments | Their relationship is moving forward rather than waiting for a fatal plot event |
-| Twenty-two, final morning | Alice records shoreline atmosphere and a private practical note about the proposed flat. Her last lake contact preserves her person-state with memories through that morning | The eventual responsive Alice has no memory of dying |
+| Eighteen | Friendship becomes more charged without becoming a declared romance. At the bus shelter they decide whether to stay or walk together. A local fundraiser gives Alice useful experience | They value being chosen as company, while neither yet risks a direct declaration |
+| Twenty-one, last complete summer | Alice accepts temporary work away. She tells Daniel late; he has booked three hall weekends assuming she will help. They argue as friends, and her job takes her away | Familiarity cannot substitute for asking another person what they want |
+| Twenty-two, spring | They repair their friendship through specific apologies and agree to ask before jobs or visits. Alice considers her own room near work; Daniel helps with her folding recording table | They learn a better way to remain close without deciding the unspoken romantic question |
+| Twenty-two, final morning | Alice records shoreline atmosphere and a private practical note about her own room viewing and recording table. The viewing is still pending. Her last lake contact preserves her person-state through that morning | The eventual responsive Alice has neither a memory of dying nor knowledge of a home or relationship that never came into being |
 | Twenty-two, afternoon | Daniel declines work to eat with her. She collapses mid-sentence. He promptly calls for help; emergency efforts fail | His presence is real and is not secretly the cause of her death |
 | Twenty-two to twenty-seven | Daniel works, sees friends inconsistently, receives help, and studies anomalous repetitions near the lake. Most tests yield nothing | Twelve years include ordinary life, not twelve uninterrupted years at a laboratory bench |
 | Twenty-seven to twenty-nine | Ruth retires, then later dies. Daniel acquires responsibility for the shop and an increasing archive of objects | More of his life becomes a maintenance task |
 | Twenty-nine to thirty-four | Short impressions become repeatable. He understands observation, locking, and erasure, but has not activated a full responsive person | The present night's success is new |
-| Thirty-four, final night | The player completes preparation. Mara receives her recorder back; Jonah states his limit; Daniel aligns the source and meets Alice | Technical success exposes the human decision |
+| Thirty-four, final night | The player completes preparation. Mara receives her recorder back; Jonah states his limit; Daniel meets the conscious Alice. After limits and her preference are understood, they finally acknowledge their attraction in the common farewell | Technical success opens a real conversation; a late honest answer cannot supply the unlived years |
 | After the shared farewell | One of three player-selected outcomes occurs | None changes Alice's original death or the previous chronology |
 
 Do not introduce another child, secret marriage, murder, sacrifice, or earlier successful reunion without revising this chronology and all its clue dependencies.
@@ -131,7 +145,7 @@ The current night proceeds forward. The other scenes are deliberate authored cut
 
 Chapter 1 introduces the machine as a repeatable physical procedure and gives the dock meeting room to breathe. Chapter 2 reveals that Alice died twelve years earlier. Her death is not a late twist or a fact hidden by unnatural dialogue.
 
-Chapter 3 establishes romance, an incomplete ledger, and an ordinary breakfast from the last day. Chapter 4 develops Alice's independent choice and the machinery's three operations. Chapter 5 presents the death and the present costs of Daniel's fixation. Chapter 6 proves the machine works and clarifies what Alice knows. Chapter 7 brings the opening reflection and the reunion together before offering the endings.
+Chapter 3 makes the friendship's unspoken attraction harder to ignore, corrects an incomplete ledger, and shows an ordinary breakfast from the last day. Chapter 4 develops Alice's independent choice and the machinery's three operations. Chapter 5 presents the death and the present costs of Daniel's fixation. Chapter 6 proves the machine works and clarifies what Alice knows. Chapter 7 brings the opening reflection and the reunion together, then gives their first mutual acknowledgment in the common farewell before offering the endings.
 
 The main reversal changes the meaning of Alice's childhood tears. A second, quieter discovery changes the meaning of Daniel's notebook: even an honest record is a perspective.
 
@@ -165,7 +179,7 @@ The completed apparatus activates a preserved person-state. The Alice it reaches
 
 The source records biological person-states at the shore; an activated impression has no biological body and cannot update its stored person-state. New memories persist only for the current session. Disconnect ends this active stream. A later activation would begin again with the same final-morning Alice, unaware of this conversation. The lake can store passive images of an encounter without turning the reflected participant into a newer reactivatable person-state. This distinction prevents an unnoticed route around the reset rule.
 
-Her latest state dates to the final morning at the shore. She knows about the proposed flat and her job. She does not know what happened at lunch or what Daniel has done since.
+Her latest state dates to the final morning at the shore. She knows about her job, her own prospective room and its still-pending viewing. She remembers a repaired friendship, not a dating relationship or an agreed shared home. She does not know what happened at lunch or what Daniel has done since.
 
 The player receives evidence through Alice recognizing and extending a private exchange previously witnessed in her viewpoint scene and unknown to Daniel. It is not a password Daniel administers or a rigorous philosophical test of consciousness. The fiction establishes that she is a conscious continuation; the drama makes her independence credible through initiative, ordinary memories, uncertainty, and a preference that frustrates his hopes. Do not rely on a machine declaring her authenticity or one clever anecdote resolving all uncertainty for an audience.
 
@@ -201,7 +215,7 @@ The marked-washer test demonstrates the operations on a harmless event. Nobody e
 
 Within the stable reunion, Daniel and Alice occupy different layers. An attempted ordinary touch does not meet. As the live connection fails, sensation and position bleed across the separation; the final contact in the fatal branch becomes possible.
 
-This rule is demonstrated visually in a safe rehearsal, not explained in the last breath. “First and only time” refers to this reunion. They touched and held one another during life.
+This rule is demonstrated visually in a safe rehearsal, not explained in the last breath. “First and only time” refers to this reunion. Ordinary friendly contact during life is allowed; an early romantic kiss or mutual confession is not. The shared finale communicates mutual feeling through words and attention while the touch boundary remains intact.
 
 ### 9. The lake is not a conversational villain
 
@@ -217,7 +231,7 @@ The interval is the last complete summer before Alice's death, when both leads a
 
 Daniel's thirty-four-year-old awareness inhabits his younger self. The warm first iteration includes the small problems that existed then. On repetition, he anticipates a spilled drink and a familiar line. He cannot change the recorded action. He can remember the last cycle; no one can share that accumulated experience.
 
-This ending grants continuation and company at the cost of mutual development. Outside history continues unchanged. Never imply that everyone has physically returned to Greyford.
+This ending grants continuation and company at the cost of mutual development. The summer contains their unconfessed friendship. Daniel retains the late acknowledgment, but Alice repeats her earlier state and cannot share that new knowledge; there is no alternate romantic summer or repeatable first kiss. Outside history continues unchanged. Never imply that everyone has physically returned to Greyford.
 
 ### E2 — Until the Water Stills
 
@@ -255,9 +269,9 @@ The next morning provides a brief playable coda. Tea, the unfinished ordinary da
 | Alice's private job-related exchange | C4S2 | Independent concern Daniel never heard | Responsive Alice mentions it in C6S4; player can recognize independent memory |
 | Observer returns after delayed sensation | C4S1 | Test has a real bodily limit | Exit route is credible; staying is knowingly dangerous |
 | Repeating then erased washer trace | C4S1 | Three operations demonstrated | Loop/closure are established capabilities |
-| Earlier affectionate touch | C3S1, C4S4 | Their ordinary intimacy | Fatal hand is reunion-specific, not the only love they ever express |
+| Recorder taken back; a visit requested without a repair to justify it | C3S1, C4S4 | They choose each other's company even when neither needs to be useful | C7S2 allows the first mutual acknowledgment before every ending; fatal contact grants no exclusive romantic answer |
 | Daniel's declined work on last day | C3S4, C5S2 | A modest choice to be present | Death cannot be “solved” by changing his attendance |
-| Private last-morning note | C6S1 | Alice has practical plans | Latest trace's knowledge boundary and loss of their unwritten future |
+| Private last-morning note | C6S1 | Alice has her own room viewing and recording-table plans | Latest trace's knowledge boundary; practical intention is not recorded proof of romantic consent |
 | Repaired hall amplifier awaiting collection | C1S4 prop, C5S1 complaint, C5S3 reply | Daniel finished the repair but avoided giving the customer a time | E3 morning honors a living obligation without treating work as a cure |
 | Empty recorder case left on counter | C2S3 placement, C3S2 departure | Mara takes the recorder loose in her bag | E3 collection and Sunday arrangement maintain actual object continuity |
 | Scrape and dressing | C6S2 | An unglamorous preparation mishap | The spreading mark has a cause |
@@ -285,6 +299,12 @@ Offer concise optional content information for sudden bereavement and drowning. 
 ## Story acceptance criteria
 
 The finished draft must pass these questions without outside explanation:
+
+- Is friendship their only established relationship until the common late admission?
+- Can a player name something they value about being friends beyond the possibility of romance?
+- Does each chapter carry a changing unresolved want or question without denying moments of relief?
+- Does the conscious Alice give her own late answer without a hidden score, recorded proof or ending gate?
+- Is it clear that E1 repeats an earlier friendship whose Alice lacks the final conversation?
 
 - Can a player explain what Alice wanted before she died?
 - Does Daniel have attractive qualities independent of his suffering?

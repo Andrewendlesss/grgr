@@ -1,12 +1,14 @@
 # What the Water Keeps — implementation architecture
 
-Version 1.3 · 22 September 2026 · Engineering proposal, not an implemented game
+Version 1.4 · 22 September 2026 · Engineering proposal, not an implemented game
 
 This document turns the authored design into a buildable first project for the user's confirmed **solo development and low-cash-cost approach**. Start with the chapter-one prototype and P02; expand a proven workflow across the remaining scenes. Specialist work is optional and purchased only for a bounded need. It does not require a custom game engine, a general-purpose quest editor, or a backend. The timing allocations in the design remain unverified.
 
 ## 1. Technical decisions and ownership
 
 The [current gameplay revision](12-gameplay-and-playtest-plan.md) changes authored evidence, feedback and bounded interaction choices. Retain this architecture. P02's existing transition manifest still owns its completion path and its separate ReleaseCatch/CollectClamp transactions. Read-only inspections and wrong-hypothesis responses must not grant effects. P01 diagnostic selections and P07 mix settings belong to each puzzle's existing local state. Reuse solved P11 data at P12 rather than requiring a second alignment puzzle. These are prospective content changes, not implemented reducers or verified save migrations.
+
+The v1.4 friendship pass changes authored content and two unshipped local reply names: retire `c3s1_kiss` / `c3s1_hand` in favor of `c3s1_stay` / `c3s1_walk`. Never reuse the retired names for a new romantic meaning. There is no released save format requiring a migration. The common C7S2 acknowledgment is ordinary sequential narrative after the limits are understood and before Turn around, the silent views, goodbye and C7S3. It is not a romance-unlocked flag or an ending prerequisite. A pre-choice replay checkpoint therefore already contains that conversation on every path. Resume through the existing narrative packet/checkpoint protocol; add no affection score, real-time tension meter or additional branch.
 
 The v1.3 additions use the same local-state contract: P03 captured-source set, ordered three-clip list and kept-version phase; P08 washer position, completed probes and experiment phase alongside the four existing rule flags; P09 selected viable route; P10 first approach and packing phase alongside the existing reply flags. Restore the selected arrangement or route, not a default that contradicts the following dialogue. Save a probe before acknowledging its result and erasure before presenting absence. Store P10's first approach separately from its later reply; neither creates a relationship score or ending gate. Validate these bounded values when converting the prose to runtime data; no implemented migration is claimed.
 

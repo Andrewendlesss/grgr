@@ -1,5 +1,5 @@
 # Continue on another computer
-Version 1.3 · 22 September 2026
+Version 1.4 · 22 September 2026
 
 ## Location of the work
 
@@ -20,7 +20,8 @@ For an existing checkout, inspect its current changes before switching; fetch th
 
 ## User instructions that carry forward
 
-- Keep expanding and improving the story and game design. The latest instruction is to continue planning, research engaging gameplay, and increase emotional variety: triumph, awe, warmth, sadness, nostalgia, melancholy, shock and surprise.
+- Keep expanding and improving the story and game design, with engaging play and emotional variety: triumph, awe, warmth, sadness, nostalgia, melancholy, shock and surprise.
+- **Latest direction: Alice and Daniel stay friends until the very end, when something can change; sustain tension throughout the game.** The v1.4 draft keeps them friends throughout life and most of the encounter, with the first mutual acknowledgment in common C7S2. This explicitly replaces the previous early romance and shared-flat canon. Tension develops through changing wants and uncertainty while successes and warmth retain room to land.
 - Keep an original dramatic voice with subtext, layered revelations and distinct characters. Do not put creative influence labels in the game or planning copy.
 - Start planning implementation.
 - **Solo developer; keep cash costs low.**
@@ -30,9 +31,15 @@ For an existing checkout, inspect its current changes before switching; fetch th
 
 ## What is complete
 
-The current v1.3 continuation strengthens the opening with a player-caused experiment, replaces four more low-value tasks (P03, P08, P09, P10), and sharpens Mara's recorder confrontation (P06). Alice's work excitement and Mara's practical support have more room. Both travel choices preserve the private reunion callback, and work-start/departure arithmetic is corrected. The [paper playtest pack](13-paper-playtest-pack.md) is prepared, with staged P02 cards, private facilitator instructions, blank records and scene questions.
+The current v1.4 continuation rewrites the actual relationship scenes. C3S1 offers chosen company without a kiss; C3S3 preserves shared triumph; C3S4 and C4S4 concern Alice's own room, a recording table and visits requested rather than assumed. The packing conflict remains a real friendship disagreement. C5S2 remains an ordinary lunch and unpreventable loss. C6S1's passive record concerns work and the pending room viewing, not proof of love.
 
-The v1.2 primary-source research (10), emotional contrast and six earlier interaction revisions remain. Documents 11 and 12 record and explain the current revisions; the canonical screenplays and game design already contain them. Do not apply the notes as another patch. Canon, ending meanings, the final sentence, 28 slots, 12 interactions, six kits and 14 main views are retained. The old hour ranges remain v1.1 estimates awaiting a targeted re-estimate.
+C7S2 now contains the first explicit mutual acknowledgment, initiated by conscious Alice after she understands the limits and refuses repeated awakening. The exact sequence is acknowledgment → Turn around / three silent empty views → common goodbye → loop offer → informed ending choice. All endings inherit the acknowledgment; it neither changes her preference nor earns exclusive affection in the fatal branch. The three ending passages and original final sentence remain unchanged.
+
+The new [friendship and tension plan](14-friendship-and-tension-plan.md) maps a want, question, turn and payoff across all 28 shared slots. The paper pack includes a prepared friendship/tension read. Earlier contradictory passages in revision history and recommendations are marked superseded. Retired unshipped C3S1 choice flags are documented in the architecture; no shipped migration exists.
+
+The earlier v1.3 continuation strengthens the opening with a player-caused experiment, replaces four more low-value tasks (P03, P08, P09, P10), and sharpens Mara's recorder confrontation (P06). Alice's work excitement and Mara's practical support have more room. Both travel choices preserve the private reunion callback, and work-start/departure arithmetic is corrected. The [paper playtest pack](13-paper-playtest-pack.md) is prepared, with staged P02 cards, private facilitator instructions, blank records and scene questions.
+
+The v1.2 primary-source research (10), emotional contrast and six earlier interaction revisions remain. Documents 11 and 12 record and explain the current revisions; the canonical screenplays and game design already contain them. Do not apply the notes as another patch. Apart from the explicitly replaced relationship premise, lake rules, ending meanings, the final sentence, 28 slots, 12 interactions, six kits and 14 main views are retained. The old hour ranges remain v1.1 estimates awaiting a targeted re-estimate.
 
 **No paper trial, table read or player test has been performed.** Research supports design hypotheses; it does not demonstrate this game is fun. This continuation changes planning and authored text only.
 
@@ -81,11 +88,21 @@ These are document and data checks. No executable game, device measurement, huma
 
 Whitespace checks passed. No build, audio audition, human table read or playtest has occurred.
 
+## Checks completed in the v1.4 continuation
+
+- Independently reviewed the rewritten friendship scenes, Alice's own room and pending viewing, proposed kettle loan, and practical visits. The fundraiser still ends in success; hesitation is not repeatedly interrupted by a convenient arrival.
+- Checked the late sequence: Alice understands the limits and refuses repeated awakening before initiating the mutual acknowledgment; that precedes Turn around, the silent views, goodbye and every ending choice. The passive recording never answers the romantic question.
+- Compared all three ending passages and the lunch collapse/emergency/aftermath against v1.3: those passages are byte-identical. The final sentence remains exact.
+- Checked all 28 shared screenplay IDs, all 28 rows of the new tension map, 12 interaction IDs, two Alice viewpoints, revised C3S1 reply names, job chronology and the private timetable callback.
+- Checked 75 local document links, whitespace, four JSON files' syntax and the 24-ticket dependency graph. The P02 manifest, schema and ending fixture remain unchanged; no new schema validation was needed for this prose revision. The retained first-sixteen estimate still sums to 77–125 hours and is not a new forecast.
+
+These are editorial and document/data checks. No human read, playtest, performance timing or emotional-impact result is claimed.
+
 ## Exact next actions
 
-1. Read the index, research summary, current screenplays, revision notes and gameplay plan. The v1.3 revisions are already integrated; continue this story rather than restarting its concept.
+1. Read the v1.4 index, bible, current screenplays and friendship/tension plan. The latest relationship revision is already integrated. Do not restore the early kiss, shared home or pre-finale mutual confession from historical notes.
 2. Use the ready P02 cards in document 13 for a current-condition trial when participants are arranged. Keep its answer key private. Establish whether people infer the changed-surface solution and whether the observation gate obstructs an already correct inference; resolve that before comparing clue orders. Record actual notes; five people would not establish market demand.
-3. Use document 13’s focused scene protocol, including P03 creation, Mara’s recorder exchange, both P08 probe orders, both travel choices and both packing approaches. Read the larger emotional sequence from the fundraiser through each ending in separate sessions. Test distinct voices, room for joy, knowledge order and the reset explanation.
+3. Use document 13’s prepared friendship/tension read and focused scene protocols. Test whether the bond matters as friendship, whether each hesitation has a different reason, and whether the late acknowledgment feels supported without being payment for the machine. Read the larger emotional sequence through each ending separately; preserve joy, knowledge order and the reset explanation.
 4. Revise the particular source of confusion or disengagement, then re-estimate affected tickets. Retain earned successes; do not add filler or new systems to increase length.
 5. When implementation begins, complete IMP-001 on the actual development host: tools, device route, weekly capacity and iOS feasibility. This session did not establish those facts.
 6. Prove an empty device build, then implement only C1S1–S4 and P02 under `game/WaterKeeps/`, preserving stable IDs and the combined save protocol.
@@ -105,4 +122,4 @@ Whitespace checks passed. No build, audio audition, human table read or playtest
 
 Recommended continuation prompt:
 
-> Continue from docs/alice-and-daniel/09-handoff.md on branch codex/alice-daniel-creative-direction. Read the integrated v1.3 scenes/gameplay specifications, primary-source research and prepared paper playtest pack. Keep the solo, low-cash scope and all ending invariants. Continue targeted story/gameplay improvements; use the prepared tests when participants are arranged, or execute the smallest opening prototype if implementation is now requested. Improve player inference, emotional contrast and character voice. Report only tests and builds actually performed.
+> Continue from docs/alice-and-daniel/09-handoff.md on branch codex/alice-daniel-creative-direction. Read the integrated v1.4 scenes, friendship/tension plan, gameplay specifications and prepared table-read/paper-test materials. Keep them friends throughout the lived past, with the first mutual acknowledgment in common C7S2 before all endings. Sustain changing tension and protect warmth and success. Keep the solo, low-cash scope and all ending invariants. Continue targeted story/gameplay improvements; use the prepared tests when participants are arranged, or execute the smallest opening prototype if implementation is now requested. Improve player inference, emotional contrast and character voice. Report only tests and builds actually performed.

@@ -1,6 +1,6 @@
 # What the Water Keeps
 ## Alice & Daniel — complete first-draft story and game plan
-Version 1.3 · 22 September 2026
+Version 1.4 · 22 September 2026
 
 **Recommended game:** a premium, mobile-first cinematic narrative puzzle adventure for Android and iOS, with Steam as a separately budgeted option.
 
@@ -13,7 +13,7 @@ Version 1.3 · 22 September 2026
 | [Story bible](01-story-bible.md) | The finished narrative direction, character lives, actual chronology, reveal order, supernatural rules, clue/payoff map, and ending contracts |
 | [Game design](02-game-design.md) | All 28 scene slots, all 12 interaction specifications, controls, accessibility, save/branch behavior, art/audio direction, and acceptance criteria |
 | [Screenplay: opening and endings](03a-screenplay-opening-and-endings.md) | Fully written chapter 1, chapters 6–7, the final encounter, and all three endings |
-| [Screenplay: chapters 2–5](03b-screenplay-chapters-2-5.md) | Fully written middle: friendship, romance, Alice's independent life, conflict, reconciliation, and the ordinary afternoon |
+| [Screenplay: chapters 2–5](03b-screenplay-chapters-2-5.md) | Fully written middle: friendship, unspoken attraction, Alice's independent life, conflict, repair, and the ordinary afternoon |
 | [Production and release plan](04-production-plan.md) | Prototype, staffing, assets, estimated workload/budget, platform research, release sequence, and immediate backlog |
 | [Narrative and performance guide](05-narrative-and-performance.md) | Revised relationship beats, subtext, acting, optional scenes and editorial decisions |
 | [Implementation architecture](06-implementation-architecture.md) | Unity/ink modules, content contracts, reflection rendering, transactional saves and test strategy |
@@ -25,6 +25,15 @@ Version 1.3 · 22 September 2026
 | [Story revision notes](11-story-and-scene-revisions.md) | Emotional contrast, reveal fairness, and changes integrated into the canonical screenplays |
 | [Gameplay and playtest plan](12-gameplay-and-playtest-plan.md) | Detailed puzzle revisions, player feedback, prototype comparisons and decision gates |
 | [Paper playtest and table-read pack](13-paper-playtest-pack.md) | Staged P02 cards, facilitator instructions, blank observation sheets and focused scene questions |
+| [Friendship and tension plan](14-friendship-and-tension-plan.md) | Revised relationship progression, all 28 scenes’ live questions and turns, late payoff and revision tests |
+
+## What changed in v1.4
+
+Alice and Daniel remain friends throughout their lived past. The bus-shelter kiss, dating premise and shared-flat plan are replaced by chosen company, attraction they have not named, and Alice's own prospective room near work. Daniel helps with her recording table; visits and work commitments require asking rather than assuming.
+
+Their first explicit mutual acknowledgment arrives in C7S2, after Alice understands the encounter's limits and before the silent empty views, shared goodbye and ending choice. She initiates it. Both can name what they wanted without claiming they know how an unlived relationship would have turned out. Every ending includes this exchange; it is not a reward for a puzzle, dialogue option or fatal commitment.
+
+The new scene map follows the live question and actual change in all 28 slots. Social uncertainty, practical conflict, discovery and difficult choices sustain interest; humor, friendship and success still receive genuine relief. Prepared table-read questions test whether that tension develops or merely repeats. These revisions have not been tested with readers.
 
 ## What changed in v1.3
 
@@ -44,19 +53,19 @@ The active goal is a story with a wider emotional range and play that rewards un
 - Research distinguishes empirical findings, developers' reported experience and our own design hypotheses. No source proves this unbuilt game is fun, addictive, or emotionally effective.
 - The next planning evidence is a paper puzzle trial and a table read, followed by the same small opening prototype when implementation begins. No additional chapter, cast member, environment kit or major runtime system is authorized by this revision.
 
-**Document precedence:** the bible owns story facts and ending meanings; the screenplay files own performed text; the game design owns puzzle outcomes; the detailed gameplay plan owns current interaction detail; the architecture owns runtime state and persistence. The paper pack tests the existing P02 contract without changing it. The research and revision notes explain decisions. Earlier exploratory alternatives do not override these documents.
+**Document precedence:** the bible owns story facts and ending meanings; the screenplay files own performed text; the game design owns puzzle outcomes; the detailed gameplay plan owns current interaction detail; the architecture owns runtime state and persistence. The paper pack tests the existing P02 contract without changing it; the friendship/tension plan tracks the current story across the same scene slots. The research and revision notes explain decisions. Earlier exploratory alternatives do not override these documents.
 
 **To read the story as a screenplay:** read chapter 1 in the opening/endings file, then chapters 2–5 in the middle file, then return to chapters 6–7 and select an ending. Every scene is authored; no unwritten scene outline stands in for the middle.
 
 ## The premise
 
-Daniel keeps things: receipts, distances, broken radios, promises. At thirteen, he finds Alice crying at the end of the dock. He throws a stone through her reflection. She calls it a bad throw. Their life together begins with a radio that only sometimes works.
+Daniel keeps things: receipts, distances, broken radios, promises. At thirteen, he finds Alice crying at the end of the dock. He throws a stone through her reflection. She calls it a bad throw. Their friendship begins with a radio that only sometimes works.
 
 Years later, Alice dies while asking him to pass something across the lunch table.
 
-At thirty-four, Daniel has built a machine that can stabilize the lake's impressions of the past. To complete it, the player returns to familiar places and discovers a relationship that was larger, less perfect, and more alive than his notebook can contain. Alice wanted work, independence, him, and an apartment with a usable bedroom door. Those desires did not resolve into a lesson before she died.
+At thirty-four, Daniel has built a machine that can stabilize the lake's impressions of the past. To complete it, the player returns to familiar places and discovers a relationship that was larger, less perfect, and more alive than his notebook can contain. Alice wanted work, a room of her own, and a friendship that could survive changing lives. Attraction made some ordinary questions harder to ask. They never became a couple during her life.
 
-The machine reaches her. She can answer a new question. She remembers something he never knew.
+The machine reaches her. She can answer a new question. She remembers something he never knew. Near the final goodbye, they finally name the romantic possibility they left unspoken.
 
 She cannot come home.
 
@@ -71,7 +80,7 @@ The ledger remains useful. Letting go does not require deleting photographs or p
 ## What is now fixed
 
 - Alice is human, has professional ambitions, and receives two scenes in which Daniel is absent.
-- Their friendship starts at thirteen; romance develops later. They have affection, an actual disagreement, and a credible reconciliation.
+- Their friendship starts at thirteen and continues through their lived past. They have affection, unresolved attraction, an actual disagreement and credible repair. The first mutual acknowledgment belongs to the common C7S2 finale; there is no earlier kiss, dating phase or shared home.
 - Daniel chooses to be present during her last afternoon. Her sudden death is not caused by his work, a dialogue mistake, or the lake.
 - The machine succeeds. Responsive Alice is a conscious continuation of her last preserved person-state, independent of Daniel's knowledge.
 - Stored traces are unconscious records. New experiences persist during one active encounter but do not rewrite the stored state. Repeated activation would begin with the same Alice learning what happened again.
@@ -112,7 +121,7 @@ The initial three-to-four-hour recommendation was an early envelope. The written
 
 Build a fifteen-to-twenty-minute prototype first: the adult receiver, the dock meeting, one ordinary interaction, a return to the changed place, and a complete reflection puzzle. Test whether people understand the rules and want to spend more time with these characters.
 
-The retained v1.1 solo prototype backlog estimates 77–125 focused hours before a 20% reserve, roughly 92–150 hours total. These are not a fresh estimate of the v1.2/v1.3 revisions; recheck affected tickets after the paper trial. Calendar time depends on actual weekly capacity. Start with temporary art, text-led dialogue and local builds. Proposed optional cash caps are $150 for the initial proof and $150–$600 total for the audience slice, excluding new hardware, store enrollment and personal labor; no spending has been approved or performed. The old $324,000 paid-team model is retained only as a comparison, not the current recommendation.
+The retained v1.1 solo prototype backlog estimates 77–125 focused hours before a 20% reserve, roughly 92–150 hours total. These are not a fresh estimate of the v1.2–v1.4 revisions; recheck affected tickets after the paper trial. Calendar time depends on actual weekly capacity. Start with temporary art, text-led dialogue and local builds. Proposed optional cash caps are $150 for the initial proof and $150–$600 total for the audience slice, excluding new hardware, store enrollment and personal labor; no spending has been approved or performed. The old $324,000 paid-team model is retained only as a comparison, not the current recommendation.
 
 Engine, store, and SDK facts are sourced and dated in the production plan. Final device minimums, vendor quotes, localization languages, title clearance, and verified runtime remain production decisions; the central story and ending rules are specified.
 

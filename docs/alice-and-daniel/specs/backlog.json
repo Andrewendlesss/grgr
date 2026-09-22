@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "planVersion": "1.3",
+  "planVersion": "1.4",
   "status": "planning_only",
   "currency": "USD",
   "timeUnit": "focused_hours",
@@ -369,7 +369,8 @@
       "effortHours": null,
       "owner": "solo_developer",
       "acceptance": [
-        "Chapters complete with reused systems and external observations."
+        "Chapters complete with reused systems and external observations.",
+        "Use friendship-only lived-past scenes and c3s1_stay/c3s1_walk; preserve the fundraiser success without an early kiss or declared romance."
       ]
     },
     {
@@ -383,7 +384,8 @@
       "effortHours": null,
       "owner": "solo_developer",
       "acceptance": [
-        "Chapters complete without one-off general frameworks."
+        "Chapters complete without one-off general frameworks.",
+        "Keep Alice’s own prospective room and asked-for visits; the shop kettle is a proposed loan, not shared household property. Preserve the unpreventable lunch death."
       ]
     },
     {
@@ -398,7 +400,8 @@
       "effortHours": null,
       "owner": "solo_developer",
       "acceptance": [
-        "Full start-to-ending alpha works for all three outcomes."
+        "Full start-to-ending alpha works for all three outcomes.",
+        "Every ending follows the common C7S2 mutual acknowledgment, after Alice knows the limits and before Turn around, silent views and goodbye. Her preference against repeated activation remains intact; no romantic score or fatal choice earns the exchange."
       ]
     },
     {
@@ -416,5 +419,5 @@
       ]
     }
   ],
-  "estimateBasis": "Effort ranges retained from planning 1.1; re-estimate affected opening tickets after the prepared 1.3 paper puzzle trial. The 1.2/1.3 content changes are not re-estimated. No playtest or build has occurred."
+  "estimateBasis": "Effort ranges retained from planning 1.1; re-estimate affected tickets after the prepared paper trial and scene read. The 1.2–1.4 gameplay and relationship revisions are not re-estimated. No playtest or build has occurred."
 }

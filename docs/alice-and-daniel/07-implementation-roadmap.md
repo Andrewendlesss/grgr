@@ -1,5 +1,5 @@
 # Implementation roadmap — solo, low cash
-Version 1.3 · 22 September 2026 · Planning, not a built game
+Version 1.4 · 22 September 2026 · Planning, not a built game
 
 The user has chosen a solo developer with low cash costs. This is the active delivery path. The larger paid-team scenarios in the production plan are comparisons, not the recommended commitment.
 
@@ -37,7 +37,7 @@ Use a current supported patch within the selected LTS line after checking packag
 
 The ticket estimates below assume basic C# competence and unfamiliarity with at least some engine APIs. They are engineering/design/art working hours, not uninterrupted calendar hours and not contractor quotes.
 
-The first sixteen tickets retain their v1.1 estimate of **77–125 focused hours**, before a **20% reserve**, approximately **92–150 hours**. This is not a revised estimate for the v1.2/v1.3 opening, feedback and puzzle changes. After the paper trial, re-estimate IMP-008, IMP-009, IMP-011 and IMP-016; include trial preparation and observation time rather than treating it as free. At the old estimate, fifteen hours a week implied roughly seven to ten weeks and ten hours a week roughly ten to fifteen weeks. A beginner may need an additional learning block before these estimates become useful.
+The first sixteen tickets retain their v1.1 estimate of **77–125 focused hours**, before a **20% reserve**, approximately **92–150 hours**. This is not a revised estimate for the v1.2–v1.4 opening, feedback, puzzle and story changes. After the paper trial, re-estimate IMP-008, IMP-009, IMP-011 and IMP-016; include trial preparation and observation time rather than treating it as free. At the old estimate, fifteen hours a week implied roughly seven to ten weeks and ten hours a week roughly ten to fifteen weeks. A beginner may need an additional learning block before these estimates become useful.
 
 An eight-week board is an organizational starting point, not a promise that the upper estimate fits into eight weeks. Review it after the first ten tracked hours.
 
@@ -166,6 +166,8 @@ Use development copies of saves; never run corruption tests against a user's onl
 
 The full ending cases belong to IMP-019; early tickets only build the transaction foundation. This prevents a final-scene feature set from blocking the first dock test.
 
+The v1.4 chapter-integration criteria retain friendship throughout the lived past, replace the unshipped C3S1 reply names, and put the first mutual acknowledgment in common C7S2 before all endings. IMP-021/022 must not restore the superseded kiss, couple staging or shared flat. IMP-023 must preserve Alice's informed preference against reactivation after the acknowledgment. Use document 14's scene questions and document 13's prepared read; tension is authored motivation and uncertainty, not a new runtime system.
+
 ## 10. Critical path and stop conditions
 
 The shortest useful path is tool/device boot → content import → input/dialogue → authorized state changes → combined save → reflection → complete opening → interruption checks → outside players. Art polish is not allowed to block that path.
@@ -176,7 +178,7 @@ Stop adding content and resolve the specific cause if:
 - Narrative and world state disagree after resume.
 - Players cannot distinguish an authored past scene from an active lake reflection.
 - P02 is solved only by random tapping or the hint that performs everything.
-- Players describe Alice only as “the dead girlfriend.”
+- Players describe Alice only as the person Daniel lost, without recognizing her friendship, work or independent wants.
 - A single representative shot takes so long that the full asset forecast exceeds available capacity.
 
 The response to the last condition is a presentation revision: fewer angles, fewer poses, shorter bespoke animations, more existing props. Preserve the narrative essentials and all three endings.

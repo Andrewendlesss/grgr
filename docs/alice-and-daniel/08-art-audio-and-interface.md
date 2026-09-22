@@ -1,9 +1,15 @@
 # Art, sound and interface direction — solo edition
-Version 1.3 · 22 September 2026
+Version 1.4 · 22 September 2026
 
 This is the production-facing visual and audio specification. It describes assets to make, not finished art. The active resource constraint is one developer with low cash costs. The aim is a coherent, expressive illustrated game with a few memorable temporal images.
 
-## v1.3 changes within the existing asset plan
+## Current changes within the existing asset plan
+
+For v1.4, stage the lived-past relationship as friendship with attraction. Remove the first-kiss insert, romantic couple poses and shared-home dressing. Reuse the shelter food, recorder and waiting poses for chosen time together; the breakfast sketch belongs to Alice's prospective room and folding recording table. No new room painting is required. Their first mutual acknowledgment occurs before Turn around and the three silent empty shots in C7S2, on the shared route before all ending previews. It needs a clear shared composition and a response, not a new kiss animation.
+
+Keep visual tension specific: a held tool waiting to be accepted, a booking page in Daniel's handwriting, or someone deciding to sit back down. Do not repeat an almost-kiss pose or ominous musical interruption across warm scenes. Let the fundraiser victory and ordinary jokes complete. [The scene tension map](14-friendship-and-tension-plan.md) identifies what changes during each quiet beat.
+
+Retained v1.3 requirements:
 
 C1S1 needs separate readable source and receiver indicators: the source track is running, the player stops it, the lake's bell continues, and Return ends that observation. Captions carry the full distinction when muted. Use the existing receiver detail and the shop-bell recording; the later three pulses are an apparatus cue, not another observed bell. Stop playback and Return must remain visually distinct at the largest text size.
 
@@ -54,7 +60,7 @@ The solo baseline replaces the earlier 24–30-view allowance. A view is a reusa
 | Flat: F01 table/door, F02 desk/window | 2 | Breakfast, argument, death, retirement papers, writing and morning |
 | Boathouse: B01 bay, B02 immersed station, B03 control detail | 3 | Winch, washer test, preparation and culmination |
 | Path: T01 measuring tree, T02 rise/path | 2 | Childhood game, anchors and two final empty frames |
-| Bus shelter: U01 approach/wide, U02 seated pair | 2 | First kiss, job decision and reconciliation |
+| Bus shelter: U01 approach/wide, U02 seated pair | 2 | Chosen time together, job decision and friendship repair |
 
 A detail insert can crop an existing painting or use a reusable prop overlay. It does not automatically authorize a new background. Log every requested new camera before drawing it.
 
@@ -95,7 +101,7 @@ The three final empty shots have locked frame references: D02, T01 and T02. Thei
 
 For the collapse, use the interrupted sentence, hand and chair, Daniel's response, and the call for help. The camera stays with his action; the scene needs no detailed body simulation. Shortened-content mode uses an earlier cut without changing what happened.
 
-The fatal hand contact is a small physical event, not the most lavishly animated romantic scene. Give the shared encounter and the return branch equally specific expressions of affection.
+The fatal hand contact is a small physical event, not the most lavishly animated romantic scene. Mutual feelings have already been acknowledged on the shared route. Do not add a branch-only first confession, kiss or promise of reunion to the fatal contact. Give the shared encounter and the return branch equally specific expressions of affection.
 
 ## 6. Reflection staging
 

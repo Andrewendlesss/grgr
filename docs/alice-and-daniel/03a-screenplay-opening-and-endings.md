@@ -1,5 +1,5 @@
 # What the Water Keeps — screenplay, chapters 1, 6 and 7
-Version 1.3 · Authored development draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
+Version 1.4 · Authored development draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
 
 All principal dialogue for these scenes is written below. Direction describes playable action rather than extra narration. The separate game design specifies puzzle solutions and assistance. Scene IDs are stable; local choices reconverge. Bracketed stage directions are not spoken. This is a script for production development, not a claim that performances, timing, or animation have been tested.
 
@@ -262,23 +262,23 @@ The distant bus disappears. She waits for a cleaner take.
 
 She records a practical note to herself.
 
-ALICE: Flat. Ask about the north room. Don't say it's fine before you've heard it with the window open.
+ALICE: Room viewing. Window open before I say yes. A quiet street doesn't mean a quiet room.
 
 She stops, considers, starts recording again.
 
-ALICE: And ask Daniel about the table. He doesn't have to like that one.
+ALICE: Table. Ask Daniel to draw it lower before he cuts anything.
 
 She puts the recorder away. Her phone lights up; she reads a message and smiles. We do not zoom in on private text as though the player has earned unrestricted access.
 
 She steps off the wet landing. The trace reaches its end.
 
-DANIEL: I liked the table.
+DANIEL: I'd only drawn it.
 
 He says it to a place where no one can answer.
 
 The player releases the image. The last-morning anchor is now identified. Daniel's ledger labels it MORNING, then adds BEFORE LUNCH.
 
-No blood, warning symptom, or mysterious interruption appears in this scene.
+Her note concerns her own prospective room and a table Daniel is helping make. They are friends; no shared tenancy is proposed. The passive record does not confirm attraction or answer an unasked personal question. No blood, warning symptom, or mysterious interruption appears in this scene.
 
 ### C6S2 — Preparations
 Present night. Boathouse, loading bay, and the real shallows.
@@ -417,7 +417,7 @@ DANIEL: I was there.
 
 She sits. He looks automatically for somewhere drier, then stops: comfort is not a chair he can fetch from the other layer.
 
-ALICE: Did we get the flat?
+ALICE: Did I ever see the room?
 
 DANIEL: No.
 
@@ -453,7 +453,7 @@ A small exhalation. It is the first familiar judgment she has been able to make.
 
 ALICE: Tell me something I know.
 
-The player may ask about a shared memory or the plan for the flat. Neither is a quiz, a relationship test, or a branch gate.
+The player may ask about a shared memory or the table for her room. Neither is a quiz, a relationship test, or a branch gate.
 
 **Shared-memory option:**
 
@@ -475,21 +475,27 @@ DANIEL: You were.
 
 Let her take credit. Do not follow the exchange with a modest denial or another wound.
 
-**Future-plan option:**
+**Table option:**
 
-DANIEL: You were going to ask me about the table.
+DANIEL: You were going to ask me to draw it lower.
 
-ALICE: I was hoping you'd say you hated it.
+ALICE: Yes.
 
-DANIEL: I didn't.
+DANIEL: I hadn't cut anything.
 
-ALICE: I know. That was the problem.
+ALICE: You looked so pleased with the drawing.
 
-He laughs. She smiles back, pleased to have found him for a moment.
+DANIEL: You'd have had to stand up to edit.
 
-DANIEL: You could have told me.
+ALICE: I was going to tell you before it got that far.
 
-ALICE: Apparently I was going to spend breakfast asking about doors instead.
+He laughs once. She smiles, relieved to have found a familiar disagreement with an ordinary answer.
+
+DANIEL: I'd have changed it.
+
+ALICE: I know.
+
+This is help with a friend's work, not a recovered domestic plan. The small exchange cannot answer whether either wanted the friendship to change.
 
 **Both return to:**
 
@@ -534,31 +540,35 @@ Daniel has the damp outline of his notebook against his knee. Alice notices the 
 
 ALICE: What were you going to ask?
 
-DANIEL: Whether you were looking forward to the flat.
+DANIEL: Did I make it difficult? Leaving.
 
 ALICE: Yes.
 
-DANIEL: To all of it?
+He accepts the answer without looking for a qualification.
 
-She studies him before answering.
+DANIEL: Even after we talked?
 
-ALICE: I don't know what you're asking me to promise.
+ALICE: Less. You started asking.
 
-DANIEL: That we'd have managed.
+DANIEL: I was trying.
 
-ALICE: We hadn't tried it.
+ALICE: I know. That counted.
 
-He looks at the notebook, then closes it. No perfect answer is being withheld somewhere in her memory.
+He closes the notebook. She does not owe him a version of the past in which neither hurt the other.
 
-ALICE: I wanted the job. I wanted you. I was looking forward to complaining about that room together.
+DANIEL: I thought if I got the table right—
 
-DANIEL: I'd have fixed the window.
+ALICE: Then I'd have a table that fit.
 
-ALICE: You'd have asked first.
+A small smile. The help was real; it did not settle everything around it.
 
-DANIEL: Yes.
+ALICE: I wanted that room. I wanted to be good at the work. I wanted you to come and see it.
 
-She believes him. This is a small credible change from the packing argument, not a guarantee their unwritten life would have been painless.
+DANIEL: Once you had the shifts.
+
+ALICE: Yes. On a day that worked for you too.
+
+No shared household is implied. They had repaired a friendship and planned to make room for each other's lives. Neither can promise how that future would have turned out. Their unspoken attraction remains unconfirmed here.
 
 DANIEL: I could go back. The records would still be here. I could come again.
 
@@ -720,6 +730,50 @@ ALICE: You did.
 He shakes his head, not disputing the machine's success.
 
 DANIEL: I don't know what to do with it.
+
+Alice keeps looking at him. There is one thing she can choose to tell him that no recording has supplied.
+
+ALICE: When I came back. You asked what I wanted.
+
+DANIEL: The room. More work.
+
+ALICE: I left something out.
+
+He waits. No dialogue option guesses her answer or earns it.
+
+ALICE: I wanted to ask you out.
+
+Daniel looks at her as though he has misheard an ordinary word.
+
+DANIEL: You did?
+
+ALICE: Yes.
+
+DANIEL: I thought we were finally all right.
+
+ALICE: We were.
+
+DANIEL: I wanted to ask you too.
+
+He lets the admission stand before trying to account for it.
+
+DANIEL: I was scared it would sound like another plan I'd made for you.
+
+ALICE: You could have asked. I could have.
+
+She lets that be true of both of them. Neither accuses the other of wasting the friendship; it was a life they valued, not a mistake corrected by this admission.
+
+DANIEL: Would it have worked?
+
+ALICE: I don't know.
+
+She looks at his older face. The missing years cannot be made small by the answer she has just given.
+
+ALICE: I wanted to find out.
+
+They look at each other without reaching again. For a moment neither is guessing. Let relief appear in their faces and remain there alongside the loss. Do not turn it immediately into another test or an argument.
+
+This is their first explicit mutual acknowledgment, in the final shared scene. Alice speaks for her own wish after the friendship repair; she does not declare that every earlier kindness was a concealed advance or promise a future she cannot know. She already understands her death, reset and the safe route back. Her disclosure is not repayment for the machine and does not change her preference against repeated awakening. Every ending follows this same exchange; no affection score or fatal choice unlocks it. Their failed touch remains failed here.
 
 She studies him, then the shore behind him.
 
