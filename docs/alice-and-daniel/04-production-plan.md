@@ -1,6 +1,8 @@
 # What the Water Keeps — production and release plan
 
-**Planning baseline: 22 September 2026.** This document describes work to commission and build; it does not claim a playable game exists. Estimates are illustrative USD planning assumptions, not supplier quotations, sales forecasts, or a funded schedule. Re-estimate after the prototype. Platform facts were checked against the official sources linked below and must be checked again before submission.
+**Version 1.1 · Planning baseline: 22 September 2026.** The user has selected **solo development with low cash costs**. The active plan is the [solo implementation roadmap](07-implementation-roadmap.md), with the reduced [art/audio scope](08-art-audio-and-interface.md). Paid-team estimates below are retained as comparisons, not required spending or the recommended schedule. No game build or purchased services are claimed. Estimates are illustrative assumptions; platform facts are dated and need submission-time rechecks.
+
+The active first milestone is a Windows/Android proof with temporary art and text-led dialogue. Its sixteen tickets total 77–125 focused hours plus 20% reserve; budget roughly 92–150 hours before converting to the user's real weekly capacity. Proposed optional cash cap is$150 for the initial proof and$150–$600 total for the audience slice, excluding new hardware, store enrollment and developer labor. These are planning limits to discuss before spending, not purchase authorization. Verify iOS through a borrowed/available Mac and iPhone at IMP-018 before committing to iOS production. No mandatory paid cloud, full voice cast or final-art order belongs in the proof.
 
 ## 1. The product to build
 
@@ -30,9 +32,9 @@ Exclude free exploration of a large town, procedural memory generation, multipla
 
 ## 2. Technical recommendation
 
-Use **Unity 6.3 LTS, C#, URP, and ink**, subject to a successful Android/iOS export in the first week. Unity lists 6.3 LTS support through December 2027. A fifteen-month schedule beginning near this plan's date puts release near that expiry and support beyond it, so migration to an appropriate supported release is a funded prerequisite for beta completion. Pin exact editor/package versions after the slice and maintain a separate upgrade branch. [Unity release support](https://unity.com/releases/unity-6/support).
+Use **Unity 6.3 LTS, C#, URP, and ink**, with a provisional exact version pin after the first Android/Windows build. Confirm or revise at the iOS feasibility checkpoint. Unity lists 6.3 LTS support through December 2027; a long solo production must explicitly allow supported-version migration before release. Recheck compatibility at the representative-slice gate. [Unity release support](https://unity.com/releases/unity-6/support).
 
-Reserve **one person-month from the existing fourteen engineer person-months** for engine/SDK migration, dependency updates, save compatibility, and device validation; this is not an extra unpriced task. Regression coordination remains within the existing five producer/QA person-months and external QA allowance. At alpha, select and test a supported release against then-current Apple/Google submission requirements; beta cannot exit until signed mobile builds, narrative saves, reflection rendering, and the device matrix pass. If migration exceeds the reservation, revise the schedule and contingency openly before promising a release date.
+For the active solo plan, estimate engine/SDK migration after the export proof and reserve explicit capacity at IMP-020; it is not hidden free work. The comparison paid-team model below reserves one of its fourteen engineer person-months, with regression inside its existing QA allowance. In either path, beta requires supported signed builds, narrative-save compatibility and device checks. Revise dates if migration exceeds the allowance.
 
 URP supports mobile and desktop rendering; ink provides a maintained authoring workflow and an official Unity integration under the MIT license. These fit authored cameras, a small narrative state graph, and a writer who needs to test conversations separately from art. This is a project-specific recommendation, not a claim that another engine cannot work. [Unity URP overview](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/urp-introduction.html), [inkle's ink tools](https://www.inklestudios.com/ink/).
 
@@ -53,24 +55,24 @@ These are estimating units. A background variant reuses geometry/composition but
 | Asset group | Initial estimate | Reuse/control |
 | --- | --- | --- |
 | Environment sets | 6 | Shared geography across ages |
-| Framed scene views | 24–30 | Approximately 4–5 per set |
-| Additional era/weather treatments | 18–24 | Overlays and dressing; not new sets |
+| Framed scene views | 14 | Reusable compositions specified in document 08 |
+| Additional era/weather treatments | 12–16 | Overlays and dressing; not new sets |
 | Character designs | 5 principals, about 12 age/costume looks | Shared rigs where proportions permit |
-| Animation clips | 35–50 reusable, 12–18 scene-specific | Posture and hands before lip sync |
+| Poses / bespoke transitions | 30–45 reusable pose cards; 6–8 important inserts | Text-led performance; no full facial-animation library |
 | Interactive props | 45–60 | Include ledger, recorder, machine pieces |
 | Substantial interaction packages | 12 | Each includes clues, assistance, audio, save state |
 | Everyday gesture beats | 15–20 | Use existing objects and input grammar |
 | UI families | 8 | Dialogue, ledger, pause, settings, recap, hints, chapters, credits |
 | Sound effects | 100–140 edited cues/variants | Foley libraries plus signature recordings |
 | Ambience | 12–18 loops/layers | Distinguish eras without relying on color |
-| Score | 25–35 original minutes, reused in stems | Silence is an authored state |
+| Score | 8–12 original minutes across 3–4 themes | Reuse and silence; temporary audio first |
 | Marketing | 1 key art family, icon, 8 screenshots, 2 trailers | Actual game footage |
 
 Each asset ticket records its scene IDs, owner, dependencies, estimated days, platform memory cost, and review state. A location is finished only when its interaction, audio, subtitles, accessibility presentation, and resume behavior work on a phone.
 
 ## 4. Prototype: the first 15–20 minutes
 
-Allow six to eight weeks with an engineer, a part-time artist, and a writer/designer. This is included in the schedules below. Use temporary art except one representative dock shot and one polished transition; no final voice recording yet.
+Use the solo roadmap's 92–150 hour planning range including reserve, then convert against actual weekly availability. An eight-block board organizes the work but is not a guaranteed eight-week deadline. Use temporary art; polish one short subsection only after the interaction works. No final voice recording yet.
 
 | Play time | Beat | What it must demonstrate |
 | --- | --- | --- |
@@ -90,7 +92,7 @@ If comprehension fails, simplify the interaction. If attachment fails, rewrite t
 
 ## 5. People, ownership, and schedule
 
-For the recommended small-team scenario, allow **36 person-months across approximately 15 months to launch and two months of support**, an average of 2.1 full-time equivalents across the full period. Reserve two engineer person-months for that support period; production staffing peaks higher. People may combine roles, but every decision still needs an owner.
+The active owner is one developer; the full release date will be re-estimated from the first slice's measured work. The following retained **paid-team comparison** assumes 36 person-months across about 15 months to launch and two months of support. It does not fit the user's chosen cash strategy without funding and is not the current schedule. It illustrates compensated labor that self-development replaces with personal time.
 
 | Responsibility | Effort allowance | Accountable for |
 | --- | --- | --- |
@@ -122,7 +124,7 @@ The following budgets assume commercial ownership of commissioned assets and com
 | Scenario | Labor calculation | External services/tools | 20% contingency | Illustrative total |
 | --- | --- | --- | --- | --- |
 | Founder-led | 30 person-months × $4,000 = $120,000 | $30,000 | $30,000 | **$180,000** |
-| Recommended small team | 36 × $6,000 = $216,000 | $54,000 | $54,000 | **$324,000** |
+| Paid-team comparison, not current recommendation | 36 × $6,000 = $216,000 | $54,000 | $54,000 | **$324,000** |
 
 For the $54,000 external allowance, provision $14,000 for audio/music, $6,000 for selective voice, $10,000 for two translated text languages plus review, $8,000 for external QA/accessibility testing, $6,000 for devices/tools/build services, $6,000 for trailers/key art/launch services, and $4,000 for administration, contracts, and platform accounts. These are allocation placeholders, not statements that vendors will accept these prices.
 

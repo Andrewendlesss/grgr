@@ -1,10 +1,10 @@
 # What the Water Keeps
 ## Alice & Daniel — complete first-draft story and game plan
-Version 1.0 · 22 September 2026
+Version 1.1 · 22 September 2026
 
 **Recommended game:** a premium, mobile-first cinematic narrative puzzle adventure for Android and iOS, with Steam as a separately budgeted option.
 
-**Status:** the complete authored planning package and first-draft screenplay are written. The game has not been built or playtested. The title is a working title. This package supersedes exploratory alternatives from the initial recommendations.
+**Status:** expanded story draft and implementation planning package. The confirmed resource constraint is **one developer, low cash costs**. The game has not been built or playtested. The title is a working title. This package supersedes exploratory alternatives from the initial recommendations. To continue on another computer, start with [the handoff](09-handoff.md).
 
 ## Start here
 
@@ -15,6 +15,12 @@ Version 1.0 · 22 September 2026
 | [Screenplay: opening and endings](03a-screenplay-opening-and-endings.md) | Fully written chapter 1, chapters 6–7, the final encounter, and all three endings |
 | [Screenplay: chapters 2–5](03b-screenplay-chapters-2-5.md) | Fully written middle: friendship, romance, Alice's independent life, conflict, reconciliation, and the ordinary afternoon |
 | [Production and release plan](04-production-plan.md) | Prototype, staffing, assets, estimated workload/budget, platform research, release sequence, and immediate backlog |
+| [Narrative and performance guide](05-narrative-and-performance.md) | Revised relationship beats, subtext, acting, optional scenes and editorial decisions |
+| [Implementation architecture](06-implementation-architecture.md) | Unity/ink modules, content contracts, reflection rendering, transactional saves and test strategy |
+| [Solo implementation roadmap](07-implementation-roadmap.md) | 24 dependency-ordered tickets, first opening prototype, effort ranges and decision gates |
+| [Art, audio and interface specification](08-art-audio-and-interface.md) | 14 main views, reused poses, palette, cue map, controls and low-cash asset workflow |
+| [Planning data examples](specs/README.md) | P02 manifest and schema, ending contract, and machine-readable backlog |
+| [Cross-computer handoff](09-handoff.md) | Repository branch, completed work, known limitations and exact next steps |
 
 **To read the story as a screenplay:** read chapter 1 in the opening/endings file, then chapters 2–5 in the middle file, then return to chapters 6–7 and select an ending. Every scene is authored; no unwritten scene outline stands in for the middle.
 
@@ -69,7 +75,7 @@ The endings are not achievement tiers. The thematic resolution is going on, but 
 | Structure | Seven chapters; 28 shared scene slots; three variants of the final slot |
 | Locations | Six reusable environment kits across multiple ages |
 | Cast | Five principal characters, plus incidental non-principal roles |
-| Interactions | Twelve specified sequences, including four substantial lake/machine systems |
+| Interactions | Twelve specified sequences, including five that use lake/machine reflections |
 | Branching | Local dialogue variation and three final commitments |
 | Alice viewpoint | Two objective scenes, not Daniel's recollections |
 | Purchase | One purchase includes the full story and all endings |
@@ -82,7 +88,7 @@ The initial three-to-four-hour recommendation was an early envelope. The written
 
 Build a fifteen-to-twenty-minute prototype first: the adult receiver, the dock meeting, one ordinary interaction, a return to the changed place, and a complete reflection puzzle. Test whether people understand the rules and want to spend more time with these characters.
 
-The plan includes an illustrative small-team scenario of approximately fifteen months to launch plus two months of support, and a fully compensated planning budget of $324,000. A founder-led scenario is also modeled. These are transparent workload/rate assumptions, not quotes, funding requirements for a prototype, or promises that this game will recoup its cost. The exact cash plan depends on who does the work and which services are commissioned.
+The active solo prototype backlog estimates77–125focused hours before a 20% reserve, roughly 92–150 hours total. Calendar time depends on actual weekly capacity. Start with temporary art, text-led dialogue and local builds. Proposed optional cash caps are $150 for the initial proof and $150–$600 total for the audience slice, excluding new hardware, store enrollment and personal labor; no spending has been approved or performed. The old $324,000 paid-team model is retained only as a comparison, not the current recommendation.
 
 Engine, store, and SDK facts are sourced and dated in the production plan. Final device minimums, vendor quotes, localization languages, title clearance, and verified runtime remain production decisions; the central story and ending rules are specified.
 
@@ -100,4 +106,3 @@ The drafting review checked:
 - Proposed runtime against the amount of authored material, without presenting untested timing as a fact.
 
 This is a complete first draft suitable for a table read and prototype. Read-throughs, reader feedback, and device testing are expected to improve its execution; “complete” does not mean proven or beyond revision.
-

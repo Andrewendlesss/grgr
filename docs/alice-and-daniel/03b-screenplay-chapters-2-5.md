@@ -1,5 +1,5 @@
 # What the Water Keeps
-## Complete first-draft screenplay · Chapters 2–5
+## Complete screenplay development draft · Chapters 2–5 · Version 1.1
 
 **Draft status:** Complete authored draft for table reading and prototyping. Scene IDs and required events are fixed; performance and interaction durations need playtesting.
 
@@ -19,11 +19,11 @@ A portable recorder lies between two mugs. Alice holds a spoon above a baking tr
 
 ALICE: Don't breathe for a second.
 
-MARA: I've paid for the breathing room.
+Mara lets the strip of parcel tape hang from her fingers. She waits.
 
 ALICE: It's for the spaceship.
 
-MARA: Naturally.
+MARA: Ready.
 
 Alice drops the spoon. A disappointingly small clink.
 
@@ -55,9 +55,11 @@ MARA: Oh. That's good.
 
 ALICE: You sound surprised.
 
-MARA: You were hitting a spoon against things.
+MARA: I didn't know what you were making.
 
-ALICE: There was development.
+ALICE: There's meant to be a landing. At the end.
+
+Mara leans closer to the speaker. Alice leaves it playing, pleased without having to ask again.
 
 Mara reaches for a box marked SCHOOL. Alice turns it away with her foot.
 
@@ -149,6 +151,22 @@ DANIEL: That's what I was leaving.
 
 Jonah measures it without comment. He nudges the marker closer to the correct landing spot when Alice, trying to help, puts it too far away.
 
+DANIEL: Just one more.
+
+Alice looks for another flat stone. Say the line as an ordinary request to continue the game; the finale will reuse this exact recording, without a sinister new performance.
+
+**Optional inspection — tangled tape; single-use, no narrative-choice flag or reward.** Before the call from Ruth, inspecting the tape plays:
+
+ALICE: You've stood on it.
+
+DANIEL: Oh.
+
+He lifts his foot. They try winding from opposite ends, stop, and pass one end back. Jonah waits with a hand out for the case.
+
+JONAH: I'll hold it. You turn.
+
+They finish together. This can be staged with the tape prop and held character poses; no special animation is required for the text prototype.
+
 Ruth appears on the rise with a tea towel over her shoulder. She waves once, firmly.
 
 RUTH: Food!
@@ -219,15 +237,15 @@ If question:
 
 DANIEL: What do you need it for?
 
-MARA: Recording things.
+MARA: Mum's telling me about the move. Apparently I've had the boxes wrong all this time.
 
-DANIEL: Sorry. That sounded—
+DANIEL: You've started?
 
-MARA: It sounded like I needed an appointment with my own recorder.
+MARA: On my phone. I'd like to use mine.
 
 DANIEL: You don't.
 
-**Reconverge:** Daniel opens the wrong drawer, then the right one. The case contains an old service slip.
+**Reconverge:** Daniel opens the wrong drawer, then the right one. The case contains an old service slip. Mara moves the case to the counter to make room for the recorder; this is the case she will leave behind, not the device itself.
 
 DANIEL: Let me check which card goes with it.
 
@@ -247,11 +265,21 @@ JONAH: Which one do you want first?
 
 DANIEL: The brake.
 
-JONAH: This is why I didn't ask which one you needed.
+JONAH: Fair enough. Sandwich after.
 
 He puts the sandwich on a clean shelf, away from the equipment.
 
-**P05: Seat the receiver using the labelled load-and-brake sequence.** Inspect the brake, take the load, release the transport catch, lower into the cradle, reapply the brake. Each step has a tactile label and visual state. Incorrect input does not release the load; Jonah keeps the safety line secured.
+**P05: Compare the guide, then seat the receiver.** From the open shore-facing bay, Daniel views the boathouse guide plate in an earlier lake reflection. The earlier bay is empty; no new person or location is introduced. Its painted arrow appears useful, but the fixed structural notch reveals that the present replacement plate faces the other way. This is an authored temporal comparison, not a claim that old instructions are automatically correct.
+
+DANIEL: The arrow was on this side.
+
+JONAH: I replaced the plate. Turned it round to fit the bracket.
+
+DANIEL: So that arrow—
+
+JONAH: Is the old one. Go by the notch.
+
+The player releases the reflection and matches the current guide to the notch, then completes the labelled, abstract load-and-brake sequence. Inspect the brake, take the load, release the transport catch, lower into the cradle, reapply the brake. Each step has a tactile label and visual state. Incorrect input does not release the load; Jonah keeps the safety line secured. The comparison replaces repeated instruction cards within this scene's existing timing allowance; it is not an additional puzzle slot or real equipment-training procedure.
 
 JONAH [if brake not checked]: Look at the shoe before you put weight on it.
 
@@ -263,9 +291,11 @@ JONAH: And hands out.
 
 They step back. Nothing dramatic happens. The receiver is simply in place.
 
-DANIEL: It used to squeal.
+DANIEL: That sounds better.
 
-JONAH: It used to be broken.
+Jonah checks the new brake once under weight, then lets go.
+
+JONAH: It is better.
 
 Jonah rubs grease off one finger and checks his phone.
 
@@ -277,7 +307,7 @@ JONAH: Yes, tonight. Bath, bed, argument about which cup water comes in.
 
 DANIEL: How many cups?
 
-JONAH: Two. Apparently that's enough for a crisis.
+JONAH: Two. I'm meant to bring the blue one back. It's in the van.
 
 Daniel smiles, properly. Jonah sees the sandwich untouched.
 
@@ -305,7 +335,7 @@ Alice holds two takeaway cartons. Daniel holds her recorder inside his jacket to
 
 ALICE: You're being rained on indoors.
 
-DANIEL: It's a very small indoors.
+DANIEL: I know.
 
 She shifts along. He sits beside her.
 
@@ -313,13 +343,13 @@ ALICE: Mine's too hot. Swap.
 
 DANIEL: They're the same thing.
 
-ALICE: Yours has had a rest.
+ALICE: Just try mine.
 
 They exchange cartons. She takes a bite, immediately regrets it, and manages a dignified nod.
 
-DANIEL: Better?
+DANIEL: Same?
 
-ALICE [mouth full]: Yes.
+She nods, gives back his carton, and laughs at herself. He shifts his jacket so her recorder stays dry between them.
 
 The bus time changes on the display: DUE becomes 6 MIN.
 
@@ -401,7 +431,7 @@ If the player selects Alice as owner again:
 
 MARA: It started with her. She gave it to me.
 
-On correction, Daniel closes the service entry with **RETURNED TO OWNER**. He passes the recorder across. Mara takes it and places it in her bag. **The handover is unconditional and occurs here.**
+On correction, Daniel closes the service entry with **RETURNED TO OWNER**. He passes the recorder across. **The handover is unconditional and occurs here.** Mara has the device for the remainder of the scene. The empty case stays on the counter.
 
 She finds one old file while checking the controls.
 
@@ -423,7 +453,13 @@ Daniel checks his copied file list: **PERFECT TAKE**. He changes its label to **
 
 DANIEL: All right.
 
-Mara fastens her bag.
+Mara puts the recorder into her bag without its case and fastens the bag.
+
+If the player chose acknowledgment rather than asking its use in C2S3, play this line here so every path gives Mara a purpose beyond collection:
+
+MARA: Mum's telling me about our old house. I started on my phone. This'll be better.
+
+Daniel nods. He does not ask for a copy. Their mother remains offscreen; this is an ordinary family project, with no new illness or loss implied.
 
 MARA: Come round Sunday. I've got a shelf that seems confident until you put anything on it.
 
@@ -457,7 +493,7 @@ ALICE: Tell me if you can hear the words from there.
 
 DANIEL: Which words?
 
-ALICE: The ones I'm about to say. Promising start.
+ALICE: The announcement. Stand by the door?
 
 She presses record.
 
@@ -499,7 +535,7 @@ ALICE: Especially the mugs.
 
 Jonah bows. Ruth hands him the broom.
 
-RUTH: Your encore.
+RUTH: Thanks.
 
 Mara folds the timetable.
 
@@ -539,6 +575,12 @@ DANIEL: We may have to buy a taller bed.
 
 She takes his toast instead of her own. He notices, looks at the plates, and accepts the exchange.
 
+ALICE: Sorry. Did you want that one?
+
+DANIEL: You can have it.
+
+She puts the larger half back on his plate anyway. Leave the small action unremarked.
+
 ALICE: Trial month. We can admit it if it's awful.
 
 DANIEL: The flat or us?
@@ -555,11 +597,11 @@ DANIEL: I said this week.
 
 He reads the entry, considers it, and closes the book.
 
-DANIEL: Tomorrow. I'll call him. Today I've got lunch booked with someone who keeps moving the door.
+DANIEL: Tomorrow. I'll call him after breakfast.
 
-ALICE: Difficult woman.
+ALICE: Thank you.
 
-DANIEL: Very.
+He puts the book beside the phone, where he will remember the call.
 
 She kisses the corner of his mouth.
 
@@ -567,9 +609,9 @@ ALICE: I'm going down for a recording before the wind gets up. Back for lunch.
 
 DANIEL: I'll get bread.
 
-ALICE: Bread for lunch. Another triumph for planning.
+ALICE: The good one. If they've got it.
 
-He throws a clean tea towel at her. She catches it and uses it to wipe a little butter from his sleeve.
+He passes her the clean tea towel. She wipes a little butter from his sleeve before giving it back.
 
 ---
 
@@ -657,9 +699,9 @@ ALICE: They liked the room recordings. The repair shop ones.
 
 MARA: Those are good.
 
-ALICE: They're mostly Mum Vale swearing at a fan.
+ALICE: The fan's in most of them.
 
-MARA: She's got range.
+MARA: They liked them with the fan.
 
 **P09: Review and accept the job.** Alice compares the start date, pay, travel cost, and first accommodation payment. Work begins in nine days. She chooses the cheaper bus the evening before and allocates the stated advance to lodging; the displayed budget works. No mental arithmetic is required. Completion always accepts the opportunity. This is planning her chosen life, not deciding whether she deserves one.
 
@@ -667,9 +709,11 @@ ALICE [examining travel]: Earlier bus. Changes twice.
 
 MARA: Once. That second line's the arrival platform.
 
-ALICE: Useful having you professionally adjacent to buses.
+Alice checks the column heading, then the fare. She turns her phone slightly away.
 
-MARA: I've made a whole career of standing near one.
+ALICE: I can do the sound. Apparently getting there is harder.
+
+Mara turns the timetable folder so both can see. She marks the connection with the back of her pen, without taking the phone away from Alice.
 
 Alice reaches the acceptance screen but lowers the phone.
 
@@ -833,13 +877,31 @@ ALICE: I've got something stupid prepared. Could start there.
 
 DANIEL: All right.
 
-ALICE: I miss your terrible chair.
+ALICE: I miss coming in without explaining where everything goes.
 
-DANIEL: It tips left.
+DANIEL: You keep moving everything.
 
-ALICE: I know. I keep sitting in normal chairs and feeling judged.
+ALICE: Only the things you put in the wrong place.
 
-He laughs, then looks down at the timetable.
+He laughs. Alice pushes the carton toward him so he can take the piece he has been looking at. They eat before Daniel returns to the timetable.
+
+**Optional inspection — her equipment bag; single-use, no narrative-choice flag or reward.** Before the next conversation, selecting the worn bag plays:
+
+DANIEL: How's the work?
+
+ALICE: Yesterday? Awful. I used the wrong name all morning. Nobody told me until lunch.
+
+DANIEL: For who?
+
+ALICE: The person whose name is on the van.
+
+He winces with her.
+
+ALICE: The recording was good, though. They used it.
+
+DANIEL: Good.
+
+She nods. She can have a bad day and still want the job. If skipped, return directly to the timetable without summarizing this exchange.
 
 DANIEL: I don't want you to come home because I can't work out how to leave.
 
@@ -899,7 +961,7 @@ JONAH: I said I'd help with the winch and the test. I did.
 
 DANIEL: You did.
 
-JONAH: I'm not having this conversation until the person at home gives up waiting for me.
+JONAH: I'm meant to do bedtime. I said I'd be there.
 
 DANIEL: All right.
 
@@ -911,11 +973,25 @@ DANIEL: There's a return control.
 
 JONAH: Then use it. Before you need someone else to use it.
 
+Jonah picks up his bag, then remembers the practical thing he came in meaning to say.
+
+JONAH: The hall called me again. About the amplifier.
+
+DANIEL: It's finished.
+
+JONAH: They need a collection time. I can't keep taking your calls.
+
+DANIEL: I'll answer them.
+
+JONAH: Tonight.
+
+DANIEL: Tonight.
+
 Daniel rests his pencil beside the diagram.
 
 DANIEL: Thank you for coming.
 
-JONAH: I like you. It's deeply inconvenient.
+JONAH: All right.
 
 They share a tired smile.
 
@@ -923,11 +999,9 @@ JONAH: I'll call at eight. If you don't answer, I'm coming down.
 
 DANIEL: I'll answer.
 
-JONAH: Good. Then you can tell me about the terrifying fault in my brake repair.
+JONAH: Don't put the phone under something.
 
-DANIEL: There wasn't one.
-
-JONAH: Write that somewhere.
+Daniel moves it onto the clear end of the bench while Jonah is still there.
 
 He leaves. Daniel hears his footsteps recede along the path. The player may inspect the dry diagram before continuing. The live switch remains open until the later preparation scene; no hidden countdown starts here.
 
@@ -949,11 +1023,11 @@ DANIEL: I called about the gauge. Tomorrow's fine.
 
 ALICE: Good.
 
+She tears bread for both plates. Daniel slides the butter within her reach. Their bodies know where to make room for each other.
+
 She reaches under his shirt collar and removes a short piece of thread.
 
-ALICE: There. Employable.
-
-DANIEL: Thank goodness. I've got rent coming up.
+She drops the thread beside her plate and continues eating. Do not find a joke for the gesture.
 
 They start lunch. Ordinary cutlery and distant traffic. No anticipatory heartbeat, distorted lake reflection, or musical warning.
 
@@ -961,7 +1035,7 @@ ALICE: Did Jonah say he'd help move?
 
 DANIEL: If we feed him.
 
-ALICE: Cheaper to hire a van.
+ALICE: I'll make enough.
 
 Daniel reaches for the butter. Alice points toward the other side of the table.
 
@@ -1019,7 +1093,13 @@ DANIEL [typed]: I'll bring lunch.
 
 MARA [text]: The shelf won't eat much.
 
-**Reconverge:** Daniel puts the phone face up. He finishes the sandwich. Under the retirement card is the survey he came for: dock, tree, rise. He takes that sheet downstairs, leaving the photograph and card together.
+**Reconverge:** Another message is already waiting: **HALL: Is ten tomorrow still possible?** An amplifier with a completed repair tag was visible downstairs; this is a customer reply, not a new puzzle.
+
+Daniel types: **Yes. Front door. Sorry I didn't get back to you.**
+
+He sends it and puts the phone face up. This action happens on every route and never grants an ending. The small commitment remains something the ending can honor or leave unmet.
+
+He finishes the sandwich. Under the retirement card is the survey he came for: dock, tree, rise. He takes that sheet downstairs, leaving the photograph and card together.
 
 ### C5S4 — Three fixed points
 
@@ -1075,3 +1155,5 @@ He selects the indexed visit. Cut to C6S1 before its content begins.
 - The collapse is biological and sudden, not caused by the lake, an argument, or a missed player action. Later medical uncertainty must not introduce a hidden murder, preventable puzzle solution, or supernatural cause.
 - Jonah's eight-o'clock call is a real commitment. The ending scripts must honour its consequences or establish Daniel's reply; it must not disappear merely because the final encounter ends. Pause and save never advance the danger.
 - The three landmarks receive literal establishing shots here. The final empty-place sequence must be newly held present-day shots with no inserted figures, voices, memory overlays, or explanatory dialogue.
+- The repaired hall amplifier is an existing-shop prop, visible from C1S4. C5S1 establishes Jonah's unpaid customer-cover burden; C5S3 confirms ten-o'clock collection. E3 honors the commitment before breakfast at eleven. Other endings leave the obligation unmet without adding a punitive customer scene.
+- Mara leaves the recorder case on the counter in C3S2 while taking the recorder home. E3 establishes Daniel collecting the case before going upstairs and setting it aside for their Sunday arrangement; he does not still have her recorder.

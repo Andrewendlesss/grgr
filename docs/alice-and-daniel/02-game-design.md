@@ -1,6 +1,6 @@
 # What the Water Keeps — complete v1 game design
 
-**Status:** implementation specification for the proposed game; no game build is implied. Read alongside the story bible, screenplay, and production plan. Where the earlier creative recommendations differ, this package is the current design.
+**Version 1.1. Status:** design specification for the proposed game; no game build is implied. The active implementation path is solo development with low cash costs. Read alongside the story bible, revised screenplay, technical architecture and solo roadmap. Where earlier recommendations differ, this package is current.
 
 ## 1. The experience
 
@@ -18,7 +18,7 @@ Explore one composed camera view at a time. Select generous hotspots to approach
 
 The reflection interface has three steps: choose an established shoreline anchor; adjust a large alignment control until landmarks correspond; press **Observe**. Passive impressions contain recorded events and cannot answer new questions. **Return** is always visible. A found fact remains in the ledger after returning. Observe-mode controls cannot move present objects.
 
-Only the Mere's lakebed lattice has this property. Windows, puddles, bottled water, radio recordings, and Alice's ordinary recorder do not reveal time. P02, P08, P11, P12, and the final encounter use actual lake phenomena. Other puzzles use normal tools, evidence, and conversation.
+Only the Mere's lakebed lattice has this property. Windows, puddles, bottled water, radio recordings, and Alice's ordinary recorder do not reveal time. P02, P05, P08, P11, P12, and the final encounter use actual lake phenomena. Other puzzles use normal tools, evidence, and conversation.
 
 Dormant traces are unconscious records. The machine activates Alice's authentic, responsive person-state, remembering through her morning shore visit at twenty-two. She knows neither her death nor the intervening years. New experience persists only within this encounter; the source stays read-only. Returning ends that conscious stream. Reactivation would restart the twenty-two-year-old state unaware of earlier encounters. Alice learns these limits and consents to ending repeated activation. Erasure removes possible reactivation, not an underwater population continuously living. A story scene establishes her independent responsiveness without making her pass a password test.
 
@@ -83,9 +83,9 @@ As Alice, create spacecraft effects: a tray becomes the engine, wet glass become
 
 Jonah measures from the wrong starting marker. Compare the dock edge, tree notch, and measuring cord, then move the origin to the shared notch and lay numbered distance pegs. Each child's throw animation is triggered by a single press; the distances are authored. The solution is a consistent origin, not making Daniel win. Wrong peg placement snaps beside the cord for reconsideration. Hints cite Alice's complaint, then highlight the origin notch. Numerals and tactile descriptions replace color dependence; no aiming or motion controls. Record everyone's actual distances. End with Ruth waving from the rise and the trio choosing to go eat.
 
-### P05 — Jonah's winch / C2S4 / ordinary / approximately 5 minutes
+### P05 — Jonah's winch / C2S4 / reflection and present comparison / approximately 5 minutes
 
-Use a simplified fictional cradle panel with five labeled state cards: inspect brake → take load → release transport catch → lower → reapply brake. Diagram arrows and Jonah's demonstration establish the sequence. Select cards; do not manipulate realistic winch hardware. The mechanism blocks an unsafe order before motion. Hints trace the diagram, then identify the next state. Large discrete controls, narration, and single-step assist replace holding or simultaneous input. Completion gives machine-bay access. Jonah's remaining time is dialogue context, never a countdown. The interaction is not real equipment instruction.
+Observe the earlier empty boathouse plate through the shore-connected reflection, then compare its fixed structural notch with the present replacement. Jonah reversed the replacement plate to fit its bracket, so blindly copying the old painted arrow is wrong. Release the reflection and align the present guide to the notch. Then complete the simplified fictional cradle sequence: inspect brake → take load → release transport catch → lower → reapply brake. Unsafe orders stop before motion. Hint1 points to the fixed notch; hint2 explains the replaced plate; Show next step performs the next valid comparison or abstract action. Large discrete controls and textual diagrams replace holding or simultaneous input. The comparison replaces repetitive instruction cards within the existing allocation. Reuse B01 with an earlier plate overlay; no new actor or environment. Jonah's current expertise matters. This is not real equipment instruction.
 
 ### P06 — An honest correction / C3S2 / ordinary / approximately 4 minutes
 
@@ -135,7 +135,7 @@ E3 retains the user's final line verbatim: “The water remembered me first — 
 
 ## 6. State, branching, and interruption recovery
 
-Use versioned structured state; IDs are stable content keys, never localized display strings.
+Use versioned structured state; IDs are stable content keys, never localized display strings. The following is a design summary, not the complete persisted format: [implementation architecture](06-implementation-architecture.md) owns the combined world/ink snapshot, durable commit ordering and migration contract.
 
 ```text
 SaveV1 {

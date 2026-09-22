@@ -1,5 +1,5 @@
 # What the Water Keeps — screenplay, chapters 1, 6 and 7
-Version 1.0 · Authored first draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
+Version 1.1 · Authored development draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
 
 All principal dialogue for these scenes is written below. Direction describes playable action rather than extra narration. The separate game design specifies puzzle solutions and assistance. Scene IDs are stable; local choices reconverge. Bracketed stage directions are not spoken. This is a script for production development, not a claim that performances, timing, or animation have been tested.
 
@@ -10,7 +10,7 @@ Present night. Daniel, thirty-four. Dock and boathouse. The camera looks toward 
 
 A work light illuminates a small part of the lake. Beyond it: houses, one late bus, an ordinary night. Daniel lowers a receiver to the water. His notebook is open on a dry crate.
 
-On the page: numbered tests, several crossed-out measurements, and a shopping list in a different corner.
+On the page: numbered tests, several crossed-out measurements, and a shopping list in a different corner. His thumb holds the place while he adjusts the receiver. The page can be readable without every measurement becoming a collectible.
 
 The player positions the receiver against two visible guide marks. A shop bell rings once from a small test recording. Its original playback stops. From the water, the same bell rings again.
 
@@ -148,11 +148,11 @@ RUTH: Better company, then.
 
 ALICE: It keeps stopping.
 
-RUTH: Daniel does that too. Usually when I ask him to sweep.
+Ruth holds out a hand for the small screwdriver. Daniel gives her the wrong one, notices, and swaps it before she has to ask.
 
-DANIEL: I swept.
+RUTH: Thanks. Alice, is it all right if we open the back?
 
-RUTH: Around things.
+ALICE: Yes.
 
 She gives Alice a place to put the radio and slides a tray of safe, familiar spare parts toward Daniel.
 
@@ -170,11 +170,11 @@ On completion, the radio catches a cheerful weather report mid-sentence. Alice t
 
 ALICE: It never does that at home.
 
-RUTH: Things like an audience.
+RUTH: Try moving the cable now.
 
-DANIEL: You said that wasn't a diagnosis.
+Alice moves it. The weather report continues. Daniel looks pleased.
 
-RUTH: It isn't. Write down what you changed.
+RUTH: Good. Write down what you changed.
 
 He enters the repair into his ledger. Alice leans over.
 
@@ -202,9 +202,7 @@ Ruth opens a counter drawer. It sticks. She makes a small movement beneath the l
 
 RUTH: One day I'm fixing that.
 
-DANIEL: You said that last week.
-
-RUTH: And look how close we are to one day.
+She puts her tea down and goes straight back to the repair waiting beside it.
 
 Alice tests the radio again. Daniel silently moves a hot mug away from its edge. She notices. It is a small kindness with no response required.
 
@@ -225,6 +223,8 @@ DANIEL: I moved this thing twice.
 
 The drawer opens. Inside: the damping clamp, a dead pen, and an envelope labeled RETURN TO CUSTOMER. Daniel takes the clamp. He puts the envelope on the counter, where it can be dealt with.
 
+Beside the counter, a repaired hall amplifier has a completed service tag and a phone number still waiting for a reply. Keep it a normal workshop object. Its meaning will come from Jonah's later complaint, not an ominous close-up or a guilt meter.
+
 Optional inspect, dead pen:
 
 DANIEL: Not even one of the good ones.
@@ -242,7 +242,7 @@ The source has stabilized enough to show a continuous event. The player adjusts 
 
 Alice records the shop loading doors, then the water, then a bus turning at the end of the street. She checks a level and frowns.
 
-ALICE: That's not wind. That's you.
+ALICE [quiet slate into recorder]: Bus. Start again after.
 
 The distant bus disappears. She waits for a cleaner take.
 
@@ -379,7 +379,23 @@ DANIEL: I was there.
 
 ALICE: All right.
 
-She sits. He starts to move beside her, then stops at the water between them.
+She sits. He starts to look for somewhere less wet for her to sit, then stops. Alice reaches automatically toward the place her recorder strap should be.
+
+ALICE: I was meant to send the files.
+
+He does not answer the obligation as if he could finish it for her.
+
+ALICE: That's a stupid thing to say.
+
+DANIEL: No.
+
+She presses her palms against her knees. Leave a readable silence. She is twenty-two and learning that the ordinary afternoon ahead of her never finished. A held illustration and an explicit advance input can carry this without a bespoke performance animation.
+
+ALICE: Give me a minute.
+
+DANIEL: All right.
+
+Player-controlled pause. Nothing deteriorates while the player waits. On advance, Alice looks back at him, still unsettled.
 
 ALICE: I don't know what to say.
 
@@ -395,15 +411,15 @@ Shared-memory option:
 
 DANIEL: Do you remember the fundraiser?
 
-ALICE: Unfortunately.
+ALICE: We spent all day doing that announcement.
 
-DANIEL: You liked that recording.
+DANIEL: I kept the one you used.
 
-ALICE: I liked getting paid.
+ALICE: With the mugs?
 
-DANIEL: You didn't get paid.
+DANIEL: Yes.
 
-ALICE: Then I liked the sandwiches.
+Her laugh is small and immediate. She can picture Jonah's face before she can explain why it is funny. Daniel laughs with her. They do not need to quote the whole incident.
 
 Future-plan option:
 
@@ -417,25 +433,25 @@ ALICE: That's inconvenient.
 
 Both return to:
 
-ALICE: Mara's going to say I should've told you about the job sooner.
+ALICE: Mara knew about the first job before you did.
 
-DANIEL: She already did.
+DANIEL: I guessed.
 
-ALICE: Of course she did.
+ALICE: I was trying to make it sound like I had everything sorted. The room. The travel.
 
-DANIEL: Did you tell her first?
+DANIEL: You told me you had.
 
-ALICE: She was there.
+ALICE: Mara did the travel.
 
-ALICE: At the bus shelter. I thought I had to change twice. She pointed out I was reading the arrival platform.
+ALICE: I thought I had to change twice. She pointed out I was reading the arrival platform.
 
 DANIEL: You never told me that.
 
 ALICE: I was trying to look like someone who could get to a job.
 
-Daniel realizes there is something here his notebooks could not have provided. The player has seen the earlier event independently. No interface declares a successful authenticity test.
+Daniel realizes there is something here his notebooks could not have provided. The player has seen the earlier event independently. Alice has offered it while making sense of her unfinished life, not in response to a secret-password test. No interface declares successful authentication, and the incident is not presented as a philosophical proof of consciousness.
 
-He reaches toward Alice's hand. Their fingers occupy adjacent layers and do not meet. She tries from her side, then lowers her hand.
+He reaches toward Alice's hand. Their fingers occupy adjacent layers and do not meet. She tries from her side, then lowers her hand. Neither repeats the attempt as a dexterity challenge.
 
 ALICE: Oh.
 
@@ -445,7 +461,7 @@ ALICE: Yes.
 
 DANIEL: That's more than I had.
 
-ALICE: I know.
+She nods. She can hear him too.
 
 Neither calls this enough.
 
@@ -486,11 +502,15 @@ ALICE: Good.
 
 This is not a guarantee of a perfect future. She has answered what she actually knew.
 
-DANIEL: I could go back. Come again.
+DANIEL: I could go back. The records would still be here. I could come again.
+
+ALICE: What happens here when you go?
+
+DANIEL: This stops.
 
 ALICE: Would I remember this?
 
-DANIEL: No. It reads the same morning. What we say here doesn't write back.
+DANIEL: No. You'd be on the shore. Before lunch. You wouldn't have any of this.
 
 She considers the meaning before responding.
 
@@ -502,15 +522,23 @@ ALICE: I don't want that.
 
 He nods slowly.
 
-ALICE: This time, I know you're here. I don't want to keep finding out where I've been.
+ALICE: I don't want to keep finding out where I've been.
+
+DANIEL: All right.
+
+He does not bargain for a shorter visit. This is his acknowledgment of her preference, before the question about the rest of the source.
 
 DANIEL: If I close it, all the records go. Mum. The summers. Everything in here.
+
+ALICE: Not just mine.
+
+DANIEL: No.
 
 ALICE: Are they waiting?
 
 DANIEL: No. Nothing's awake until we open it.
 
-ALICE: Then let this be the time we had.
+Alice looks toward the place where Ruth used to stand. She leaves him room to decide without supplying an absolution.
 
 She is expressing a preference about her own continued activation. Daniel's later act also sacrifices a shared archive; the story does not pretend that loss belongs only to him or that there is a cost-free answer.
 
@@ -526,19 +554,19 @@ DANIEL: For nearly two years.
 
 ALICE: What did she do?
 
-DANIEL: Complained about other people's repairs.
+DANIEL: Took a coach trip. Sent me a photograph of a broken handrail.
 
-Alice laughs. Daniel smiles, then lets it fade.
+Alice laughs. Daniel smiles, then lets it fade. Use the same ordinary retirement photograph established in C5S3 only if the interface offers an inspection; no new location, image montage, or voice of Ruth enters the encounter.
 
 DANIEL: She's gone too.
 
 ALICE: I'm sorry.
 
-DANIEL: She liked you.
+Alice shifts a little closer in her layer. It cannot close the distance, but he notices the effort.
 
-ALICE: She let me owe her money.
+DANIEL: She was good on the trip. She liked it.
 
-DANIEL: She never wrote it down.
+ALICE: Good.
 
 **Subject: Mara**
 
@@ -566,11 +594,11 @@ ALICE: She can do both.
 
 DANIEL: Jonah's got a child.
 
-ALICE: That's ambitious.
+ALICE: How old?
 
-DANIEL: He says the same thing about me.
+DANIEL: Young. They like the blue cup. I don't even know which birthday we're at.
 
-ALICE: Sensible child?
+He stops trying to make that sound like an adequate update.
 
 DANIEL: I haven't seen them enough.
 
@@ -653,7 +681,7 @@ Neither leaves. The farewell exists in every branch and is the event the opening
 
 Then the water catches a different season. A bright afternoon. Ruth's shop doors are open. Jonah crosses behind them carrying too much at once. Alice is twenty-one.
 
-A phrase returns in Daniel's own familiar voice, taken from earlier moments of play and testing:
+A phrase returns in Daniel's own familiar voice, reusing the exact unaccented recording from the childhood throws in C2S2:
 
 DANIEL'S RECORDED VOICE: Just one more.
 
@@ -870,15 +898,7 @@ DANIEL: I'm glad you came.
 
 ALICE: Me too.
 
-She notices his notebook.
-
-ALICE: For the record, it was fourteen metres twenty.
-
-DANIEL: I wrote that.
-
-ALICE: You were right about one thing, then.
-
-They share the small laugh from the first summer. She makes the little upward motion of her chin that used to mean he could stop waiting for her. There is tenderness here without physical contact or a promise that she will remain nearby.
+He starts to put the notebook under his arm. It is an old, unnecessary reflex in this place. She recognizes it, and for a moment their eyes meet with the familiarity they had at a breakfast table. There is tenderness here without physical contact or a promise that she will remain nearby. Do not add a final joke to rescue them from the farewell.
 
 He releases the live connection.
 
@@ -890,31 +910,35 @@ The real shop remains. The real trees remain. Water moves against the support un
 
 He disconnects the central core and breaks its fragile carrier plate. This is a small physical action after the larger irreversible loss. He leaves no active apparatus in the water.
 
-He reaches the shore.
+He reaches the shore and collects his phone and the packed food from the dry bench. Taking them is an automatic part of leaving, not a missable inventory requirement.
 
 The walk home is playable in three short sections. The plank, tree, and rise retain their empty compositions. Environmental sounds continue; nobody whispers goodbye. The player may stop at each place without triggering an extra memory.
+
+At the shop he picks up Mara's empty recorder case from the counter and takes it upstairs. The recorder itself went home with her earlier.
 
 At the flat, Daniel removes the wet shirt, checks the dressing, and puts dry clothes on. He takes the food from his bag and finally eats some of it.
 
 His phone shows the message from Jonah.
 
-Daniel writes: Breakfast. If you're free.
+Daniel writes: Back inside. I'm all right. Breakfast if you're free.
 
 Jonah replies after a brief, non-blocking interval.
 
 JONAH: Eight?
 
-DANIEL: Later.
+DANIEL: Eleven. I've got a collection at ten.
 
-JONAH: Good.
+JONAH: Eleven. Sleep. I'll see you then.
 
-Mara's separate message asks where she left the recorder case. Daniel replies: Counter. I'll bring it.
+Jonah's reply explicitly replaces the eight-o'clock safety check now that Daniel has checked in from shore. Do not make the audience infer that his unanswered phone will be ignored.
+
+Mara's separate message asks where she left the recorder case. Daniel replies: I've got it. I'll bring it Sunday.
 
 These contacts do not become a reunion ceremony.
 
 At the table, the player opens the ledger. Measurements occupy the last page. Daniel turns to a new one.
 
-He writes three small observations: the missing corner of the dock plank; the laugh retained on a bad recording; his mother's handwriting on an unpaid envelope.
+He writes three small observations: the missing corner of the dock plank; the laugh retained on a bad recording; his mother's handwriting on her retirement card. These are witnessed details; the player is not asked to invent a perfect final sentence or score well at remembering.
 
 He does not list every detail of Alice's face to stop himself forgetting.
 
@@ -926,7 +950,11 @@ He sets out two cups without thinking. Notices. Puts one back.
 
 There is no musical instruction about how to feel.
 
-He makes tea, picks up Mara's case, and leaves for breakfast. The ledger stays on the table, closed but within reach.
+He makes tea, puts Mara's case beside his keys for Sunday, and goes downstairs. The ledger stays on the table, closed but within reach.
+
+A brief shop interaction uses the existing counter view: he puts the repaired hall amplifier within reach and turns the front-door sign to OPEN. The customer arrives only as the bell and an ordinary, indistinct greeting. No additional speaking role or character artwork is required. Cut across the completed collection to the amplifier's empty place and the signed service slip.
+
+Daniel locks up for his arranged breakfast with Jonah. The return to work lasts only as long as a simple action; do not reward it with triumphant music or suggest his life is now in order.
 
 The last shot is the kitchen after he has left it. Through the open window: a bus door, ordinary voices, a day already underway.
 

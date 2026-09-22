@@ -1,7 +1,7 @@
 # What the Water Keeps — story bible
-Version 1.0 · 22 September 2026 · Full narrative spoilers
+Version 1.1 · 22 September 2026 · Full narrative spoilers
 
-This is the authored story baseline for the first playable draft. It supersedes the exploratory alternatives in the original recommendations. The title is provisional; the characters, rules, chronology, and ending distinctions below are fixed for this draft. Production estimates remain estimates.
+This is the authored story baseline for the first playable draft, revised for character behavior, contemporary obligations, and the final encounter. It supersedes the exploratory alternatives in the original recommendations. The title is provisional; the characters, rules, chronology, and ending distinctions below are fixed for this draft. Production estimates remain estimates. The [narrative and performance guide](05-narrative-and-performance.md) translates this bible into playable beats and revision tests.
 
 ## The game in one paragraph
 
@@ -29,6 +29,8 @@ Six environment kits contain the game: dock and shore; Ruth's repair shop; the f
 
 The lake is not photographed as evil. On many visits it is inconvenient, windy, brown at the edges, and entirely uneventful.
 
+The present town must contain work that is still being done. A repaired hall amplifier awaits collection, a shelf needs fixing, Jonah has promised to be home, and the next bus carries people whose lives the story does not explain. Use existing props, background sound, and messages for this life. Do not add a town-exploration layer or new speaking cast to establish it.
+
 ## Characters
 
 ### Daniel Vale
@@ -45,6 +47,8 @@ His ledger begins as a way to remember repairs and promises. By thirty-four it i
 He can apologize without eloquence. His final growth is demonstrated through actions: returning the recorder, accepting Jonah's boundary, ending access to the lake, answering a message, and resting. No new romantic partner appears as a reward.
 
 **Performance:** avoid permanent whispering and unbroken anguish. Adult Daniel can be brisk, annoyed, focused, even pleased when an experiment succeeds. The laugh he shares with Alice at the reunion matters.
+
+**Physical habit:** he squares an object to a bench edge before beginning, keeps a thumb against the place in a notebook while listening, and checks someone else's grip before releasing a shared load. These are useful habits, not diagnostic symptoms. Under pressure he keeps finishing the small task in front of him while the actual conversation waits. At reunion, his first response to Alice sitting down is to look for somewhere comfortable for her; the impulse reaches a problem he cannot repair.
 
 ### Alice Mercer
 
@@ -63,6 +67,8 @@ The lake's vision happens to Alice. It does not determine her profession, secret
 
 **Performance:** ease before mystique. A brief honest answer may escape between jokes; do not turn this into a fixed dialogue formula.
 
+**Physical habit:** Alice winds a loose cable around her fingers while considering an answer, then stops when it begins to twist. When absorbed in sound she raises one finger to ask for a moment, rather than explaining what she is listening to. With people she trusts she gives things to them without ceremony: half a carton, the end of a tape, her cold hand. At the reunion she initially reaches for equipment she no longer has. Her profession remains part of the life she has just lost.
+
 ### Ruth Vale
 
 Daniel's mother runs the repair shop and wants to retire before her work becomes the whole of her life. She is affectionate and has limited patience for customers who expect miracles for free. She can mend something almost by feel but keeps postponing one annoying cabinet repair.
@@ -70,6 +76,8 @@ Daniel's mother runs the repair shop and wants to retire before her work becomes
 She welcomes Alice without trying to adopt her. She likes Daniel's attentiveness and also asks him to stop keeping objects that belong to other people.
 
 Ruth retires when Daniel is twenty-seven and dies when he is twenty-nine. Her retirement has ordinary independent pleasures; her death is acknowledged briefly, without a second climactic loss sequence. Her old wave from the rise is established in a scene where she is simply calling the children home.
+
+**Physical habit:** Ruth holds out a hand for the next tool without looking, and notices immediately when someone hands her the wrong one. She finishes pouring a drink before answering an impertinent question. Neither gesture should become a repeated comic bit. Her authority comes from having a task and other people to get through the day.
 
 ### Jonah Reed
 
@@ -79,6 +87,8 @@ Jonah helped with early practical components of the machine because he loves Dan
 
 He understands enough of the apparatus to ask useful questions, but is not the assistant whose only purpose is to receive scientific exposition.
 
+**Present stake:** he has been receiving calls about Daniel's completed hall-amplifier repair. Covering the missing customer reply costs him time on his own work. His boundary covers this as well as the evening at home; he cannot become Daniel's perpetual front desk. **Physical habit:** he checks a repaired item under its actual weight and wipes only the fingers he needs before using his phone. His care is practical, competent, and occasionally impatient.
+
 ### Mara Mercer
 
 Alice's sister is four years older. She works in local transport scheduling and has shifts, bills, and a dry sense of humor different from Alice's: less performance, more precision.
@@ -86,6 +96,8 @@ Alice's sister is four years older. She works in local transport scheduling and 
 She knows Alice's early recordings and the unflattering circumstances of some of them. She can challenge Daniel's ownership of a shared history without having a superior theory of grief.
 
 The old recorder originally belonged to Alice, who gave it to Mara when upgrading at twenty-one. Mara brought it to Daniel for repair at twenty-two; he retained it after Alice died. Its return is a small concrete act, not an exchange that earns access to a better ending. Mara's own grief includes long stretches in which she is interested in other things.
+
+**Present stake:** she wants to record their mother's account of an earlier move; their mother corrects Mara's version of the boxes and travel. This is an ordinary family project already underway, not a warning that another death is imminent. Mara has work in the morning and a shelf to install on Sunday. **Physical habit:** she makes room for someone else's cup before opening papers, and checks the time once she has agreed how long she can stay. She does not keep checking while someone is trying to answer her.
 
 ## Chronological account: what happened
 
@@ -149,13 +161,15 @@ The source records biological person-states at the shore; an activated impressio
 
 Her latest state dates to the final morning at the shore. She knows about the proposed flat and her job. She does not know what happened at lunch or what Daniel has done since.
 
-The player receives proof through a private detail previously witnessed in Alice's viewpoint scene and unknown to Daniel. Do not rely on a machine declaring her authenticity.
+The player receives evidence through Alice recognizing and extending a private exchange previously witnessed in her viewpoint scene and unknown to Daniel. It is not a password Daniel administers or a rigorous philosophical test of consciousness. The fiction establishes that she is a conscious continuation; the drama makes her independence credible through initiative, ordinary memories, uncertainty, and a preference that frustrates his hopes. Do not rely on a machine declaring her authenticity or one clever anecdote resolving all uncertainty for an audience.
 
 ### 5. An encounter does not restore the life outside it
 
 Alice cannot walk out of the water into a new biological life. Objects do not transfer between eras. New conversation is possible within the connection, but its environment and embodied life cannot extend into an unwritten future.
 
 Brief further visits are technically possible, but would reawaken the same Alice into the news of her death and the lost years. Daniel explicitly raises leaving and returning. Alice understands that she would not remember this encounter and states that she does not want that repeated awakening. She consents to this meeting ending without further activation. Daniel chooses permanence with that preference in view, rather than treating a person as a cure for his grief.
+
+Preserve the order in the scene: Alice learns that the current encounter ends; she asks whether a later visit resumes it; Daniel answers that it starts from the final morning again; she states her preference; he acknowledges it without bargaining. She does not authorize the disposal of every other person's trace. Her own request and his decision about the entire source are distinct. The locked summer also does not carry forward her newly expressed preference: choosing it is Daniel's retreat into recorded behavior, and the story must not imply her blessing.
 
 Erasure also destroys the source's other dormant records and their potential activation. The scene acknowledges this irreversible archive loss; it does not claim that destroying shared history is a universal treatment for bereavement. No continuously conscious population is being killed beneath the lake. The three endings remain personal, costly commitments rather than a menu of technical necessities.
 
@@ -213,7 +227,7 @@ Daniel chooses return and permanent closure. The shared farewell has already sup
 
 He restores bodily control, stands in the real shallows, performs the already-established source-erasure action, and disables the core. No mass explosion, emptied reservoir, or damaged town is introduced. The supernatural lake is gone; ordinary water remains. This explicitly adopts the refinement proposed in the recommendations.
 
-He walks past the dock plank, tree, and rise. Their framing matches earlier scenes, but there are no figures, spectral voices, or memory overlays. At home, he makes a small arrangement with a living person, begins an entry, and goes to bed. The playable morning follows. A later ledger entry supplies the final sentence retrospectively, so its past-tense account of sleeping and waking describes events that have already occurred.
+He collects his phone and food, then walks past the dock plank, tree, and rise. Their framing matches earlier scenes, but there are no figures, spectral voices, or memory overlays. At home, he checks in with Jonah and arranges breakfast at eleven, which explicitly replaces the eight-o'clock safety call. He begins an entry and goes to bed. The playable morning includes tea and the previously promised ten-o'clock amplifier collection, then leaving for breakfast. A later ledger entry supplies the final sentence retrospectively, so its past-tense account of sleeping and waking describes events that have already occurred.
 
 Retain the supplied final sentence exactly as that later, final ledger entry:
 
@@ -238,6 +252,8 @@ The next morning provides a brief playable coda. Tea, the unfinished ordinary da
 | Earlier affectionate touch | C3S1, C4S4 | Their ordinary intimacy | Fatal hand is reunion-specific, not the only love they ever express |
 | Daniel's declined work on last day | C3S4, C5S2 | A modest choice to be present | Death cannot be “solved” by changing his attendance |
 | Private last-morning note | C6S1 | Alice has practical plans | Latest trace's knowledge boundary and loss of their unwritten future |
+| Repaired hall amplifier awaiting collection | C1S4 prop, C5S1 complaint, C5S3 reply | Daniel finished the repair but avoided giving the customer a time | E3 morning honors a living obligation without treating work as a cure |
+| Empty recorder case left on counter | C2S3 placement, C3S2 departure | Mara takes the recorder loose in her bag | E3 collection and Sunday arrangement maintain actual object continuity |
 | Scrape and dressing | C6S2 | An unglamorous preparation mishap | The spreading mark has a cause |
 | All three source anchors aligned | C5S4, C6S3 | Machine reaches full connected source | Global erasure is an extension of known operation |
 | “Just one more” in ordinary play | Childhood throws and Daniel's experiments | Harmless desire to continue | Final offer comes in his own language |

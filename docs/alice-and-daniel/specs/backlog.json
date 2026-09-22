@@ -1,0 +1,413 @@
+{
+  "formatVersion": 1,
+  "planVersion": "1.1",
+  "status": "planning_only",
+  "currency": "USD",
+  "timeUnit": "focused_hours",
+  "scope": "solo_low_cash",
+  "reserveFraction": 0.2,
+  "tickets": [
+    {
+      "id": "IMP-001",
+      "title": "Verify tools, device and capacity",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [],
+      "effortHours": {
+        "min": 2,
+        "max": 4
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Record editor choices, device route and unresolved setup facts."
+      ]
+    },
+    {
+      "id": "IMP-002",
+      "title": "Create pinned project and empty device build",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-001"
+      ],
+      "effortHours": {
+        "min": 6,
+        "max": 10
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "A development build opens on Android and desktop."
+      ]
+    },
+    {
+      "id": "IMP-003",
+      "title": "Import C1 narrative and stable IDs",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-002"
+      ],
+      "effortHours": {
+        "min": 3,
+        "max": 5
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "All required slice lines and IDs load; missing IDs produce useful errors."
+      ]
+    },
+    {
+      "id": "IMP-004",
+      "title": "Shared select/confirm input and hotspots",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-002"
+      ],
+      "effortHours": {
+        "min": 4,
+        "max": 6
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Touch and mouse share actions; duplicate taps do not double-act."
+      ]
+    },
+    {
+      "id": "IMP-005",
+      "title": "Dialogue, choices and transcript",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-003",
+        "IMP-004"
+      ],
+      "effortHours": {
+        "min": 6,
+        "max": 10
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "C1S2 can be read, paused and reviewed without skipped choices."
+      ]
+    },
+    {
+      "id": "IMP-006",
+      "title": "Authoritative session and command commits",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-003"
+      ],
+      "effortHours": {
+        "min": 4,
+        "max": 6
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Rejected commands do not mutate state; successful commands commit once."
+      ]
+    },
+    {
+      "id": "IMP-007",
+      "title": "Combined checkpoint and last-good recovery",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-005",
+        "IMP-006"
+      ],
+      "effortHours": {
+        "min": 6,
+        "max": 10
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Resume preserves matching world and narrative state after termination."
+      ]
+    },
+    {
+      "id": "IMP-008",
+      "title": "Reflection and complete P02",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-004",
+        "IMP-006",
+        "IMP-007"
+      ],
+      "effortHours": {
+        "min": 8,
+        "max": 12
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Observe old catch, return and open present cabinet; no cross-era object action."
+      ]
+    },
+    {
+      "id": "IMP-009",
+      "title": "Radio interaction P01",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-004",
+        "IMP-006"
+      ],
+      "effortHours": {
+        "min": 4,
+        "max": 6
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Radio can be solved or assisted with progress preserved."
+      ]
+    },
+    {
+      "id": "IMP-010",
+      "title": "Graybox opening scene views",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-002"
+      ],
+      "effortHours": {
+        "min": 6,
+        "max": 10
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Required targets and poses are readable on the phone."
+      ]
+    },
+    {
+      "id": "IMP-011",
+      "title": "Integrate all four opening scenes",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-005",
+        "IMP-007",
+        "IMP-008",
+        "IMP-009",
+        "IMP-010"
+      ],
+      "effortHours": {
+        "min": 8,
+        "max": 12
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "The functional opening plays from start to completion."
+      ]
+    },
+    {
+      "id": "IMP-012",
+      "title": "Text, captions, two hints and Show next step",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-005",
+        "IMP-008",
+        "IMP-009"
+      ],
+      "effortHours": {
+        "min": 5,
+        "max": 8
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Complete with muted audio, largest text, discrete controls and Show next step assistance."
+      ]
+    },
+    {
+      "id": "IMP-013",
+      "title": "Temporary audio and controls",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-011"
+      ],
+      "effortHours": {
+        "min": 2,
+        "max": 4
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Audio pause/resume works and muting loses no information."
+      ]
+    },
+    {
+      "id": "IMP-014",
+      "title": "Android profile and layout pass",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-011",
+        "IMP-012",
+        "IMP-013"
+      ],
+      "effortHours": {
+        "min": 3,
+        "max": 5
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Device frame, memory and load measurements are recorded."
+      ]
+    },
+    {
+      "id": "IMP-015",
+      "title": "Interruption and repeated-command hardening",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-007",
+        "IMP-011",
+        "IMP-012"
+      ],
+      "effortHours": {
+        "min": 4,
+        "max": 7
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Restart at each critical transition creates no duplicate grants or contradictions."
+      ]
+    },
+    {
+      "id": "IMP-016",
+      "title": "Observed playtests and revision",
+      "status": "planned",
+      "phase": "opening_prototype",
+      "dependsOn": [
+        "IMP-014",
+        "IMP-015"
+      ],
+      "effortHours": {
+        "min": 6,
+        "max": 10
+      },
+      "owner": "solo_developer",
+      "acceptance": [
+        "Comprehension, attention and duration observations support a recorded next decision."
+      ]
+    },
+    {
+      "id": "IMP-017",
+      "title": "Representative art/audio subsection",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-016"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Five-to-eight minutes reach target quality with measured production effort."
+      ]
+    },
+    {
+      "id": "IMP-018",
+      "title": "iOS feasibility on Mac and iPhone",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-016"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Physical iPhone build passes input and save tests; prerequisite access documented."
+      ]
+    },
+    {
+      "id": "IMP-019",
+      "title": "Plain presentation ending integration harness",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-007",
+        "IMP-016"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Every ending preview/confirm/cancel/restart path preserves a single committed outcome."
+      ]
+    },
+    {
+      "id": "IMP-020",
+      "title": "Measured scope and cash re-estimate",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-017",
+        "IMP-018",
+        "IMP-019"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Update scope, dates and cash assumptions before volume production."
+      ]
+    },
+    {
+      "id": "IMP-021",
+      "title": "Integrate chapters 2 and 3",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-020"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Chapters complete with reused systems and external observations."
+      ]
+    },
+    {
+      "id": "IMP-022",
+      "title": "Integrate chapters 4 and 5",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-021"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Chapters complete without one-off general frameworks."
+      ]
+    },
+    {
+      "id": "IMP-023",
+      "title": "Complete chapters 6 and 7",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-022",
+        "IMP-019"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Full start-to-ending alpha works for all three outcomes."
+      ]
+    },
+    {
+      "id": "IMP-024",
+      "title": "Release-candidate preparation",
+      "status": "planned",
+      "phase": "after_prototype",
+      "dependsOn": [
+        "IMP-023"
+      ],
+      "effortHours": null,
+      "owner": "solo_developer",
+      "acceptance": [
+        "Devices, accessibility, content, licensing and store readiness reviewed."
+      ]
+    }
+  ]
+}
