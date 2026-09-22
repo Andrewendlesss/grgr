@@ -1,5 +1,5 @@
 # What the Water Keeps — narrative and performance guide
-Version 1.1 · 22 September 2026 · Development direction, not recorded or playtested material
+Version 1.2 · 22 September 2026 · Development direction, not recorded or playtested material
 
 This guide turns the [story bible](01-story-bible.md) and two screenplay files into rehearsal, editing, and implementation decisions. It assumes a solo developer testing with readable dialogue, held illustrations, reused views, and temporary sound. Full voice acting, facial animation, and elaborate cinematics are later scope decisions. The story must work before those expenses.
 
@@ -28,6 +28,12 @@ The reunion restores their ability to address each other. It does not restore th
 These are editorial tests, not instructions displayed to players. The interactions should remain concrete. The player mixes an announcement so listeners can hear it; the interface should not label that action “accept imperfection.”
 
 ## Voice and behavior
+
+Each exchange starts with something the speaker wants from the other person now: help, an answer, room to work, a reason to stay, or permission to leave. Give the listener a different immediate priority. Dialogue then changes the action or the relationship. A scene cannot survive solely because its lines sound profound.
+
+Use sharp lines sparingly. Surround a charged admission with ordinary speech and behavior; do not make every character trade polished metaphors. Let an interruption, an unfinished task, or a refused answer carry meaning. Ruth's practical impatience, Mara's exactness, Jonah's sociability, Alice's deflection and Daniel's literalness should remain distinguishable without speaker labels. During a table read, remove any impressive sentence that could be spoken unchanged by three of them.
+
+Permit positive scenes to finish positively. The fundraiser's success does not require an immediate ominous sting; the audience needs time to share it. Save the largest change in scale for contact, where the player's work has earned it. Sadness is one movement among curiosity, comic embarrassment, pride, conflict, fear, relief, awe and ordinary care. The [revision notes](11-story-and-scene-revisions.md) map those movements to the existing scene slots.
 
 **Daniel:** begin with the object or fact he can manage. Under pressure he finishes positioning a part before answering. Let pauses happen where a useful answer fails him. Avoid making every short sentence a tortured whisper. “It works” can be pride, defensiveness, or a plain report depending on who asked. At thirty-four, retain traces of the boy's delight in a successful repair.
 

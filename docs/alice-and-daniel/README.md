@@ -1,6 +1,6 @@
 # What the Water Keeps
 ## Alice & Daniel — complete first-draft story and game plan
-Version 1.1 · 22 September 2026
+Version 1.2 · 22 September 2026
 
 **Recommended game:** a premium, mobile-first cinematic narrative puzzle adventure for Android and iOS, with Steam as a separately budgeted option.
 
@@ -21,6 +21,20 @@ Version 1.1 · 22 September 2026
 | [Art, audio and interface specification](08-art-audio-and-interface.md) | 14 main views, reused poses, palette, cue map, controls and low-cash asset workflow |
 | [Planning data examples](specs/README.md) | P02 manifest and schema, ending contract, and machine-readable backlog |
 | [Cross-computer handoff](09-handoff.md) | Repository branch, completed work, known limitations and exact next steps |
+| [Gameplay research](10-gameplay-research.md) | Primary-source findings, limits of the evidence, and applications to this game |
+| [Story revision notes](11-story-and-scene-revisions.md) | Emotional contrast, reveal fairness, and changes integrated into the canonical screenplays |
+| [Gameplay and playtest plan](12-gameplay-and-playtest-plan.md) | Detailed puzzle revisions, player feedback, prototype comparisons and decision gates |
+
+## What changed in v1.2
+
+The active goal is a story with a wider emotional range and play that rewards understanding. Warmth, absurdity, competence and shared victories need room alongside melancholy, dread and loss. The final contact earns its scale through the player's accumulated knowledge and the existing shoreline views.
+
+- The canonical screenplays now contain the revised conflict, fundraiser success, friendship boundary and reunion passages. The story revision notes explain those changes; they are not a second competing script.
+- The game design revises six existing interactions: P01, P02, P05, P07, P11 and P12. Diagnosis, comparison and bounded expression replace some instruction-following. The detailed playtest plan supplies implementation and observation criteria.
+- Research distinguishes empirical findings, developers' reported experience and our own design hypotheses. No source proves this unbuilt game is fun, addictive, or emotionally effective.
+- The next planning evidence is a paper puzzle trial and a table read, followed by the same small opening prototype when implementation begins. No additional chapter, cast member, environment kit or major runtime system is authorized by this revision.
+
+**Document precedence:** the bible owns story facts and ending meanings; the screenplay files own performed text; the game design owns puzzle outcomes; the detailed gameplay plan owns v1.2 interaction detail; the architecture owns runtime state and persistence. The research and revision notes explain decisions. Earlier exploratory alternatives do not override these documents.
 
 **To read the story as a screenplay:** read chapter 1 in the opening/endings file, then chapters 2–5 in the middle file, then return to chapters 6–7 and select an ending. Every scene is authored; no unwritten scene outline stands in for the middle.
 
@@ -88,7 +102,7 @@ The initial three-to-four-hour recommendation was an early envelope. The written
 
 Build a fifteen-to-twenty-minute prototype first: the adult receiver, the dock meeting, one ordinary interaction, a return to the changed place, and a complete reflection puzzle. Test whether people understand the rules and want to spend more time with these characters.
 
-The active solo prototype backlog estimates77–125focused hours before a 20% reserve, roughly 92–150 hours total. Calendar time depends on actual weekly capacity. Start with temporary art, text-led dialogue and local builds. Proposed optional cash caps are $150 for the initial proof and $150–$600 total for the audience slice, excluding new hardware, store enrollment and personal labor; no spending has been approved or performed. The old $324,000 paid-team model is retained only as a comparison, not the current recommendation.
+The retained v1.1 solo prototype backlog estimates 77–125 focused hours before a 20% reserve, roughly 92–150 hours total. These are not a fresh estimate of v1.2’s revised interactions; recheck affected tickets after the paper trial. Calendar time depends on actual weekly capacity. Start with temporary art, text-led dialogue and local builds. Proposed optional cash caps are $150 for the initial proof and $150–$600 total for the audience slice, excluding new hardware, store enrollment and personal labor; no spending has been approved or performed. The old $324,000 paid-team model is retained only as a comparison, not the current recommendation.
 
 Engine, store, and SDK facts are sourced and dated in the production plan. Final device minimums, vendor quotes, localization languages, title clearance, and verified runtime remain production decisions; the central story and ending rules are specified.
 

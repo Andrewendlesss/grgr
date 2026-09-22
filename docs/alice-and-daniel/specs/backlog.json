@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "planVersion": "1.1",
+  "planVersion": "1.2",
   "status": "planning_only",
   "currency": "USD",
   "timeUnit": "focused_hours",
@@ -142,7 +142,8 @@
       },
       "owner": "solo_developer",
       "acceptance": [
-        "Observe old catch, return and open present cabinet; no cross-era object action."
+        "Observe old catch, return and open present cabinet; no cross-era object action.",
+        "Present the obstruction before the reflection; keep the observation log factual and solution hints opt-in. Observe whether players infer the catch action; preserve separate ReleaseCatch and CollectClamp commits."
       ]
     },
     {
@@ -160,7 +161,8 @@
       },
       "owner": "solo_developer",
       "acceptance": [
-        "Radio can be solved or assisted with progress preserved."
+        "Radio can be solved or assisted with progress preserved.",
+        "Permit a fault hypothesis and targeted test with informative feedback; do not reveal the correct part in the initial objective."
       ]
     },
     {
@@ -198,7 +200,8 @@
       },
       "owner": "solo_developer",
       "acceptance": [
-        "The functional opening plays from start to completion."
+        "The functional opening plays from start to completion.",
+        "Retain an opening question and a satisfying radio success; remove duplicated instructions before cutting character beats."
       ]
     },
     {
@@ -290,7 +293,8 @@
       },
       "owner": "solo_developer",
       "acceptance": [
-        "Comprehension, attention and duration observations support a recorded next decision."
+        "Comprehension, attention and duration observations support a recorded next decision.",
+        "Apply document 12 protocol: record inferred solutions, exploratory actions, hint use, disengagement and voluntary interest; treat small samples as formative evidence, not retention forecasts."
       ]
     },
     {
@@ -409,5 +413,6 @@
         "Devices, accessibility, content, licensing and store readiness reviewed."
       ]
     }
-  ]
+  ],
+  "estimateBasis": "Effort ranges retained from planning 1.1; re-estimate affected opening tickets after the 1.2 paper puzzle trial. No playtest or build has occurred."
 }

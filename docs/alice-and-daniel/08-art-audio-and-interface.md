@@ -1,5 +1,5 @@
 # Art, sound and interface direction — solo edition
-Version 1.1 · 22 September 2026
+Version 1.2 · 22 September 2026
 
 This is the production-facing visual and audio specification. It describes assets to make, not finished art. The active resource constraint is one developer with low cash costs. The aim is a coherent, expressive illustrated game with a few memorable temporal images.
 
@@ -10,6 +10,10 @@ Paint people and places as things that have been used. Wood has repaired edges; 
 Use graphic illustration with restrained texture, shallow planes and fixed composition. A small cast of readable poses is preferable to inexpensive-looking attempts at realistic facial animation. At phone size, posture, spacing, hands and the direction of attention carry emotion.
 
 The late machine sequence earns spectacle through the same lake and buildings appearing at different depths and ages. It does not require a new city, gigantic laboratory or simulated flood.
+
+For v1.2, stage that scale as successive authored states of existing views. A successful P12 step receives a distinct visual and captioned response before the next input; completed steps remain complete while the player reads or pauses. Use prepared overlays, framing and the established three-pulse cue. The large final response belongs to the player's completed calibration. It does not require simultaneous rendering of multiple worlds, a dynamic storm or a real-time stability timer. Reduce costly movement to a dissolve or held layered composition if necessary.
+
+At the C3S3 fundraiser, the mix's clarity and the group's brief, practical celebration are the payoff. Existing poses and props can communicate it. Do not add a crowd simulation or a new speaking audience, and do not immediately darken the image to warn that happiness will end. C7S2 keeps its strict absence of remembered voices, figures and score.
 
 The first art test should be a dock scene in two eras, with the people drawn at the size they will actually occupy on a phone. A beautiful close-up that cannot communicate at gameplay scale is not the correct test.
 
@@ -171,4 +175,3 @@ At the representative-slice gate, measure:
 - Whether people understand the gesture and remember the place.
 
 Keep a style decision only if it is both expressive and repeatable by this developer. A simpler coherent game can carry the entire story.
-

@@ -1,10 +1,12 @@
 # What the Water Keeps — implementation architecture
 
-Version 1.1 · 22 September 2026 · Engineering proposal, not an implemented game
+Version 1.2 · 22 September 2026 · Engineering proposal, not an implemented game
 
 This document turns the authored design into a buildable first project for the user's confirmed **solo development and low-cash-cost approach**. Start with the chapter-one prototype and P02; expand a proven workflow across the remaining scenes. Specialist work is optional and purchased only for a bounded need. It does not require a custom game engine, a general-purpose quest editor, or a backend. The timing allocations in the design remain unverified.
 
 ## 1. Technical decisions and ownership
+
+The [v1.2 gameplay revision](12-gameplay-and-playtest-plan.md) changes authored evidence, feedback and bounded interaction choices. Retain this architecture. P02's existing transition manifest still owns its completion path and its separate ReleaseCatch/CollectClamp transactions. Read-only inspections and wrong-hypothesis responses must not grant effects. P01 diagnostic selections and P07 mix settings belong to each puzzle's existing local state; any new resumable values must be explicitly specified before implementation. Reuse solved P11 data at P12 rather than requiring a second alignment puzzle. These are prospective content changes, not implemented reducers or verified save migrations.
 
 Use **Unity 6.3 LTS, C#, Universal Render Pipeline, and ink** for the first export spike. Choose a provisional exact editor patch and compatible package versions after Android and Windows builds run; commit that version record and dependency lockfile. Confirm or revise that selection during the Mac/iPhone feasibility milestone **IMP-018**, before committing to iOS production. Mac access does not block the first Android prototype. Unity lists 6.3 support through December 2027. Unity also recommends its Update releases for new/mid-cycle production: our LTS choice is a provisional reproducibility decision, not a claim that LTS is always preferable. Revisit at the production-slice gate and fund the upgrade already reserved in the production plan. [Unity release support](https://unity.com/releases/unity-6/support)
 

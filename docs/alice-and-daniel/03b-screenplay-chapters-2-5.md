@@ -1,5 +1,5 @@
 # What the Water Keeps
-## Complete screenplay development draft · Chapters 2–5 · Version 1.1
+## Complete screenplay development draft · Chapters 2–5 · Version 1.2
 
 **Draft status:** Complete authored draft for table reading and prototyping. Scene IDs and required events are fixed; performance and interaction durations need playtesting.
 
@@ -243,7 +243,7 @@ DANIEL: You've started?
 
 MARA: On my phone. I'd like to use mine.
 
-DANIEL: You don't.
+DANIEL: I'll get it.
 
 **Reconverge:** Daniel opens the wrong drawer, then the right one. The case contains an old service slip. Mara moves the case to the counter to make room for the recorder; this is the case she will leave behind, not the device itself.
 
@@ -271,13 +271,15 @@ He puts the sandwich on a clean shelf, away from the equipment.
 
 **P05: Compare the guide, then seat the receiver.** From the open shore-facing bay, Daniel views the boathouse guide plate in an earlier lake reflection. The earlier bay is empty; no new person or location is introduced. Its painted arrow appears useful, but the fixed structural notch reveals that the present replacement plate faces the other way. This is an authored temporal comparison, not a claim that old instructions are automatically correct.
 
-DANIEL: The arrow was on this side.
+DANIEL [on inspecting the old arrow]: The arrow was on this side.
 
-JONAH: I replaced the plate. Turned it round to fit the bracket.
+JONAH [on inspecting the present plate]: I replaced the plate. Turned it round to fit the bracket.
 
-DANIEL: So that arrow—
+Let the player compare the two views before anyone gives the inference. These inspection lines state evidence; neither automatically selects a guide.
 
-JONAH: Is the old one. Go by the notch.
+JONAH [hint 1, on request]: What's still in the same place?
+
+JONAH [hint 2, on request]: The notch in the frame. Go by that, not the old arrow.
 
 The player releases the reflection and matches the current guide to the notch, then completes the labelled, abstract load-and-brake sequence. Inspect the brake, take the load, release the transport catch, lower into the cradle, reapply the brake. Each step has a tactile label and visual state. Incorrect input does not release the load; Jonah keeps the safety line secured. The comparison replaces repeated instruction cards within this scene's existing timing allowance; it is not an additional puzzle slot or real equipment-training procedure.
 
@@ -473,29 +475,15 @@ She leaves. The door catches; she knows to lift it.
 
 **Time / viewpoint:** Daniel, eighteen.
 
-**Location:** Repair shop opening onto the dock. A small fundraiser for repairs to public jetty access; incidental visitors remain background.
+**Location:** Repair shop opening onto the dock. A small fundraiser for repairs to public jetty access; incidental visitors remain background. Use S01 and the established shore-facing doorway.
 
-Ruth sorts coins into an old biscuit tin. Mara checks the evening bus timetable. Jonah carries too many enamel mugs. Alice crouches beside two modest speakers.
+Ruth sorts coins into a biscuit tin. Mara checks the evening bus timetable. Jonah carries too many enamel mugs. Alice is on the floor beside two modest speakers. One emits the opening of her announcement at a uselessly low level.
 
-RUTH: Prices are on the cards, Daniel.
+ALICE: Can anyone hear that?
 
-DANIEL: I know.
+RUTH: I can hear you asking.
 
-RUTH: Then stop giving change from a different price.
-
-DANIEL: It was a child.
-
-RUTH: So are half the customers. That's why everything's cheap.
-
-Alice waves him over.
-
-ALICE: Tell me if you can hear the words from there.
-
-DANIEL: Which words?
-
-ALICE: The announcement. Stand by the door?
-
-She presses record.
+Alice catches Daniel's eye and points to the doorway. He goes to listen from there. She starts recording a new announcement.
 
 ALICE: Wait. Don't start yet. Jonah's got—
 
@@ -505,43 +493,77 @@ JONAH: They're fine.
 
 RUTH: Are you?
 
-JONAH: Less fine.
+JONAH: Ask me after I count them.
 
-**P07: Build an intelligible three-layer playback mix.** Daniel balances Alice's announcement, the recorded water, and a simple rhythm Alice made from workshop taps. Captions explicitly show whether speech is clear or masked. The mix is accepted across a broad range once the announcement remains intelligible; there is no single “artistic” solution.
+Mara catches the last rolling mug with her shoe. Alice checks the recording, then looks toward the people who glanced up at the crash.
 
-ALICE [playback announcement]: We're raising money to repair the lower jetty. The cakes have prices. The broken radio is a demonstration, unless someone makes Ruth a very good offer.
+ALICE: Keep that.
+
+DANIEL: I haven't stopped it.
+
+ALICE: Good. I'm going again.
+
+She records the announcement immediately after the accident.
+
+ALICE [recorded]: We're raising money to repair the lower jetty. The cakes have prices. The broken radio is a demonstration, unless someone makes Ruth a very good offer.
 
 RUTH: It's a very good radio.
 
 ALICE: It will be.
 
-If speech is masked:
+Ruth points her screwdriver toward the repair bench without looking offended. Alice leaves that exchange on the take too.
 
-MARA: I can hear weather. Not money.
+**P07: Make the announcement carry.** The player hears or reads the obstructed playback, then adjusts the three existing stepped controls: speech, recorded water, and workshop-tap rhythm. Audition is reversible and available throughout. Broad bands permit at least two satisfying results: more water for a spacious shore mix, or more taps for a lively workshop mix. Both preserve intelligible speech, some of each supporting layer, the same mug crash, and the complete announcement. Neither is scored as the better art. Captions describe the current balance and whether words are masked. The first playback establishes the problem; no character dictates a numerical recipe.
 
-If only speech remains:
+MARA [if speech is masked]: I can hear weather. Not money.
 
-ALICE: A bit of the water back in. Otherwise I sound like the bus station.
+ALICE [if the water layer is off]: A little water underneath it. We're beside a lake.
 
-MARA: Careful.
+ALICE [if the tapping layer is off]: Leave the tapping in too.
 
-On completion, the recorded crash attracts several glances. The announcement follows clearly. A visitor places money in the tin.
+ALICE [hint 1, on request]: Listen where I say what we're collecting for.
 
-ALICE [quietly, to Daniel]: Keep that take.
+ALICE [hint 2, on request]: Bring the voice up, or the backing down. Leave a little water and tapping under it.
+
+On an accepted audition, Daniel remains in the doorway. He raises a hand, then makes the established **Play to the fundraiser** selection. The announcement plays at its finished balance. This is the existing completion action, not an extra timing test.
+
+The recorded crash makes people look up. The words now carry beyond the counter. A visitor puts money in the tin. Another takes a priced cake. Communicate this with existing background figures or counter props and ordinary sound; no extra speaking role or crowd animation is required.
+
+Alice is still watching Daniel, waiting for his verdict.
+
+DANIEL: I heard every word.
+
+ALICE: From there?
+
+DANIEL: From outside.
+
+She listens to the end of her own recording. Let her pleasure land without immediately embarrassing her or introducing a fault.
+
+JONAH: You're welcome.
+
+ALICE: For dropping them?
+
+JONAH: For getting them all the way here first.
+
+She laughs. He bows with the tray held firmly in both hands.
+
+Ruth tips the new money into the tin and slides the cake plate within Alice's reach.
+
+RUTH: Have one before he charges us for the mugs.
+
+Alice chooses a cake, breaks it, and gives Daniel half when he comes back inside. He takes the smaller piece without a line about it. She changes her mind and swaps them.
+
+ALICE [quietly]: Keep that take.
 
 DANIEL: With the mugs?
 
 ALICE: Especially the mugs.
 
-Jonah bows. Ruth hands him the broom.
-
-RUTH: Thanks.
-
 Mara folds the timetable.
 
 MARA: Last bus in twenty. Anyone who needs it, start saying goodbye now.
 
-Alice leans against Daniel while checking her recording. He rests his chin briefly on her hair. Then Ruth passes him a tray, and they both get back to work.
+Alice puts the recording on once more, then leans against Daniel while they eat. For this short passage, the work has worked. Allow the sound mix the player made to stay audible. No ominous lake insert or melancholy musical turn closes the scene.
 
 ### C3S4 — Breakfast furniture
 
@@ -759,17 +781,25 @@ MARA: Didn't necessarily mean mine.
 
 ### C4S3 — Whose box
 
-**Time / viewpoint:** Daniel, twenty-one, several days later.
+**Time / viewpoint:** Daniel, twenty-one, several days after Alice accepted the offer.
 
-**Location:** Kitchen / flat above the shop. Alice is packing equipment she has stored there.
+**Location:** Kitchen / flat above the shop. Alice is packing equipment she has stored there. Use F01; the bag and boxes are existing props.
 
 Daniel comes upstairs carrying two spare shelves. Alice is wrapping her microphone stand.
 
-DANIEL: I thought we could put these over the desk.
+DANIEL: I found the other bracket. We can put these over the desk.
 
 ALICE: Don't drill anything yet.
 
-He notices the travel bag.
+He notices the travel bag. She keeps winding the cable. It begins to twist; she unwinds it.
+
+DANIEL: You got it.
+
+ALICE: Yes.
+
+DANIEL: That's good.
+
+She looks up. He means it, before the next question changes the room.
 
 DANIEL: When did you hear?
 
@@ -779,39 +809,49 @@ DANIEL: How many?
 
 ALICE: Four.
 
-He puts the shelves down carefully.
+He sets the shelves down. He takes too much care over the corners.
 
 DANIEL: You leave in five days.
 
 ALICE: Yes.
 
-DANIEL: You let me keep talking about September.
+DANIEL: I told Mum we'd be here for the hall weekends. You were standing next to me.
 
-ALICE: I know. I should have told you.
+ALICE: I know.
 
-**P10: Sort belongings into individual, shared, and deferred boxes.** Daniel packs only items both have identified. Alice's recording equipment belongs to her; his tools belong to him. Their jointly bought kitchen things may be agreed or deferred. Uncertainty has a legitimate box. The puzzle never awards points for giving away everything.
+DANIEL: You could have said something.
 
-If Alice's equipment goes into the shared box:
+ALICE: I should have. I didn't know how to start.
 
-ALICE: That's mine, Dan. We both use it, but it's mine.
+DANIEL: You just did.
+
+She stops packing.
+
+**P10: Pack what is actually agreed.** Alice's recording equipment is hers, Daniel's tools are his, and their jointly bought kettle can wait in the shared/deferred area. The three hall bookings require agreement. The player inspects ownership and commitment evidence, places items or their list equivalents, and marks the unagreed bookings **needs agreement**. No input determines whether Alice accepts her job or whether they have this argument. Keep the existing response flags and assisted alternative. A decision to defer is valid; disagreement is not a puzzle failure.
+
+ALICE [if her equipment is placed with shared property]: That's mine, Dan. We both use it, but it's mine.
 
 DANIEL: Right.
 
-If their kettle is deferred:
+DANIEL [if the kettle is deferred]: Kettle later?
 
-DANIEL: Kettle later?
+ALICE: Please.
 
-ALICE: Please. I can't argue about a kettle as well.
+When the player inspects the hall bookings:
 
-On completion, Alice reaches for a roll of tape. Daniel hands it over.
+DANIEL: Three weekends. We said we needed the money.
 
-DANIEL: I booked you for three weekends at the hall.
+ALICE: We do.
 
-ALICE: Without asking me.
+DANIEL: If I hadn't answered, they'd have asked someone else.
 
-DANIEL: You said we needed the money.
+ALICE: Then they would have asked someone else.
 
-ALICE: We do. That wasn't permission to book me.
+DANIEL: I thought we wanted the same thing.
+
+ALICE: I want the work here too. I can't do it while I'm away.
+
+He looks at her name on the booking, in his handwriting. Let the player make or request help with the **needs agreement** correction before continuing; do not resolve it in the dialogue for them.
 
 **Local choice C4S3_REPLY:** “I thought it helped” sets `c4s3_help`; “I should have asked” sets `c4s3_ask`.
 
@@ -819,7 +859,7 @@ If help:
 
 DANIEL: I thought I was helping.
 
-ALICE: You were doing a lot. It's not the same as asking.
+ALICE: You did everything except ask me.
 
 DANIEL: All right. I'll call them.
 
@@ -831,25 +871,39 @@ ALICE: Yes.
 
 DANIEL: I'll call them.
 
-**Reconverge:** Alice tears a piece of tape badly, folds it back, and starts again.
+**Reconverge:** Daniel finishes packing the things they have agreed. Alice needs the tape beside his hand. For a moment she would rather reach awkwardly around him than ask.
 
-ALICE: I kept waiting for a way to tell you where you wouldn't be upset.
+ALICE: Can I have that?
 
-DANIEL: There isn't one.
+He passes it. She tears a strip badly and starts again.
 
-ALICE: No. I made it worse.
+ALICE: I thought if I had the travel sorted, you wouldn't have anything to worry about.
 
-He sits on the edge of the table.
+DANIEL: I'm not worried about the bus.
 
-DANIEL: Do you want me there?
+ALICE: I know that now.
 
-ALICE: Visiting? Yes. Coming because you think I can't go alone? No.
+DANIEL: Did you want me there?
 
-DANIEL: I didn't say that.
+ALICE: Yes.
 
-ALICE: I know. I'm answering three arguments ahead. Sorry.
+He looks up.
 
-She sits opposite him. The packed bag remains between their feet. They have not solved everything. He pulls the tape's edge free for her.
+ALICE: Visiting. Eating something terrible with me. Telling me if the room smells damp.
+
+DANIEL: I can do those.
+
+ALICE: I wanted you to be pleased. Every day I didn't tell you, it got harder to ask.
+
+DANIEL: I am pleased.
+
+The room still looks as it did a moment ago. Neither tries to turn that answer into a complete repair.
+
+DANIEL: I'm also going to be awful company tonight.
+
+ALICE: All right.
+
+She sits opposite him. The bag remains between their feet. He frees the tape's folded end and leaves it pointing toward her. She resumes packing her equipment. He has two shelves he no longer knows where to put.
 
 ### C4S4 — Two timetables
 
@@ -945,65 +999,95 @@ He nods. They eat. Her knee rests against his. The next bus arrives; this time n
 
 **Time / viewpoint:** Daniel, thirty-four. Later on the final evening.
 
-**Location:** Boathouse / machine bay.
+**Location:** Boathouse / machine bay. Use B01. Jonah's departure follows the completed winch work and supervised test.
 
-Jonah checks the disconnect is open. Daniel is at a dry bench, comparing source diagrams. The equipment in the water is quiet.
+Jonah checks the disconnect is open. Daniel compares source diagrams on a dry bench. The equipment in the water is quiet.
 
 JONAH: That's me.
 
-DANIEL: There's another alignment—
+DANIEL: There's one more alignment.
 
-JONAH: Tomorrow.
+Jonah waits. Daniel has already started laying out the next sheet.
 
-Daniel looks up. Jonah has already put on his coat.
+JONAH: I heard you.
 
-JONAH: I said I'd help with the winch and the test. I did.
+Daniel stops.
 
-DANIEL: You did.
+DANIEL: How long have you got?
 
-JONAH: I'm meant to do bedtime. I said I'd be there.
+JONAH: None. That was me saying goodbye.
 
-DANIEL: All right.
+DANIEL: Right.
 
-Jonah looks toward the water.
+Jonah puts on his coat.
 
-JONAH: You didn't feel my hand for four seconds. Don't do a live connection alone.
+JONAH: I said I'd do bedtime.
 
-DANIEL: There's a return control.
+DANIEL: I know.
 
-JONAH: Then use it. Before you need someone else to use it.
+JONAH: I don't think you do. You keep asking for the bit of the evening after I said I'd go.
 
-Jonah picks up his bag, then remembers the practical thing he came in meaning to say.
+Daniel looks down at the receiver they have finally seated. It is solid. Jonah did what he came to do.
+
+DANIEL: You got it working.
+
+JONAH: We did.
+
+DANIEL: Thank you.
+
+JONAH: You're welcome.
+
+Let that exchange stand. His work and affection are not revoked by leaving.
+
+Jonah checks the dry bench for his bag.
 
 JONAH: The hall called me again. About the amplifier.
 
 DANIEL: It's finished.
 
-JONAH: They need a collection time. I can't keep taking your calls.
+JONAH: They know. They need you to answer the phone.
 
-DANIEL: I'll answer them.
+DANIEL: I'll give them a time.
 
-JONAH: Tonight.
+JONAH: Tonight. I can't keep taking your calls and mine.
 
 DANIEL: Tonight.
 
-Daniel rests his pencil beside the diagram.
+Jonah looks at the open disconnect.
 
-DANIEL: Thank you for coming.
+JONAH: You didn't feel my hand for four seconds. Don't do a live connection alone.
 
-JONAH: All right.
+DANIEL: There's a return control.
 
-They share a tired smile.
+JONAH: You tested it with me here.
+
+Daniel says nothing.
+
+JONAH: If you use it, come back while you can still use it yourself.
+
+This does not make Jonah endorse an unsupervised test. His warning and his own obligation both remain real. Do not play him as a prophet who knows the chosen ending.
+
+He shoulders his bag, then turns back.
 
 JONAH: I'll call at eight. If you don't answer, I'm coming down.
 
 DANIEL: I'll answer.
 
-JONAH: Don't put the phone under something.
+JONAH: Where's your phone?
 
-Daniel moves it onto the clear end of the bench while Jonah is still there.
+It is half-covered by the survey. Daniel moves it to the clear end of the bench.
 
-He leaves. Daniel hears his footsteps recede along the path. The player may inspect the dry diagram before continuing. The live switch remains open until the later preparation scene; no hidden countdown starts here.
+JONAH: Good.
+
+DANIEL: The blue cup.
+
+Jonah pats his coat pocket. He has remembered it.
+
+JONAH: Still got it.
+
+They exchange a tired smile. Jonah leaves. Daniel hears his footsteps recede along the path.
+
+The player may inspect the dry diagram before continuing. The live switch remains open until the later preparation scene. No hidden countdown begins, and lingering here never causes Jonah to miss an offscreen deadline.
 
 ### C5S2 — Lunch
 
@@ -1109,31 +1193,35 @@ He finishes the sandwich. Under the retirement card is the survey he came for: d
 
 Daniel lays Ruth's old shoreline survey beside the receiver. Three source positions require verification. Each matches a physical feature already seen in another year.
 
-**P11: Align the three shoreline anchors.** The player visits the dock bolt beside the split plank, the measuring tree's old metal tape marker, and the iron footing on the rise. At each, inspect the physical mark and align its corresponding archived view through the receiver at the lake's shore. The lake carries the impressions; the tree, paper survey, and ordinary objects do not gain powers.
+**P11: Align the three shoreline anchors.** The player visits the dock, measuring tree, and rise in any order. Each uses the same comparison controls against a different change: the new plank's shifted edge versus its unchanged bolt; a throw's distance mark versus the measuring origin; present grass obscuring the iron footing. Inspect locally available evidence, compare the corresponding archived shore view, and align the fixed reference on the map. The lake carries the impressions; the tree, paper survey, and ordinary objects do not gain powers. These are three different observations, not three repeats of an unexplained spinner.
 
 The matching criterion is position, not emotional significance. A large-print survey and clear shape labels provide the same information as the visual alignment. No colour-only distinctions. Each alignment locks independently and is retained on save.
 
-At the dock:
+At the dock, after matching the bolt rather than the replacement board edge:
 
 DANIEL: New board. Same bolt.
 
 The reflection shows the older plank around the unmoved fixing. No person appears in this technical inspection.
 
-At the tree:
+At the tree, after distinguishing the common origin from a throw's landing distance:
 
 DANIEL: Marker's grown into it.
 
 He brushes loose dirt from the visible metal, without cutting into the bark. The survey's starting line matches the position used for the childhood throws.
 
-At the rise:
+At the rise, after moving present grass aside and matching the archived footing outline:
 
 DANIEL: There you are.
 
-Grass obscures part of the footing. He moves it aside; the receiver and survey agree.
+The grass lies folded back from the footing; the receiver and survey agree.
 
-For a mismatch at any station:
+For a mismatch, give station-specific information without resetting another solved sector:
 
-DANIEL: Wrong edge. Start from the fixed point.
+DANIEL [dock]: That's the new board edge. The fixing hasn't moved.
+
+DANIEL [tree]: That's one of the throws. Where did we start?
+
+DANIEL [rise]: The grass hides the other edge. Have a look underneath.
 
 With all three aligned, the source diagram closes into one connected shape. It is a technical success, quietly presented. Previously isolated fragments now share an addressable source. The receiver identifies a final recorded shore visit by Alice at twenty-two, on the morning already shown at breakfast.
 

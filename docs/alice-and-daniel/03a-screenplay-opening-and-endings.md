@@ -1,5 +1,5 @@
 # What the Water Keeps — screenplay, chapters 1, 6 and 7
-Version 1.1 · Authored development draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
+Version 1.2 · Authored development draft · Companion: [chapters 2–5](03b-screenplay-chapters-2-5.md)
 
 All principal dialogue for these scenes is written below. Direction describes playable action rather than extra narration. The separate game design specifies puzzle solutions and assistance. Scene IDs are stable; local choices reconverge. Bracketed stage directions are not spoken. This is a script for production development, not a claim that performances, timing, or animation have been tested.
 
@@ -156,23 +156,23 @@ ALICE: Yes.
 
 She gives Alice a place to put the radio and slides a tray of safe, familiar spare parts toward Daniel.
 
-P01 begins: inspect the labeled symptoms and match the ordinary parts to the fault. Ruth gives the first hint if requested. The player does not manipulate live mains equipment.
+P01 begins with the concrete aim **Keep the radio playing when it is moved**. Inspect the battery charge, speaker output, and what changes when the casing moves; the raw observations do not name the faulty part. Select a labeled ordinary part from the tray and test it. A battery or speaker change is reversible and leaves the same interruption; replacing the contact makes the test hold. Give clear evidence after each test rather than a guessed-answer penalty. Ruth speaks the following hints only on request; the player does not manipulate live mains equipment.
 
-First failed selection:
+First requested hint:
 
-RUTH: Look at what it's doing before you start replacing everything.
+RUTH: What changes when you move it?
 
-Second hint:
+Second requested hint:
 
-RUTH: The speaker's making a noise. Start with the bit that keeps losing contact.
+RUTH: The battery's charged. Look at the contact that should keep it connected.
 
-On completion, the radio catches a cheerful weather report mid-sentence. Alice turns it down.
+On completion, the interrupted weather sentence reaches its end. Alice turns the radio down.
 
 ALICE: It never does that at home.
 
-RUTH: Try moving the cable now.
+RUTH: Try tilting it now.
 
-Alice moves it. The weather report continues. Daniel looks pleased.
+Alice tilts the radio the same way that interrupted it before. The weather report continues. Daniel looks pleased.
 
 RUTH: Good. Write down what you changed.
 
@@ -215,9 +215,9 @@ The component he needs is visible through the jammed cabinet's inspection gap. P
 
 DANIEL: Of course.
 
-P02: the player aligns the lake's reflection of the loading doors with their summer position. Ruth appears in an old closing routine. She reaches under the counter, releases the catch, and opens the drawer.
+P02: the obstructed cabinet and visible clamp establish the problem before the solution is shown. The player can inspect the present handle and lower panel seam, then align the lake's reflection of the loading doors with their summer position. Ruth appears in an old closing routine. She reaches under the counter, releases the catch, and opens the drawer.
 
-This is passive playback. She never looks at present Daniel or answers him. The player releases the view, walks into the real shop, and finds the same catch under the later panel.
+This is passive playback. She never looks at present Daniel or answers him. Its factual event log describes her hand going under the lower lip and the catch moving before the drawer opens; it does not automatically point to the next present hotspot. The player releases the view and applies the observation beneath the later panel. Return, evidence review, and replay remain freely available. Prior inspection of the handle does not waste an attempt; once the observation is acquired, it need not be repeated to act.
 
 DANIEL: I moved this thing twice.
 
@@ -306,64 +306,88 @@ He closes the tool case and tests the return control with an empty link. A small
 He enters the shallows and sits in the supported working position. The return control is clearly reachable. On-screen help can remind the player that pausing or taking time to read never advances bodily danger.
 
 ### C6S3 — Three shores
-Present night. P12, final alignment.
+Present night. P12, final synthesis. Use B03 controls and the established D03 shore composition; the existing bounded reflection shows at most three readable layers. No new landscape, simulation, view, speaking figure, or camera rig is required.
 
-The player aligns the dock, tree, and rise anchors gathered in P11. The challenge combines established observation and matching, with sequential alternatives for every gesture.
+Daniel opens the completed source map. Its three anchors remain solved. The machine asks for the source, the stored person-state, and the live return carrier. These are the three kinds of evidence the player has already used, not three more copies of P11.
 
-Each successful alignment briefly reveals a familiar place at a different age. Nobody addresses Daniel. These are environmental layers, not a chorus of reassuring ghosts.
+**P12: Make contact possible without losing the way back.** The player can inspect these channels in any order. Pair the connected lake source with its channel, select Alice's latest morning shore visit for the identity channel, and match the present return carrier to Daniel's working position and work light. The saved source map is reused directly. A wrong configuration remains unpowered and names the missing or mismatched dependency. The return path is verified before any responsive encounter can open. Inspection does not ask Alice a question or authenticate her personality.
 
-The current receiver pulses. The first two arrive together; the third follows later. It is the sound from the opening and the childhood glimpse.
+Every successful check changes the existing composition, showing what the player's work has made possible:
 
-The lake's surface becomes a vertical depth while its shoreline remains physically where it was. Reflected structures occupy successive layers: the new counter, the old shopfront, the empty bus shelter, the shelter with its old advertisement.
+**Source ready:** an earlier shopfront becomes visible at depth inside the selected water view. The present wall remains in place above it. The loose fragments now share one continuous edge. Daniel traces it with his gaze, then checks the connected map.
 
-The score expands here for the first time in several scenes. It carries no choir singing words.
+DANIEL: All three.
 
-Daniel finds the last-morning anchor. Within it, Alice looks up from her recorder. The player verifies the identity marker against that visit, then checks the return layer against the present work light and Daniel's current position. Both are sequential confirmation steps with the same illustrated assistance as earlier tests. The connection cannot open on a wrongly matched identity or without the return route verified.
+He says it with pleasure. Years of partial results have just become one usable result. Hold only until the player chooses the next step.
 
-He releases the final alignment into stable contact. The music stops at the small sound of her taking a breath.
+**Identity ready:** the morning shore layer settles. Alice puts away her recorder exactly as she did in C6S1. This is still passive playback; she does not notice Daniel. Its caption continues to read **Recorded event**. The player has found the correct morning, rather than summoned a responsive person early.
+
+**Return ready:** the current work light and Daniel's supported real position remain sharply readable at the edge of the older view. The return status becomes **Available**. No safety route is erased to make the spectacle impressive.
+
+Because channel order is free, each readiness beat plays when its own dependency is solved. The following release beat waits for all three; it does not assume a particular input order. Hints and **Complete calibration** produce the same observable changes.
+
+Daniel checks the completed states: **Contact ready / Return available / No history alteration**. He rests his hand beside the final control without pressing it for the player.
+
+DANIEL: There you are.
+
+He is addressing the stable signal. Alice has not answered him yet.
+
+The player selects **Open contact**. This is P12's existing final release, not a new reflex test.
+
+The receiver produces the familiar three pulses: two close together, the third farther away. The shore remains where it is, but its reflection has depth it should not possess. A summer shopfront, the last-morning landing, and the live work light briefly occupy three distinct planes within that same bounded view. Reuse the established art layers; the rest of the town does not transform.
+
+The existing musical motif expands. Allow a brief crest to register: the player completed the apparatus, and it works. This is earned scale, not a warning that the success was fraudulent.
+
+Then the morning playback reaches the point at which Alice used to leave.
+
+She stops.
+
+The **Recorded event** label changes to **Live encounter**. Do not add an authenticity score.
+
+Music gives way to a small intake of breath. Alice turns toward the older man where no one stood in the recorded morning.
 
 ALICE: Daniel?
 
-This response is new. It did not occur in the passive trace.
+End the scene on the new answer. There is no demand for another calibration before they can speak.
 
 ### C6S4 — An answer he did not record
-The encounter. A shallow margin of water beside the dock. Daniel is thirty-four; Alice is twenty-two.
+The encounter. A shallow margin of water beside the dock. Daniel is thirty-four; Alice is twenty-two. Use the established reunion composition. Their different ages must be readable before anyone explains them.
+
+Alice looks from his face to his hands. Daniel starts with a question he has clearly rehearsed.
+
+DANIEL: What's the last thing you—
 
 ALICE: What's happened to you?
 
+He stops. She is not following his prepared conversation.
+
 DANIEL: I got older.
 
-ALICE: I can see that.
-
-She looks at his hands, his face, the apparatus behind him.
-
-ALICE: How much?
+ALICE: I can see that. How much?
 
 DANIEL: Twelve years.
 
-She starts to smile because she thinks this might be an appalling joke. His expression prevents it.
+She almost smiles, as though there must be a joke she has not understood. He does not rescue her with one.
 
 ALICE: For you?
 
 DANIEL: Yes.
 
-A long silence. The player can wait indefinitely.
+A silence. No compulsory long hold. The player advances when ready.
 
-DANIEL: What's the last thing you remember?
+ALICE: I was down here this morning.
 
-ALICE: The bus ruining a take. You wanted me back for lunch.
+DANIEL: I know.
+
+ALICE: The bus ruined a take. You wanted me back for lunch.
 
 DANIEL: You came back.
 
-ALICE: Right.
-
-He cannot continue immediately.
-
-ALICE: Daniel.
+ALICE: Then tell me.
 
 DANIEL: Your heart stopped.
 
-She looks away. A small ordinary swallow. There is no swell of music and no instant serene understanding.
+She looks away. A small ordinary swallow. No score announces the correct response.
 
 ALICE: At lunch?
 
@@ -377,51 +401,67 @@ ALICE: And you?
 
 DANIEL: I was there.
 
-ALICE: All right.
+She sits. He looks automatically for somewhere drier, then stops: comfort is not a chair he can fetch from the other layer.
 
-She sits. He starts to look for somewhere less wet for her to sit, then stops. Alice reaches automatically toward the place her recorder strap should be.
+ALICE: Did we get the flat?
+
+DANIEL: No.
+
+Her hand goes to the place where the recorder strap should be.
 
 ALICE: I was meant to send the files.
 
-He does not answer the obligation as if he could finish it for her.
+He lets her finish.
 
 ALICE: That's a stupid thing to say.
 
 DANIEL: No.
 
-She presses her palms against her knees. Leave a readable silence. She is twenty-two and learning that the ordinary afternoon ahead of her never finished. A held illustration and an explicit advance input can carry this without a bespoke performance animation.
+ALICE: I can't make it feel like twelve years. I haven't had lunch yet.
+
+Daniel lowers himself to her level, without trying to touch her.
 
 ALICE: Give me a minute.
 
 DANIEL: All right.
 
-Player-controlled pause. Nothing deteriorates while the player waits. On advance, Alice looks back at him, still unsettled.
+The next advance belongs to the player. Waiting, reading, pausing, or using the dialogue history never changes bodily danger. Alice's shock has space; it does not consume a hidden allowance.
 
-ALICE: I don't know what to say.
+On advance, she looks toward the machine and back at Daniel.
 
-DANIEL: Neither did I.
+ALICE: You built all that?
 
-ALICE: You've had longer.
+DANIEL: Not all of it. Jonah fixed the brake.
 
-A short laugh escapes him. It hurts, but it is a laugh.
+ALICE: Good.
 
-The player can ask about a shared memory or what she was going to do next.
+A small exhalation. It is the first familiar judgment she has been able to make.
 
-Shared-memory option:
+ALICE: Tell me something I know.
+
+The player may ask about a shared memory or the plan for the flat. Neither is a quiz, a relationship test, or a branch gate.
+
+**Shared-memory option:**
 
 DANIEL: Do you remember the fundraiser?
 
-ALICE: We spent all day doing that announcement.
+ALICE: Which bit?
 
-DANIEL: I kept the one you used.
+DANIEL: The mugs.
 
-ALICE: With the mugs?
+Her laugh comes before she can explain it. Daniel joins it; for this brief passage both are in the same conversation.
 
-DANIEL: Yes.
+ALICE: He counted them on the floor before he stood up.
 
-Her laugh is small and immediate. She can picture Jonah's face before she can explain why it is funny. Daniel laughs with her. They do not need to quote the whole incident.
+DANIEL: I kept the take you used.
 
-Future-plan option:
+ALICE: Good. I was good that day.
+
+DANIEL: You were.
+
+Let her take credit. Do not follow the exchange with a modest denial or another wound.
+
+**Future-plan option:**
 
 DANIEL: You were going to ask me about the table.
 
@@ -429,78 +469,82 @@ ALICE: I was hoping you'd say you hated it.
 
 DANIEL: I didn't.
 
-ALICE: That's inconvenient.
+ALICE: I know. That was the problem.
 
-Both return to:
+He laughs. She smiles back, pleased to have found him for a moment.
 
-ALICE: Mara knew about the first job before you did.
+DANIEL: You could have told me.
+
+ALICE: Apparently I was going to spend breakfast asking about doors instead.
+
+**Both return to:**
+
+ALICE: The first job. Mara knew before you did.
 
 DANIEL: I guessed.
 
-ALICE: I was trying to make it sound like I had everything sorted. The room. The travel.
+ALICE: I told you I had everything sorted. The room. The travel.
 
-DANIEL: You told me you had.
+DANIEL: You did.
 
-ALICE: Mara did the travel.
+ALICE: I had two changes written down. One of them was an arrival platform.
 
-ALICE: I thought I had to change twice. She pointed out I was reading the arrival platform.
+He looks at her.
+
+ALICE: Mara had to turn the timetable round for me.
 
 DANIEL: You never told me that.
 
-ALICE: I was trying to look like someone who could get to a job.
+ALICE: I was hoping you'd think they were employing an adult.
 
-Daniel realizes there is something here his notebooks could not have provided. The player has seen the earlier event independently. Alice has offered it while making sense of her unfinished life, not in response to a secret-password test. No interface declares successful authentication, and the incident is not presented as a philosophical proof of consciousness.
+The detail extends the private C4S2 exchange that the player saw without Daniel. It emerges because Alice is trying to understand the life that stopped, not because he requests a secret answer. Her interrupting him, choosing a subject, recalling her own embarrassment, and asking for time also establish an independent person. No interface announces proof of consciousness; the story's fiction already defines her as a conscious continuation.
 
-He reaches toward Alice's hand. Their fingers occupy adjacent layers and do not meet. She tries from her side, then lowers her hand. Neither repeats the attempt as a dexterity challenge.
+Daniel reaches toward her hand. His fingers do not meet hers. Alice tries from her side, notices the gap between the layers, and lets her hand fall. Neither repeats the gesture as a dexterity challenge.
 
 ALICE: Oh.
 
-DANIEL: I can hear you.
+Daniel almost begins a technical explanation. She shakes her head once. She has seen what happened.
 
-ALICE: Yes.
+She moves her hand to the corresponding place on her side of the dock. He leaves his beside it in his layer.
 
-DANIEL: That's more than I had.
+ALICE: There. I can see you.
 
-She nods. She can hear him too.
-
-Neither calls this enough.
+They sit together without claiming the distance has vanished. This shared tenderness belongs to every ending; the fatal branch does not own the reunion's warmth.
 
 ## Chapter 7 — Morning
 
 ### C7S1 — Things to ask
 The encounter continues. No new location.
 
-DANIEL: I had things to ask you.
+Daniel has the damp outline of his notebook against his knee. Alice notices the pages he has marked.
 
-ALICE: I know.
+ALICE: What were you going to ask?
 
-DANIEL: I wrote them down.
+DANIEL: Whether you were looking forward to the flat.
 
-ALICE: Of course you did.
+ALICE: Yes.
 
-He produces the damp outline of his notebook, then closes it.
+DANIEL: To all of it?
 
-DANIEL: Were you coming back?
+She studies him before answering.
 
-ALICE: From the job?
+ALICE: I don't know what you're asking me to promise.
 
-He nods.
+DANIEL: That we'd have managed.
 
-ALICE: For the weekend.
+ALICE: We hadn't tried it.
 
-DANIEL: I mean—
+He looks at the notebook, then closes it. No perfect answer is being withheld somewhere in her memory.
 
-ALICE: I know what you mean.
+ALICE: I wanted the job. I wanted you. I was looking forward to complaining about that room together.
 
-She takes time.
+DANIEL: I'd have fixed the window.
 
-ALICE: I wanted the work. And I wanted you. I was hoping we'd be less stupid about it the second time.
+ALICE: You'd have asked first.
 
-DANIEL: We were doing better.
+DANIEL: Yes.
 
-ALICE: Good.
-
-This is not a guarantee of a perfect future. She has answered what she actually knew.
+She believes him. This is a small credible change from the packing argument, not a guarantee their unwritten life would have been painless.
 
 DANIEL: I could go back. The records would still be here. I could come again.
 
@@ -512,21 +556,23 @@ ALICE: Would I remember this?
 
 DANIEL: No. You'd be on the shore. Before lunch. You wouldn't have any of this.
 
-She considers the meaning before responding.
+She considers the answer. He does not speak over the silence.
 
-ALICE: So you'd have to tell me again.
+ALICE: I'd ask what happened to you.
 
 DANIEL: Yes.
 
+ALICE: And you'd tell me again.
+
+DANIEL: Yes.
+
+She looks at his face as it is now, the one she has only just learned how to speak to.
+
 ALICE: I don't want that.
-
-He nods slowly.
-
-ALICE: I don't want to keep finding out where I've been.
 
 DANIEL: All right.
 
-He does not bargain for a shorter visit. This is his acknowledgment of her preference, before the question about the rest of the source.
+He acknowledges her preference without offering a shorter visit, a more careful explanation, or a memory trick. This conversation cannot be written back into her stored biological person-state.
 
 DANIEL: If I close it, all the records go. Mum. The summers. Everything in here.
 
@@ -538,9 +584,7 @@ ALICE: Are they waiting?
 
 DANIEL: No. Nothing's awake until we open it.
 
-Alice looks toward the place where Ruth used to stand. She leaves him room to decide without supplying an absolution.
-
-She is expressing a preference about her own continued activation. Daniel's later act also sacrifices a shared archive; the story does not pretend that loss belongs only to him or that there is a cost-free answer.
+Alice looks toward the place where Ruth used to stand. She cannot give Daniel permission on everyone else's behalf. He must decide about a shared, dormant archive after understanding her separate preference about reactivation. Ordinary recordings survive; no other conscious population is secretly waiting below the surface.
 
 The player chooses one of three remaining subjects. After the response, all remain available; “Sit quietly” advances after at least one subject, or immediately in accessibility story mode. None changes the ending set.
 
@@ -608,41 +652,49 @@ She leaves the answer there. No instruction follows.
 
 **On choosing quiet**
 
-Their attention settles on the dock.
+Their attention settles on the dock. The receiver produces the three unequal pulses at the same low level as the opening glimpse.
 
-ALICE: I think I've been here.
+Alice turns toward the work light.
 
-DANIEL: We were here all the time.
+ALICE: I remember that.
 
-ALICE: Like this.
+DANIEL: The sound?
 
-The three pulses reach them faintly. Alice looks toward the place where her younger self sat.
+ALICE: The light. Under the water.
 
-ALICE: There was a light in the water. I couldn't understand where it was coming from.
+DANIEL: I put it up tonight.
 
-Daniel looks back at the work light.
+She looks toward the plank where she sat as a child.
 
-DANIEL: The day we met.
+ALICE: No. Before I knew you.
 
-ALICE: You threw something.
+Daniel follows her gaze. Hold on the existing composition while the relationship between its parts becomes clear; do not introduce a fresh hidden clue.
 
-DANIEL: A stone.
+DANIEL: The day you moved in?
 
-ALICE: I remember the splash.
+ALICE: A few days after.
 
-He starts to ask another question and stops.
+DANIEL: Your sleeve was wet.
 
-The camera returns for one short shot to thirteen-year-old Alice looking into the opening reflection. The older face, light, and pulse occupy the positions now established. The shot ends before the stone breaks it.
+ALICE: You threw a stone.
 
-Return to the present encounter.
+The camera repeats the brief childhood view from C1S2. The edge of the older face, the vertical light, and the unequal pulses occupy the positions the player has just seen. Use the same material. Add no glimpse of a loop, fatal hand contact, source erasure, or morning. The impression concerns the common encounter and coming farewell before any ending choice.
 
-ALICE: I thought I was crying about moving.
+Return to the two adults.
 
-DANIEL: Were you?
+DANIEL: You were crying.
 
-ALICE: Probably that too.
+ALICE: I couldn't have told you why.
 
-This prevents the revelation from consuming her entire ordinary life.
+She remembers a fragment now that its context is in front of her, not a complete life she consciously carried since thirteen.
+
+ALICE: I wanted to go back to our old house. That was real too.
+
+DANIEL: I know.
+
+He looks toward the place from which he approached with the bag of broken parts. She watches him work it out. They do not explain the mechanism again or summarize twenty-one years of scenes.
+
+The next shared farewell completes the connection. It does not prove that Daniel's final choice was predestined.
 
 ### C7S2 — Turn around
 The encounter. The last shared sequence before any branch.
@@ -718,13 +770,13 @@ DANIEL: Now.
 
 The player selects an intent. Three equally legible options appear with plain consequence text; no moral colors or rank labels.
 
-**Take the summer.** Bind Daniel's awareness to the repeating interval. He remembers every cycle and does not return to life outside it.
+**Take the summer.** Bind Daniel's awareness to the last complete summer. Everyone else repeats. He remembers each cycle, cannot change its recorded events, and does not return to life outside it. The responsive encounter ends; Alice's new memories do not enter the loop.
 
-**Stay in this encounter.** Decline the loop and keep the live connection open beyond safe return. Daniel will die in the real water.
+**Stay in this encounter.** Decline the loop and keep the live connection open beyond safe return. Daniel will die in the real water. This does not promise another life together.
 
-**Return and close the lake.** Regain bodily control and permanently end the source. Alice remains dead; further encounters end.
+**Return and close the lake.** Regain bodily control and permanently erase all of the lake's stored records. Alice remains dead; future activation ends, and another apparatus cannot restore the erased source. Ordinary water and ordinary recordings remain.
 
-Each selection opens a confirm/cancel step. Cancel restores all choices. The game can be paused or closed here without advancing danger. Confirmation commits the branch atomically, then creates a separate replay checkpoint.
+Each selection opens a confirm/cancel step. Cancel restores all choices. The game can be paused or closed here without advancing danger. Confirmation durably commits the chosen branch while preserving the pre-choice snapshot for separate ending replay.
 
 Alice does not endorse a menu selection before it happens.
 

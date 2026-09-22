@@ -1,5 +1,5 @@
 # What the Water Keeps — story bible
-Version 1.1 · 22 September 2026 · Full narrative spoilers
+Version 1.2 · 22 September 2026 · Full narrative spoilers
 
 This is the authored story baseline for the first playable draft, revised for character behavior, contemporary obligations, and the final encounter. It supersedes the exploratory alternatives in the original recommendations. The title is provisional; the characters, rules, chronology, and ending distinctions below are fixed for this draft. Production estimates remain estimates. The [narrative and performance guide](05-narrative-and-performance.md) translates this bible into playable beats and revision tests.
 
@@ -8,6 +8,10 @@ This is the authored story baseline for the first playable draft, revised for ch
 Daniel Vale returns to the lakeside where he met Alice Mercer at thirteen. Now thirty-four, he has built an instrument that can make the lake's preserved impressions respond. Over a single night, the player prepares the machine while experiencing their shared life in three interwoven strands. Alice died twelve years earlier, during an ordinary lunch he chose to spend with her. The apparatus succeeds: the woman in the water can surprise him, disagree with him, and remember things he never knew. Reaching her leaves him with a decision his engineering cannot make. He can bind himself to an unchanging summer, remain with her until his body fails, or end the lake's power and return to people whose lives still have a tomorrow.
 
 ## The emotional argument
+
+The v1.2 screenplay pass preserves the facts below while widening how the story feels. C3S3 gives the group a sustained, earned success; C4S3 makes the practical disagreement hurt before reconciliation repairs anything; C5S1 makes Jonah's boundary specific; C6S3 makes preparation culminate in visible success; C6S4 gives Alice initiative and time to absorb the news. C7S1 asks about the future they had agreed to try, rather than pretending their reconciliation never happened. See the [scene revision record](11-story-and-scene-revisions.md).
+
+Protect pleasure as part of the relationship's truth. A repaired radio can delight them. A good recording can sound good. A joke can remain funny without immediately becoming a clue. Technical success can be magnificent even when it cannot solve the human problem that follows. The melancholy comes partly from losing a life the player enjoyed participating in.
 
 The central distinction is between loving someone and controlling the conditions under which they remain available.
 

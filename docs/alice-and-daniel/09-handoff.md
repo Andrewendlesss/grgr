@@ -1,5 +1,5 @@
 # Continue on another computer
-Version 1.1 · 22 September 2026
+Version 1.2 · 22 September 2026
 
 ## Location of the work
 
@@ -20,7 +20,8 @@ For an existing checkout, inspect its current changes before switching; fetch th
 
 ## User instructions that carry forward
 
-- Keep expanding and improving the story and game design.
+- Keep expanding and improving the story and game design. The latest instruction is to continue planning, research engaging gameplay, and increase emotional variety: triumph, awe, warmth, sadness, nostalgia, melancholy, shock and surprise.
+- Keep an original dramatic voice with subtext, layered revelations and distinct characters. Do not put creative influence labels in the game or planning copy.
 - Start planning implementation.
 - **Solo developer; keep cash costs low.**
 - Preserve the three ending meanings and the original final sentence.
@@ -28,6 +29,12 @@ For an existing checkout, inspect its current changes before switching; fetch th
 - No installation, purchase, voice commission, store submission, merge or playable build has been performed.
 
 ## What is complete
+
+The v1.2 continuation adds primary-source gameplay research (10), a story revision record (11), and a detailed gameplay/playtest plan (12). Revised passages are integrated into the canonical screenplays, and six interaction revisions into the game design. Read those current files rather than applying the notes as a second patch. Canon, ending meanings, the final sentence, 28 slots, 12 interactions, six kits and 14 main views are retained. The old hour ranges remain v1.1 estimates awaiting a targeted re-estimate.
+
+**No paper trial, table read or player test has been performed.** Research supports design hypotheses; it does not demonstrate this game is fun. This continuation changes planning and authored text only.
+
+### Earlier completed planning
 
 The package contains the revised story bible, all seven scripted chapters and all three endings, the 28 scene plan, 12 interaction designs, a performance guide, implementation architecture, solo roadmap and art/audio/interface specification.
 
@@ -51,17 +58,27 @@ P02 JSON was checked against the supplied schema with PowerShell Test-Json. JSON
 
 No Unity project, compiled ink, shader, device build, real save migration, benchmark or store account setup exists yet. Platform sources are dated 22 September 2026; recheck when building.
 
+## Checks completed in the v1.2 continuation
+
+- Local document links and whitespace checks passed. All 28 unique shared scene IDs, 12 puzzle IDs and two Alice viewpoint scenes are retained.
+- The complete E1/E2/E3 screenplay passages and the original final sentence are unchanged from the incoming branch snapshot.
+- JSON files parse; all 24 backlog tickets remain planned; dependency references and their graph are valid. Retained first-sixteen estimates still sum to 77–125 hours, not a new estimate.
+- The P02 manifest, its schema and the ending fixture are unchanged. Their earlier schema validation was not repeated in this continuation.
+- The proposed P07 rule accepts seven of 27 configurations. This checks the authored table logic, not whether the audio actually sounds clear.
+- Editorial review checked the radio's fault/test continuity, requested rather than automatic solution hints, changed P11 station comparisons, full ending consequences and Alice's knowledge/agency.
+
+These are document and data checks. No executable game, device measurement, human table read or player study was produced.
+
 ## Exact next actions
 
-1. Read the index, architecture and solo roadmap. Do not regenerate the existing story from scratch.
-2. Complete IMP-001 on the new host: editor availability, disk, C# familiarity, weekly capacity, Android device and future Mac/iPhone route.
-3. Create the minimal project under `game/WaterKeeps/` only when implementation begins. Preserve the documentation and current branch history.
-4. Prove an empty device build, then import only C1S1–S4 with stable IDs.
-5. Implement input/dialogue, the authoritative session and combined checkpoints.
-6. Build P02 with temporary art, including early return, muted assistance and restart after clamp collection.
-7. Integrate the ordinary radio scene and complete the opening proof.
-8. Observe outside players before commissioning final assets.
-9. Re-estimate full-game time and cash from measured work. The original paid-team budget is not this user's selected path.
+1. Read the index, research summary, story revision notes and gameplay/playtest plan. This is a continuation of the existing story, not a fresh concept exercise.
+2. Prepare and run the small paper comparison for P01/P02 from document 12. Record what people infer, where they merely follow instructions, and which questions make them want to continue. Do not invent results or treat five readers as market validation.
+3. Table-read C3S3, C4S3–S4, C5S1 and C6S3 through each ending. Test distinct voices, room for joy, the order of Alice's new knowledge and the reset explanation. Use the checks in document 11.
+4. Revise the particular source of confusion or disengagement, then re-estimate affected tickets. Retain earned successes; do not add filler or new systems to increase length.
+5. When implementation begins, complete IMP-001 on the actual development host: tools, device route, weekly capacity and iOS feasibility. This session did not establish those facts.
+6. Prove an empty device build, then implement only C1S1–S4 and P02 under `game/WaterKeeps/`, preserving stable IDs and the combined save protocol.
+7. Test P02 with early return, replay, muted assistance, incorrect hypotheses and restart after clamp collection. ReleaseCatch opens the cabinet; CollectClamp grants its item separately and once.
+8. Observe the playable opening before commissioning final assets. Re-estimate full-game effort and cash from measured work. The paid-team budget is not the selected path.
 
 ## Remaining editorial and production work
 
@@ -76,5 +93,4 @@ No Unity project, compiled ink, shader, device build, real save migration, bench
 
 Recommended continuation prompt:
 
-> Continue from docs/alice-and-daniel/09-handoff.md on branch codex/alice-daniel-creative-direction. Keep the solo, low-cash constraint. Inspect the new machine and complete IMP-001, then begin the smallest Unity prototype for C1S1–C1S4 and P02. Preserve the current story and all three endings. Report what actually builds or tests, and keep unverified work explicit.
-
+> Continue from docs/alice-and-daniel/09-handoff.md on branch codex/alice-daniel-creative-direction. Read the v1.2 story/gameplay revisions and the primary-source research. Keep the solo, low-cash scope and all ending invariants. Continue the concrete paper-test and table-read preparation, or execute the smallest opening prototype if implementation is now requested. Improve player inference, emotional contrast and character voice. Report only tests and builds actually performed.

@@ -28,7 +28,7 @@ Two useful references are supported by their publishers' descriptions: [Florence
 
 ## The requested cinematic influence
 
-Use the qualities behind the Christopher Nolan reference: interwoven time spans, a concrete physical procedure, information that changes the meaning of an earlier scene, subjective experience under pressure, and an intimate relationship carrying large speculative stakes.
+Use interwoven time spans, a concrete physical procedure, information that changes the meaning of an earlier scene, subjective experience under pressure, and an intimate relationship carrying large speculative stakes.
 
 The story should still be understandable on its first playthrough. A reveal should make the player reconsider an event, not require an explanation video to understand who is alive.
 
