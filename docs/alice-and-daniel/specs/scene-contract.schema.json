@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:water-keeps:planning:scene-contract:1",
+  "title": "Water Keeps planning puzzle scene contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["specVersion", "contentVersion", "status", "sceneId", "puzzleId", "locationId", "eraId", "inkEntryId", "initialStage", "stages", "evidenceId", "itemId", "invariants", "transitions", "assistance", "resumePolicy", "validationCases"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "specVersion": {"const": 1},
+    "contentVersion": {"type": "string", "minLength": 1},
+    "status": {"const": "planning-example-not-executable"},
+    "sceneId": {"type": "string", "pattern": "^C[1-7]S[1-4]$"},
+    "puzzleId": {"type": "string", "pattern": "^P(0[1-9]|1[0-2])$"},
+    "locationId": {"$ref": "#/$defs/stableId"},
+    "eraId": {"$ref": "#/$defs/stableId"},
+    "inkEntryId": {"type": "string", "pattern": "^C[1-7]S[1-4]\\.[a-z0-9_]+$"},
+    "initialStage": {"$ref": "#/$defs/stageId"},
+    "stages": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"$ref": "#/$defs/stageId"}},
+    "evidenceId": {"$ref": "#/$defs/stableId"},
+    "itemId": {"$ref": "#/$defs/stableId"},
+    "invariants": {"$ref": "#/$defs/textList"},
+    "transitions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "command", "origin", "guard", "to", "checkpointId", "effects"],
+        "properties": {
+          "from": {"$ref": "#/$defs/stageId"},
+          "command": {"type": "string", "pattern": "^[A-Z][A-Za-z0-9]+$"},
+          "origin": {"enum": ["player", "authored-beat"]},
+          "guard": {"type": "string", "minLength": 1},
+          "to": {"$ref": "#/$defs/stageId"},
+          "checkpointId": {"type": "string", "pattern": "^C[1-7]S[1-4]\\.CP[0-9]{2}$"},
+          "effects": {"$ref": "#/$defs/textList"}
+        }
+      }
+    },
+    "assistance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hint1Key", "hint2Key", "nextStepPolicy"],
+      "properties": {
+        "hint1Key": {"$ref": "#/$defs/stableId"},
+        "hint2Key": {"$ref": "#/$defs/stableId"},
+        "nextStepPolicy": {"type": "string", "minLength": 1}
+      }
+    },
+    "resumePolicy": {"type": "string", "minLength": 1},
+    "validationCases": {"$ref": "#/$defs/textList"}
+  },
+  "$defs": {
+    "stageId": {"type": "string", "pattern": "^[a-z][a-z0-9_]+$"},
+    "stableId": {"type": "string", "pattern": "^[A-Z0-9]+([._][A-Z0-9]+)*$"},
+    "textList": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  }
+}

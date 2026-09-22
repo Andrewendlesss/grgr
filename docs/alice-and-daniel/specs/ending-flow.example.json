@@ -1,0 +1,52 @@
+{
+  "specVersion": 1,
+  "contentVersion": "planning-1.1",
+  "status": "planning-example-not-executable",
+  "sceneId": "C7S3",
+  "immutableReplayCheckpointId": "C7S3.PRE_CHOICE",
+  "commitCommand": "ConfirmEnding",
+  "requiredArguments": ["endingId", "expectedRevision", "operationId"],
+  "allowedEndingIds": ["E1", "E2", "E3"],
+  "initialSelection": null,
+  "timeoutSeconds": null,
+  "selectionOnFocus": false,
+  "selectionOnApplicationPause": false,
+  "confirmationRequiresFreshInput": true,
+  "availabilityDependsOnAssistance": false,
+  "confirmation": {
+    "cancelKey": "UI.ENDING.GO_BACK",
+    "confirmKey": "UI.ENDING.CONFIRM",
+    "mustPersistBeforePresentation": ["endingCommitment", "commitmentOperationId", "sessionRevision", "worldState", "inkState", "branchEntry", "currentDisplayPacket"]
+  },
+  "branches": [
+    {
+      "endingId": "E1",
+      "branchEntry": "C7S4.e1_begin",
+      "consequenceKey": "C7S3.E1.CONSEQUENCE",
+      "milestones": ["choice_committed", "loop_bound", "recurrence_shown", "credits_reached"],
+      "storyContract": "Daniel alone accumulates awareness in the fixed last complete summer; outside history is unchanged."
+    },
+    {
+      "endingId": "E2",
+      "branchEntry": "C7S4.e2_begin",
+      "consequenceKey": "C7S3.E2.CONSEQUENCE",
+      "milestones": ["choice_committed", "remain_acknowledged", "boundary_failing", "water_still", "outside_aftermath", "credits_reached"],
+      "storyContract": "Remaining beyond safe return is knowingly chosen; narrative beats advance deterioration, never real-world elapsed time."
+    },
+    {
+      "endingId": "E3",
+      "branchEntry": "C7S4.e3_begin",
+      "consequenceKey": "C7S3.E3.CONSEQUENCE",
+      "milestones": ["choice_committed", "return_complete", "source_erased", "machine_disabled", "home_entry", "morning_complete", "credits_reached"],
+      "storyContract": "Source erasure removes future activation without rewriting history; ordinary water and absent loved ones remain."
+    }
+  ],
+  "interruptionRules": {
+    "beforeDurableCommit": "Restore the uncommitted choice checkpoint.",
+    "afterDurableCommit": "Resume the committed branch at its last validated milestone.",
+    "saveFailure": "Keep the previous state and show retry; do not acknowledge the ending as selected.",
+    "duringConfirmation": "Cancel the unconfirmed page on backgrounding and require fresh confirmation after resume.",
+    "duringErasureEffect": "Reconstruct visual state from the committed source_erased fact; never reapply side effects.",
+    "endingReplay": "Use an isolated session copied from C7S3.PRE_CHOICE; retain main playthrough."
+  }
+}

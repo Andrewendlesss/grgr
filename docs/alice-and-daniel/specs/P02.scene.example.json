@@ -1,0 +1,140 @@
+{
+  "$schema": "scene-contract.schema.json",
+  "specVersion": 1,
+  "contentVersion": "planning-1.1",
+  "status": "planning-example-not-executable",
+  "sceneId": "C1S4",
+  "puzzleId": "P02",
+  "locationId": "LOC.SHOP.SHORE",
+  "eraId": "ERA.DANIEL.34",
+  "inkEntryId": "C1S4.p02_entry",
+  "initialStage": "shore_ready",
+  "stages": [
+    "shore_ready",
+    "aligning",
+    "observing",
+    "evidence_seen",
+    "returned",
+    "panel_exposed",
+    "cabinet_open",
+    "complete"
+  ],
+  "evidenceId": "OBS.SHOP.CATCH",
+  "itemId": "ITEM.DAMPING_CLAMP",
+  "invariants": [
+    "Only the lake-connected shore surface exposes the recorded event.",
+    "Present objects are not interactive while a recorded event is active.",
+    "Evidence and item grants are idempotent within the session.",
+    "Return is always available from alignment or observation.",
+    "Assistance changes neither narrative consequences nor ending availability.",
+    "No stage uses a real-time failure deadline."
+  ],
+  "transitions": [
+    {
+      "from": "shore_ready",
+      "command": "SelectAnchor",
+      "origin": "player",
+      "guard": "anchorId == ANCHOR.SHOP.LOADING_DOORS",
+      "to": "aligning",
+      "checkpointId": "C1S4.CP01",
+      "effects": ["Enter alignment view"]
+    },
+    {
+      "from": "aligning",
+      "command": "Observe",
+      "origin": "player",
+      "guard": "Alignment accepted through manual or assisted controls",
+      "to": "observing",
+      "checkpointId": "C1S4.CP02",
+      "effects": ["Start recorded-event presentation", "Disable present-world hotspots"]
+    },
+    {
+      "from": "aligning",
+      "command": "Return",
+      "origin": "player",
+      "guard": "Always",
+      "to": "shore_ready",
+      "checkpointId": "C1S4.CP00",
+      "effects": ["Restore present shoreline view"]
+    },
+    {
+      "from": "observing",
+      "command": "EvidenceHandoff",
+      "origin": "authored-beat",
+      "guard": "Handoff belongs to current recording and session revision",
+      "to": "evidence_seen",
+      "checkpointId": "C1S4.CP03",
+      "effects": ["Grant OBS.SHOP.CATCH once", "Expose ordered text observation log"]
+    },
+    {
+      "from": "observing",
+      "command": "Return",
+      "origin": "player",
+      "guard": "OBS.SHOP.CATCH has not yet been granted",
+      "to": "shore_ready",
+      "checkpointId": "C1S4.CP00",
+      "effects": ["Restore present shoreline view", "Keep free re-entry available"]
+    },
+    {
+      "from": "evidence_seen",
+      "command": "Return",
+      "origin": "player",
+      "guard": "Always",
+      "to": "returned",
+      "checkpointId": "C1S4.CP04",
+      "effects": ["Restore present shop view", "Keep observed note"]
+    },
+    {
+      "from": "returned",
+      "command": "ReplayObservation",
+      "origin": "player",
+      "guard": "OBS.SHOP.CATCH already exists",
+      "to": "evidence_seen",
+      "checkpointId": "C1S4.CP03",
+      "effects": ["Replay recorded event without regranting evidence"]
+    },
+    {
+      "from": "returned",
+      "command": "InspectPanelLip",
+      "origin": "player",
+      "guard": "Present mode and OBS.SHOP.CATCH exists",
+      "to": "panel_exposed",
+      "checkpointId": "C1S4.CP05",
+      "effects": ["Expose catch diagram"]
+    },
+    {
+      "from": "panel_exposed",
+      "command": "ReleaseCatch",
+      "origin": "player",
+      "guard": "Present mode",
+      "to": "cabinet_open",
+      "checkpointId": "C1S4.CP06",
+      "effects": ["Set cabinetOpen true"]
+    },
+    {
+      "from": "cabinet_open",
+      "command": "CollectClamp",
+      "origin": "player",
+      "guard": "Present mode and cabinetOpen",
+      "to": "complete",
+      "checkpointId": "C1S4.CP07",
+      "effects": ["Grant ITEM.DAMPING_CLAMP once", "Set customerEnvelopeAside true", "Hand back to C1S4.p02_complete"]
+    }
+  ],
+  "assistance": {
+    "hint1Key": "P02.HINT01",
+    "hint2Key": "P02.HINT02",
+    "nextStepPolicy": "Submit the next valid domain action with the same evidence and return requirements."
+  },
+  "resumePolicy": "Restore committed stage and current narrative packet; reconstruct presentation without granting effects again.",
+  "validationCases": [
+    "Save and reload every checkpoint",
+    "Return before the evidence handoff",
+    "Replay after receiving evidence",
+    "Repeat CollectClamp with the same operation ID",
+    "Reject a present handle action during observing",
+    "Complete with muted audio and reduced motion",
+    "Complete with Show next step assistance",
+    "Terminate immediately before and after clamp commitment"
+  ]
+}
